@@ -1,8 +1,9 @@
 import type { ButtonHTMLAttributes, CSSProperties, ReactNode } from 'react'
+import { toCssLength, type CssLength } from '../shared/cssLength'
 import './Button.css'
 
 /** A pixel value (`240` or `'240px'`) or a percentage of the container (`'50%'`). */
-export type ButtonFillWidth = number | `${number}px` | `${number}%`
+export type ButtonFillWidth = CssLength
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   /** Same as Figma `variant` (Primary, Secondary). Primary for the main action, Secondary for supporting actions. */
@@ -18,10 +19,6 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   /** Figma `Label`. A concise, action-oriented label. */
   children: ReactNode
 }
-
-// Numbers, and numeric strings without a unit (e.g. from a text input), are pixels.
-const toCssWidth = (value: ButtonFillWidth | string) =>
-  typeof value === 'number' || /^\d+(\.\d+)?$/.test(value) ? `${value}px` : value
 
 /**
  * Use a button to trigger an action, like submitting a form, saving changes,
@@ -44,12 +41,8 @@ export function Button({
 }: ButtonProps) {
   const fill = width === 'fill'
   const classes = ['ds-button', `ds-button--${variant}`, fill && 'ds-button--fill', className].filter(Boolean).join(' ')
-  // Treat an empty string (e.g. a cleared text input) like no value.
-  const rawWidth: ButtonFillWidth | string | undefined = fillWidth
-  const fillStyle =
-    fill && rawWidth !== undefined && rawWidth !== ''
-      ? ({ '--ds-button-fill-width': toCssWidth(rawWidth) } as CSSProperties)
-      : undefined
+  const cssFillWidth = fill ? toCssLength(fillWidth) : undefined
+  const fillStyle = cssFillWidth ? ({ '--ds-button-fill-width': cssFillWidth } as CSSProperties) : undefined
   return (
     <button type={type} className={classes} style={fillStyle ? { ...fillStyle, ...style } : style} {...rest}>
       <span className="ds-button__label">{children}</span>

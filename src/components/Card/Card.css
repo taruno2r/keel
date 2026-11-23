@@ -1,0 +1,85 @@
+/*
+ * Card: Figma DS-Theming, component "Card" (node 5918:8947).
+ * Uses theme / spacing / radius tokens only, so it follows data-theme.
+ */
+.ds-card {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* The width prop (code only) sets --ds-card-width; otherwise fill the container. */
+  width: var(--ds-card-width, 100%);
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--ds-border-radius-lg);
+  /* No fill in Figma: the page shows through. */
+  background: transparent;
+}
+
+/* Figma stroke is INSIDE and sits on top of the image, so draw it as an
+   overlay rather than a border (which would sit outside the image). */
+.ds-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: var(--ds-border-width-sm) solid var(--ds-border-subtle);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.ds-card__image {
+  display: block;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.ds-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-4x);
+  padding: var(--ds-spacing-5x);
+}
+
+.ds-card__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ds-spacing-1x);
+}
+
+/* Text styles "Typography/Title/H6" and "Typography/Body/Medium". Their size
+   and line-height variables belong to Figma's deleted "Responsive" collection,
+   so there are no tokens for them yet; values copied from the text styles. */
+.ds-card__title {
+  margin: 0;
+  color: var(--ds-text-primary);
+  font-family: var(--ds-font-family-title);
+  font-weight: var(--ds-font-weight-inter-bold);
+  font-size: 20px;
+  line-height: 24px;
+  /* Figma: truncate at the end after 2 lines. */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.ds-card__description {
+  margin: 0;
+  color: var(--ds-text-secondary);
+  font-family: var(--ds-font-family-body);
+  font-weight: var(--ds-font-weight-inter-regular);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Action row: buttons share the width equally (Button width = Fill). */
+.ds-card__actions {
+  display: flex;
+  gap: var(--ds-spacing-2x);
+}
+.ds-card__actions > * {
+  flex: 1 0 0;
+  min-width: 0;
+}

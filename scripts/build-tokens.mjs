@@ -9,7 +9,7 @@
 //   [data-theme='<mode>']. The first mode is also applied to :root as the default.
 // - Any OTHER multi-mode collection is an error: its modes need a deliberate
 //   mapping (e.g. Desktop/Mobile -> media queries), so add one here first.
-// - Aliases become var(--ds-...) references, so the primitive -> semantic chain is kept.
+// - Aliases become var(--keel-...) references, so the primitive -> semantic chain is kept.
 // - FLOATs are px. Font weight names become numeric CSS weights.
 
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
@@ -20,7 +20,7 @@ const snapshotPath = join(root, 'src/tokens/figma/variables.json');
 // `--out <dir>` writes elsewhere (used by scripts/check-tokens.mjs to compare).
 const outArg = process.argv.indexOf('--out');
 const outDir = outArg > -1 ? process.argv[outArg + 1] : join(root, 'src/tokens/generated');
-const PREFIX = 'ds';
+const PREFIX = 'keel';
 const THEME_COLLECTION = 'Theme';
 
 const snapshot = JSON.parse(readFileSync(snapshotPath, 'utf8'));

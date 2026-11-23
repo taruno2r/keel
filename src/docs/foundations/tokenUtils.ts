@@ -21,8 +21,8 @@ export function aliasOf(token: Token, mode: string): string | undefined {
 }
 
 export const td: CSSProperties = {
-  padding: 'var(--ds-spacing-2x) var(--ds-spacing-3x)',
-  borderBottom: 'var(--ds-border-width-sm) solid var(--ds-surface-card)',
+  padding: 'var(--keel-spacing-2x) var(--keel-spacing-3x)',
+  borderBottom: 'var(--keel-border-width-sm) solid var(--keel-surface-card)',
   verticalAlign: 'middle',
 }
 

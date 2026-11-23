@@ -6,7 +6,7 @@ import { tokensFor } from './tokenUtils'
 const box = {
   width: 64,
   height: 40,
-  background: 'var(--ds-surface-card)',
+  background: 'var(--keel-surface-card)',
 }
 
 const meta = {
@@ -24,13 +24,13 @@ export const Border: Story = {
       <Section title="Border Radius" description="Figma collection “Spacing and Radius”.">
         <MeasureTable
           items={tokensFor(coverage.border.radius)}
-          visual={(v) => <div style={{ ...box, border: 'var(--ds-border-width-sm) solid var(--ds-border-default)', borderRadius: `var(${v})` }} />}
+          visual={(v) => <div style={{ ...box, border: 'var(--keel-border-width-sm) solid var(--keel-border-default)', borderRadius: `var(${v})` }} />}
         />
       </Section>
       <Section title="Border Width" description="Figma collection “Spacing and Radius”.">
         <MeasureTable
           items={tokensFor(coverage.border.width)}
-          visual={(v) => <div style={{ ...box, border: `var(${v}) solid var(--ds-border-default)`, borderRadius: 'var(--ds-border-radius-md)' }} />}
+          visual={(v) => <div style={{ ...box, border: `var(${v}) solid var(--keel-border-default)`, borderRadius: 'var(--keel-border-radius-md)' }} />}
         />
       </Section>
     </>

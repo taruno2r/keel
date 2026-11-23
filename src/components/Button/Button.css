@@ -1,73 +1,73 @@
 /*
- * Button: Figma DS-Theming, component set "Button" (node 5032:51).
+ * Button: Figma Keel, component set "Button" (node 5032:51).
  * Uses theme / spacing / radius tokens only, so it follows data-theme.
  */
-.ds-button {
+.keel-button {
   position: relative;
   box-sizing: border-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: var(--ds-spacing-2x);
+  gap: var(--keel-spacing-2x);
   min-height: 32px;
   max-width: 100%;
   margin: 0;
-  padding: var(--ds-spacing-1x) var(--ds-spacing-4x);
+  padding: var(--keel-spacing-1x) var(--keel-spacing-4x);
   border: none;
-  border-radius: var(--ds-border-radius-max);
+  border-radius: var(--keel-border-radius-max);
   cursor: pointer;
 
   /* Text style "Typography/Body/Medium". Its size and line-height variables
      (paragraph md/*) belong to Figma's deleted "Responsive" collection, so
      there are no tokens for them yet; values copied from the text style. */
-  font-family: var(--ds-font-family-body);
-  font-weight: var(--ds-font-weight-inter-regular);
+  font-family: var(--keel-font-family-body);
+  font-weight: var(--keel-font-weight-inter-regular);
   font-size: 16px;
   line-height: 20px;
   white-space: nowrap;
 }
 
-.ds-button__label {
+.keel-button__label {
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 /* variant */
-.ds-button--primary {
-  background: var(--ds-surface-accent);
-  color: var(--ds-text-on-accent);
+.keel-button--primary {
+  background: var(--keel-surface-accent);
+  color: var(--keel-text-on-accent);
 }
-.ds-button--primary:hover {
-  background: var(--ds-surface-accent-hover);
+.keel-button--primary:hover {
+  background: var(--keel-surface-accent-hover);
 }
 
-.ds-button--secondary {
+.keel-button--secondary {
   background: transparent;
-  color: var(--ds-text-primary);
+  color: var(--keel-text-primary);
   /* Figma stroke is INSIDE (doesn't change the size), so draw it as an inset
      shadow rather than a border: Primary and Secondary stay the same size. */
-  box-shadow: inset 0 0 0 var(--ds-border-width-sm) var(--ds-border-default);
+  box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-border-default);
 }
-.ds-button--secondary:hover {
-  background: var(--ds-surface-page-hover);
+.keel-button--secondary:hover {
+  background: var(--keel-surface-page-hover);
 }
 
 /* Focus: Figma "Focus Ring" is a rectangle 2px outside the button with a 1px
    OUTSIDE dashed stroke, so the ring sits 2–3px outside the button edge. */
-.ds-button:focus {
+.keel-button:focus {
   outline: none;
 }
-.ds-button:focus-visible {
-  outline: var(--ds-border-width-sm) dashed var(--ds-border-focus);
+.keel-button:focus-visible {
+  outline: var(--keel-border-width-sm) dashed var(--keel-border-focus);
   outline-offset: 2px;
 }
 
-/* width = Fill. The fillWidth prop (code only) sets --ds-button-fill-width. */
-.ds-button--fill {
+/* width = Fill. The fillWidth prop (code only) sets --keel-button-fill-width. */
+.keel-button--fill {
   display: flex;
-  width: var(--ds-button-fill-width, 100%);
+  width: var(--keel-button-fill-width, 100%);
 }
-.ds-button--fill .ds-button__label {
+.keel-button--fill .keel-button__label {
   flex: 1 0 0;
   min-width: 0;
   text-align: center;

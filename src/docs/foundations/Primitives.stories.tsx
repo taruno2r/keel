@@ -12,7 +12,7 @@ function Colors() {
     <Section title="Color" description="Raw palette. Alias these from Theme tokens only; never use them in components directly.">
       {families.map((family) => (
         <Subsection key={family} title={family}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(88px, 1fr))', gap: 'var(--ds-spacing-2x)' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(88px, 1fr))', gap: 'var(--keel-spacing-2x)' }}>
             {colors
               .filter((t) => t.figmaName.split('/')[1] === family)
               .map((t) => (
@@ -20,12 +20,12 @@ function Colors() {
                   <div
                     style={{
                       height: 56,
-                      borderRadius: 'var(--ds-border-radius-md)',
-                      border: 'var(--ds-border-width-sm) solid var(--ds-border-subtle)',
+                      borderRadius: 'var(--keel-border-radius-md)',
+                      border: 'var(--keel-border-width-sm) solid var(--keel-border-subtle)',
                       background: `var(${t.cssVar})`,
                     }}
                   />
-                  <div style={{ fontSize: 13, marginTop: 'var(--ds-spacing-1x)' }}>{t.figmaName.split('/')[2]}</div>
+                  <div style={{ fontSize: 13, marginTop: 'var(--keel-spacing-1x)' }}>{t.figmaName.split('/')[2]}</div>
                   <Code>{resolve(t, 'value')}</Code>
                 </div>
               ))}
@@ -41,7 +41,7 @@ function Scale() {
     <Section title="Scale" description="Raw numeric scale (px). Spacing, Radius and Border Width alias these.">
       <MeasureTable
         items={tokensFor(coverage.primitives.scale)}
-        visual={(v) => <div style={{ width: `var(${v})`, maxWidth: '100%', height: 16, background: 'var(--ds-element-accent)', borderRadius: 2 }} />}
+        visual={(v) => <div style={{ width: `var(${v})`, maxWidth: '100%', height: 16, background: 'var(--keel-element-accent)', borderRadius: 2 }} />}
       />
     </Section>
   )
@@ -67,7 +67,7 @@ function Fonts() {
             <tr key={t.cssVar}>
               <td style={td}><Code>{t.cssVar}</Code></td>
               <td style={td}><Code>{resolve(t, 'value')}</Code></td>
-              <td style={{ ...td, fontFamily: 'var(--ds-font-family-body)', fontWeight: `var(${t.cssVar})`, fontSize: 20 }}>{SAMPLE}</td>
+              <td style={{ ...td, fontFamily: 'var(--keel-font-family-body)', fontWeight: `var(${t.cssVar})`, fontSize: 20 }}>{SAMPLE}</td>
             </tr>
           ))}
         </TokenTable>

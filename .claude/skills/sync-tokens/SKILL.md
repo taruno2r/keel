@@ -1,12 +1,12 @@
 ---
 name: sync-tokens
-description: Sync design tokens from the DS-Theming Figma file into this repo and Storybook. Pulls every Figma variable, verifies the copy is exact, regenerates the CSS tokens, makes sure every token appears on a Storybook page, and reports what changed. Use when the user says "sync tokens", "update tokens from Figma", "I changed variables in Figma", or runs /sync-tokens.
+description: Sync design tokens from the Keel Figma file into this repo and Storybook. Pulls every Figma variable, verifies the copy is exact, regenerates the CSS tokens, makes sure every token appears on a Storybook page, and reports what changed. Use when the user says "sync tokens", "update tokens from Figma", "I changed variables in Figma", or runs /sync-tokens.
 ---
 
 # Sync tokens from Figma
 
 Source of truth: the Figma file whose key is in `src/tokens/figma/variables.json` → `source.fileKey`
-(DS-Theming, `8IEdts3bNiwKEwISZ9Md9D`). The repo keeps an exact snapshot of its variables;
+(Keel, `8IEdts3bNiwKEwISZ9Md9D`). The repo keeps an exact snapshot of its variables;
 everything else is generated from it.
 
 ## Steps
@@ -42,7 +42,7 @@ everything else is generated from it.
    - If a collection was renamed, update its name in `coverage.ts`.
 
 9. **Breakage.** For each removed or renamed variable, `git grep` its old CSS variable
-   (e.g. `--ds-surface-card`) outside `src/tokens/generated/`. Fix the reference if the replacement is
+   (e.g. `--keel-surface-card`) outside `src/tokens/generated/`. Fix the reference if the replacement is
    obvious; otherwise list it for the user.
 
 10. **Verify.** `npx tsc -b`, `npm run lint`, `npm run tokens:check`, `npm run test-storybook`. If Storybook

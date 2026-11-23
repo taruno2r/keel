@@ -29,10 +29,17 @@ Use the paintbrush in the toolbar to switch themes in any story.
 
 ## Updating tokens from Figma
 
-1. Re-export the variables into `src/tokens/figma/variables.json` (same shape as today).
-2. Run `npm run tokens` to regenerate `src/tokens/generated/`.
-3. A new mode in the Theme collection becomes a new theme automatically, including in the toolbar.
+After changing variables in Figma, run **`/sync-tokens`** in Claude Code. It pulls every variable,
+verifies the copy is exact, regenerates `src/tokens/generated/`, makes sure every token appears here
+in Storybook, and lists what changed.
 
+Two commands keep code and Storybook honest (`/sync-tokens` runs both):
+
+- `npm run tokens:check` fails if the generated CSS is out of date, or if any token isn't shown on a
+  Foundations page (see `src/docs/foundations/coverage.ts`).
+- `npm run tokens:diff` lists variables added, removed or changed since the last commit.
+
+A new mode in the Theme collection becomes a new theme automatically, including in the toolbar.
 Never edit files in `src/tokens/generated/` by hand.
 
 ## Adding a component

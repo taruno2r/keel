@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { themes } from '../../tokens/generated/tokens'
 import { Code, Section, Swatch, TokenTable } from './TokenDisplay'
-import { aliasOf, groupByFirstSegment, resolve, td, titleCase, tokensIn } from './tokenUtils'
+import { coverage } from './coverage'
+import { aliasOf, groupByFirstSegment, resolve, td, titleCase, tokensFor } from './tokenUtils'
 
 const themeLabel = (t: string) => t[0].toUpperCase() + t.slice(1)
 
@@ -21,7 +22,7 @@ export const Theme: Story = {
         Figma collection “Theme”, modes {themes.map(themeLabel).join(' and ')}. Swatches follow the theme selected in the
         toolbar. Components use these tokens for color.
       </p>
-      {groupByFirstSegment(tokensIn('Theme')).map(([group, items]) => (
+      {groupByFirstSegment(tokensFor(coverage.theme.all)).map(([group, items]) => (
         <Section key={group} title={titleCase(group)}>
           <TokenTable head={['Swatch', 'Token', 'Figma', ...themes.map(themeLabel)]}>
             {items.map((t) => (

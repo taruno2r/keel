@@ -5,8 +5,10 @@
 //
 // Rules:
 // - Single-mode collections become `:root { ... }` in their own file.
-// - Multi-mode collections (themes) become one file per mode, scoped to
+// - The THEME_COLLECTION's modes are themes: one file per mode, scoped to
 //   [data-theme='<mode>']. The first mode is also applied to :root as the default.
+// - Any OTHER multi-mode collection is an error: its modes need a deliberate
+//   mapping (e.g. Desktop/Mobile -> media queries), so add one here first.
 // - Aliases become var(--ds-...) references, so the primitive -> semantic chain is kept.
 // - FLOATs are px. Font weight names become numeric CSS weights.
 
@@ -15,10 +17,23 @@ import { dirname, join } from 'node:path';
 
 const root = join(import.meta.dirname, '..');
 const snapshotPath = join(root, 'src/tokens/figma/variables.json');
-const outDir = join(root, 'src/tokens/generated');
+// `--out <dir>` writes elsewhere (used by scripts/check-tokens.mjs to compare).
+const outArg = process.argv.indexOf('--out');
+const outDir = outArg > -1 ? process.argv[outArg + 1] : join(root, 'src/tokens/generated');
 const PREFIX = 'ds';
+const THEME_COLLECTION = 'Theme';
 
 const snapshot = JSON.parse(readFileSync(snapshotPath, 'utf8'));
+
+const unmapped = snapshot.collections.filter((c) => c.modes.length > 1 && c.name !== THEME_COLLECTION);
+if (unmapped.length) {
+  console.error(
+    unmapped
+      .map((c) => `✗ Collection "${c.name}" has modes ${c.modes.join(', ')}, but only "${THEME_COLLECTION}" modes map to themes.`)
+      .join('\n') + `\n  Decide how these modes should work in CSS and add that mapping to scripts/build-tokens.mjs.`,
+  );
+  process.exit(1);
+}
 
 const slug = (s) =>
   s

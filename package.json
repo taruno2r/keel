@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "tokens": "node scripts/build-tokens.mjs",
+    "tokens:check": "node scripts/check-tokens.mjs",
+    "tokens:diff": "node scripts/tokens-diff.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",

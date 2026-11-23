@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { Code, MeasureTable, Section, Subsection, TokenTable } from './TokenDisplay'
-import { resolve, td, tokensIn } from './tokenUtils'
+import { coverage } from './coverage'
+import { resolve, td, tokensFor } from './tokenUtils'
 
-const C = 'Primitives'
 const SAMPLE = 'The quick brown fox jumps over the lazy dog'
 
 function Colors() {
-  const colors = tokensIn(C, 'Color/')
+  const colors = tokensFor(coverage.primitives.color)
   const families = [...new Set(colors.map((t) => t.figmaName.split('/')[1]))]
   return (
     <Section title="Color" description="Raw palette. Alias these from Theme tokens only; never use them in components directly.">
@@ -40,7 +40,7 @@ function Scale() {
   return (
     <Section title="Scale" description="Raw numeric scale (px). Spacing, Radius and Border Width alias these.">
       <MeasureTable
-        items={tokensIn(C, 'Scale/')}
+        items={tokensFor(coverage.primitives.scale)}
         visual={(v) => <div style={{ width: `var(${v})`, maxWidth: '100%', height: 16, background: 'var(--ds-element-accent)', borderRadius: 2 }} />}
       />
     </Section>
@@ -52,7 +52,7 @@ function Fonts() {
     <Section title="Font">
       <Subsection title="Font Family">
         <TokenTable head={['Token', 'Value', 'Sample']}>
-          {tokensIn(C, 'Font/Font Family/').map((t) => (
+          {tokensFor(coverage.primitives.fontFamily).map((t) => (
             <tr key={t.cssVar}>
               <td style={td}><Code>{t.cssVar}</Code></td>
               <td style={td}><Code>{resolve(t, 'value')}</Code></td>
@@ -63,7 +63,7 @@ function Fonts() {
       </Subsection>
       <Subsection title="Font Weight">
         <TokenTable head={['Token', 'Weight', 'Sample']}>
-          {tokensIn(C, 'Font/Font Weight/').map((t) => (
+          {tokensFor(coverage.primitives.fontWeight).map((t) => (
             <tr key={t.cssVar}>
               <td style={td}><Code>{t.cssVar}</Code></td>
               <td style={td}><Code>{resolve(t, 'value')}</Code></td>

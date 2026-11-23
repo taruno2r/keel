@@ -9,8 +9,3 @@ body {
   color: var(--ds-text-primary);
   background: var(--ds-surface-page);
 }
-
-::selection {
-  color: var(--ds-selection-fg);
-  background: var(--ds-selection-bg);
-}

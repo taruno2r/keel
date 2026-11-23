@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { MeasureTable, Section } from './TokenDisplay'
-import { tokensIn } from './tokenUtils'
+import { coverage } from './coverage'
+import { tokensFor } from './tokenUtils'
 
-const C = 'Spacing and Radius'
 const box = {
   width: 64,
   height: 40,
@@ -23,13 +23,13 @@ export const Border: Story = {
     <>
       <Section title="Border Radius" description="Figma collection “Spacing and Radius”.">
         <MeasureTable
-          items={tokensIn(C, 'Border Radius/')}
+          items={tokensFor(coverage.border.radius)}
           visual={(v) => <div style={{ ...box, border: 'var(--ds-border-width-sm) solid var(--ds-border-default)', borderRadius: `var(${v})` }} />}
         />
       </Section>
       <Section title="Border Width" description="Figma collection “Spacing and Radius”.">
         <MeasureTable
-          items={tokensIn(C, 'Border Width/')}
+          items={tokensFor(coverage.border.width)}
           visual={(v) => <div style={{ ...box, border: `var(${v}) solid var(--ds-border-default)`, borderRadius: 'var(--ds-border-radius-md)' }} />}
         />
       </Section>

@@ -1721,38 +1721,6 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Theme",
-    "figmaName": "selection-bg",
-    "cssVar": "--ds-selection-bg",
-    "type": "COLOR",
-    "values": {
-      "default": {
-        "alias": "--ds-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
-      },
-      "indigo": {
-        "alias": "--ds-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
-      }
-    }
-  },
-  {
-    "collection": "Theme",
-    "figmaName": "selection-fg",
-    "cssVar": "--ds-selection-fg",
-    "type": "COLOR",
-    "values": {
-      "default": {
-        "alias": "--ds-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
-      },
-      "indigo": {
-        "alias": "--ds-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
-      }
-    }
-  },
-  {
-    "collection": "Theme",
     "figmaName": "slider/track",
     "cssVar": "--ds-slider-track",
     "type": "COLOR",

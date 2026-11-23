@@ -1,0 +1,54 @@
+/*
+ * Primitive tokens: the raw palette and scales.
+ * PLACEHOLDER VALUES: replace with the primitives exported from Figma.
+ * Components should never reference these directly; use semantic tokens.
+ */
+:root {
+  /* Color: neutral */
+  --ds-color-neutral-0: #ffffff;
+  --ds-color-neutral-50: #f7f7f8;
+  --ds-color-neutral-100: #ececef;
+  --ds-color-neutral-200: #d9d9de;
+  --ds-color-neutral-400: #9a9aa5;
+  --ds-color-neutral-600: #5c5c68;
+  --ds-color-neutral-800: #26262d;
+  --ds-color-neutral-900: #16161b;
+  --ds-color-neutral-1000: #0b0b0e;
+
+  /* Color: brand */
+  --ds-color-brand-300: #8fa8ff;
+  --ds-color-brand-500: #3d63f5;
+  --ds-color-brand-700: #2443b8;
+
+  /* Spacing (4px base) */
+  --ds-space-0: 0;
+  --ds-space-1: 4px;
+  --ds-space-2: 8px;
+  --ds-space-3: 12px;
+  --ds-space-4: 16px;
+  --ds-space-6: 24px;
+  --ds-space-8: 32px;
+  --ds-space-12: 48px;
+
+  /* Radius */
+  --ds-radius-none: 0;
+  --ds-radius-sm: 4px;
+  --ds-radius-md: 8px;
+  --ds-radius-lg: 12px;
+  --ds-radius-full: 9999px;
+
+  /* Typography */
+  --ds-font-family-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ds-font-family-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --ds-font-size-100: 12px;
+  --ds-font-size-200: 14px;
+  --ds-font-size-300: 16px;
+  --ds-font-size-400: 20px;
+  --ds-font-size-500: 24px;
+  --ds-font-size-600: 32px;
+  --ds-font-weight-regular: 400;
+  --ds-font-weight-medium: 500;
+  --ds-font-weight-bold: 700;
+  --ds-line-height-tight: 1.2;
+  --ds-line-height-normal: 1.5;
+}

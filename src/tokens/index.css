@@ -1,0 +1,13 @@
+/* Entry point for all design tokens. Import once at the app root. */
+@import './primitives.css';
+@import './themes/light.css';
+@import './themes/dark.css';
+
+body {
+  margin: 0;
+  font-family: var(--ds-font-family-sans);
+  font-size: var(--ds-font-size-300);
+  line-height: var(--ds-line-height-normal);
+  color: var(--ds-color-text-default);
+  background: var(--ds-color-bg-default);
+}

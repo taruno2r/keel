@@ -1,0 +1,31 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Introduction" />
+
+# ds-theming
+
+A themeable design system for the web, built from the tokens and components in Figma.
+
+## How theming works
+
+Tokens live in `src/tokens/` as CSS custom properties, in two tiers:
+
+1. **Primitives** (`primitives.css`): the raw palette and scales, e.g. `--ds-color-brand-500`.
+2. **Semantic tokens** (`themes/*.css`): intent-based names, e.g. `--ds-color-bg-default`,
+   each mapped to a primitive. Every theme defines the same names with different mappings.
+
+Components use **semantic tokens only**. A theme is applied by setting `data-theme` on an
+ancestor element (usually `<html>`), so switching themes never touches component code.
+
+Use the paintbrush in the toolbar to switch themes in any story.
+
+## Adding a theme
+
+1. Add `src/tokens/themes/<name>.css` with a `[data-theme='<name>']` block defining every semantic token.
+2. Import it in `src/tokens/index.css`.
+3. Add it to the `themes` map in `.storybook/preview.tsx`.
+
+## Adding a component
+
+Create `src/components/<Name>/` with `<Name>.tsx`, `<Name>.css` and `<Name>.stories.tsx`,
+then export it from `src/index.ts`.

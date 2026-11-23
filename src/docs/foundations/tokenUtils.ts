@@ -1,9 +1,10 @@
 import type { CSSProperties } from 'react'
 import { tokens, type Token } from '../../tokens/generated/tokens'
+import type { CoverageEntry } from './coverage'
 
 const byVar = new Map(tokens.map((t) => [t.cssVar, t]))
 
-export const tokensIn = (collection: string, prefix = '') =>
+export const tokensFor = ([collection, prefix]: CoverageEntry) =>
   tokens.filter((t) => t.collection === collection && t.figmaName.startsWith(prefix))
 
 /** Follows aliases down to the raw value for a given mode. */
@@ -25,7 +26,7 @@ export const td: CSSProperties = {
   verticalAlign: 'middle',
 }
 
-/** Groups tokens by the first segment of their Figma name ("surface/page" -> "surface", "selection-bg" -> "selection"). */
+/** Groups tokens by the first segment of their Figma name ("surface/page" -> "surface"; a name without "/" like "focus-ring" -> "focus"). */
 export function groupByFirstSegment(items: Token[]): [string, Token[]][] {
   const groups = new Map<string, Token[]>()
   for (const t of items) {

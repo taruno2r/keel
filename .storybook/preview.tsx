@@ -1,5 +1,6 @@
 import type { Preview } from '@storybook/react-vite'
 import { withThemeByDataAttribute } from '@storybook/addon-themes'
+import { themes } from '../src/tokens/generated/tokens'
 import '../src/tokens/index.css'
 
 const preview: Preview = {
@@ -12,6 +13,9 @@ const preview: Preview = {
     },
     // Canvas background comes from the theme tokens, not the backgrounds addon.
     backgrounds: { disable: true },
+    options: {
+      storySort: { order: ['Introduction', 'Foundations', ['Primitives', 'Theme', 'Spacing', 'Border'], 'Components'] },
+    },
     a11y: {
       // 'todo' - show a11y violations in the test UI only
       // 'error' - fail CI on a11y violations
@@ -20,11 +24,11 @@ const preview: Preview = {
     },
   },
   decorators: [
-    // Adds a theme switcher to the toolbar and sets <html data-theme="...">.
-    // Add a theme here when you add a file under src/tokens/themes/.
+    // Toolbar theme switcher. Sets <html data-theme="..."> to one of the
+    // modes of the Figma "Theme" collection (generated into tokens.ts).
     withThemeByDataAttribute({
-      themes: { light: 'light', dark: 'dark' },
-      defaultTheme: 'light',
+      themes: Object.fromEntries(themes.map((t) => [t[0].toUpperCase() + t.slice(1), t])),
+      defaultTheme: 'Default',
       attributeName: 'data-theme',
     }),
   ],

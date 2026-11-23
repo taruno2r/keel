@@ -6,6 +6,7 @@ A themeable web design system (React + TypeScript), documented in Storybook.
 
 | Command | What it does |
 | --- | --- |
+| `npm run tokens` | Regenerate CSS tokens from `src/tokens/figma/variables.json` |
 | `npm run storybook` | Start Storybook at http://localhost:6006 |
 | `npm run build-storybook` | Build static Storybook to `storybook-static/` |
 | `npm run test-storybook` | Run every story as a test (render + a11y) in headless Chromium |
@@ -15,15 +16,17 @@ A themeable web design system (React + TypeScript), documented in Storybook.
 ## Structure
 
 ```
-.storybook/          Storybook config; theme switcher lives in preview.tsx
+.storybook/              Storybook config; theme switcher lives in preview.tsx
+scripts/build-tokens.mjs Figma variables JSON -> CSS custom properties
 src/
   tokens/
-    primitives.css   Raw palette & scales (placeholders until Figma export)
-    themes/          Semantic tokens per theme (light.css, dark.css)
-    index.css        Token entry point
-  components/        One folder per component, with its stories
-  docs/              Storybook docs pages and foundations stories
-  index.ts           Public exports
+    figma/variables.json Snapshot of the Figma variables (source of truth in code)
+    generated/           Generated CSS + tokens.ts manifest. Do not edit.
+    index.css            Token entry point + base body styles
+  components/            One folder per component, with its stories
+  docs/                  Introduction + Foundations stories (colors, spacing, border, type)
+  index.ts               Public exports
 ```
 
-See the **Introduction** page in Storybook for how theming works.
+Themes are the modes of the Figma **Theme** collection (`Default`, `Indigo`), applied with
+`data-theme="default|indigo"`. See the **Introduction** page in Storybook for details.

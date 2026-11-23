@@ -3,9 +3,9 @@
 
 body {
   margin: 0;
-  font-family: var(--ds-font-family-body);
-  font-weight: var(--ds-font-weight-inter-regular);
+  font-family: var(--keel-font-family-body);
+  font-weight: var(--keel-font-weight-inter-regular);
   line-height: 1.5;
-  color: var(--ds-text-primary);
-  background: var(--ds-surface-page);
+  color: var(--keel-text-primary);
+  background: var(--keel-surface-page);
 }

@@ -1,4 +1,4 @@
-# ds-theming
+# Keel
 
 A themeable web design system (React + TypeScript), documented in Storybook.
 

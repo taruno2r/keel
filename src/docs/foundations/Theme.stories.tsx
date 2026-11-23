@@ -18,7 +18,7 @@ type Story = StoryObj<typeof meta>
 export const Theme: Story = {
   render: () => (
     <>
-      <p style={{ margin: '0 0 var(--ds-spacing-8x)', color: 'var(--ds-text-secondary)' }}>
+      <p style={{ margin: '0 0 var(--keel-spacing-8x)', color: 'var(--keel-text-secondary)' }}>
         Figma collection “Theme”, modes {themes.map(themeLabel).join(' and ')}. Swatches follow the theme selected in the
         toolbar. Components use these tokens for color.
       </p>
@@ -29,7 +29,7 @@ export const Theme: Story = {
               <tr key={t.cssVar}>
                 <td style={{ ...td, width: 56 }}><Swatch cssVar={t.cssVar} /></td>
                 <td style={td}><Code>{t.cssVar}</Code></td>
-                <td style={{ ...td, color: 'var(--ds-text-secondary)' }}>{t.figmaName}</td>
+                <td style={{ ...td, color: 'var(--keel-text-secondary)' }}>{t.figmaName}</td>
                 {themes.map((m) => (
                   <td key={m} style={td}>
                     <div>{aliasOf(t, m)}</div>

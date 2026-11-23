@@ -40,12 +40,12 @@ export function Button({
   ...rest
 }: ButtonProps) {
   const fill = width === 'fill'
-  const classes = ['ds-button', `ds-button--${variant}`, fill && 'ds-button--fill', className].filter(Boolean).join(' ')
+  const classes = ['keel-button', `keel-button--${variant}`, fill && 'keel-button--fill', className].filter(Boolean).join(' ')
   const cssFillWidth = fill ? toCssLength(fillWidth) : undefined
-  const fillStyle = cssFillWidth ? ({ '--ds-button-fill-width': cssFillWidth } as CSSProperties) : undefined
+  const fillStyle = cssFillWidth ? ({ '--keel-button-fill-width': cssFillWidth } as CSSProperties) : undefined
   return (
     <button type={type} className={classes} style={fillStyle ? { ...fillStyle, ...style } : style} {...rest}>
-      <span className="ds-button__label">{children}</span>
+      <span className="keel-button__label">{children}</span>
     </button>
   )
 }

@@ -35,20 +35,20 @@ export interface CardProps extends Omit<HTMLAttributes<HTMLElement>, 'title'> {
 export function Card({ title, description, image, actions, headingLevel = 3, width, className, style, ...rest }: CardProps) {
   const Heading = `h${headingLevel}` as const
   const cssWidth = toCssLength(width)
-  const widthStyle = cssWidth ? ({ '--ds-card-width': cssWidth } as CSSProperties) : undefined
+  const widthStyle = cssWidth ? ({ '--keel-card-width': cssWidth } as CSSProperties) : undefined
   return (
     <article
-      className={['ds-card', className].filter(Boolean).join(' ')}
+      className={['keel-card', className].filter(Boolean).join(' ')}
       style={widthStyle ? { ...widthStyle, ...style } : style}
       {...rest}
     >
-      <img className="ds-card__image" src={image.src} alt={image.alt} />
-      <div className="ds-card__body">
-        <div className="ds-card__text">
-          <Heading className="ds-card__title">{title}</Heading>
-          <p className="ds-card__description">{description}</p>
+      <img className="keel-card__image" src={image.src} alt={image.alt} />
+      <div className="keel-card__body">
+        <div className="keel-card__text">
+          <Heading className="keel-card__title">{title}</Heading>
+          <p className="keel-card__description">{description}</p>
         </div>
-        <div className="ds-card__actions">{actions}</div>
+        <div className="keel-card__actions">{actions}</div>
       </div>
     </article>
   )

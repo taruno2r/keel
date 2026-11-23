@@ -17,7 +17,7 @@ export const Spacing: Story = {
     <Section title="Spacing" description="Figma collection “Spacing and Radius”. Use for padding, margin and gap.">
       <MeasureTable
         items={tokensFor(coverage.spacing.spacing)}
-        visual={(v) => <div style={{ width: `var(${v})`, height: 16, background: 'var(--ds-element-accent)', borderRadius: 2 }} />}
+        visual={(v) => <div style={{ width: `var(${v})`, height: 16, background: 'var(--keel-element-accent)', borderRadius: 2 }} />}
       />
     </Section>
   ),

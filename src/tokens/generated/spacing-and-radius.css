@@ -4,24 +4,24 @@
  * Exported: 2026-11-23T07:00:28.267Z
  */
 :root {
-  --ds-border-radius-lg: var(--ds-scale-8);
-  --ds-border-radius-max: var(--ds-scale-512);
-  --ds-border-radius-md: var(--ds-scale-4);
-  --ds-border-radius-none: var(--ds-scale-0);
-  --ds-border-radius-sm: var(--ds-scale-2);
-  --ds-border-width-lg: var(--ds-scale-4);
-  --ds-border-width-md: var(--ds-scale-2);
-  --ds-border-width-none: var(--ds-scale-0);
-  --ds-border-width-sm: var(--ds-scale-1);
-  --ds-spacing-0: var(--ds-scale-0);
-  --ds-spacing-10x: var(--ds-scale-40);
-  --ds-spacing-12x: var(--ds-scale-48);
-  --ds-spacing-16x: var(--ds-scale-64);
-  --ds-spacing-1x: var(--ds-scale-4);
-  --ds-spacing-2x: var(--ds-scale-8);
-  --ds-spacing-3x: var(--ds-scale-12);
-  --ds-spacing-4x: var(--ds-scale-16);
-  --ds-spacing-5x: var(--ds-scale-20);
-  --ds-spacing-6x: var(--ds-scale-24);
-  --ds-spacing-8x: var(--ds-scale-32);
+  --keel-border-radius-lg: var(--keel-scale-8);
+  --keel-border-radius-max: var(--keel-scale-512);
+  --keel-border-radius-md: var(--keel-scale-4);
+  --keel-border-radius-none: var(--keel-scale-0);
+  --keel-border-radius-sm: var(--keel-scale-2);
+  --keel-border-width-lg: var(--keel-scale-4);
+  --keel-border-width-md: var(--keel-scale-2);
+  --keel-border-width-none: var(--keel-scale-0);
+  --keel-border-width-sm: var(--keel-scale-1);
+  --keel-spacing-0: var(--keel-scale-0);
+  --keel-spacing-10x: var(--keel-scale-40);
+  --keel-spacing-12x: var(--keel-scale-48);
+  --keel-spacing-16x: var(--keel-scale-64);
+  --keel-spacing-1x: var(--keel-scale-4);
+  --keel-spacing-2x: var(--keel-scale-8);
+  --keel-spacing-3x: var(--keel-scale-12);
+  --keel-spacing-4x: var(--keel-scale-16);
+  --keel-spacing-5x: var(--keel-scale-20);
+  --keel-spacing-6x: var(--keel-scale-24);
+  --keel-spacing-8x: var(--keel-scale-32);
 }

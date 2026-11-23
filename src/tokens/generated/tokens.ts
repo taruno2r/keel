@@ -17,7 +17,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/50",
-    "cssVar": "--ds-color-cyan-50",
+    "cssVar": "--keel-color-cyan-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -28,7 +28,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/100",
-    "cssVar": "--ds-color-cyan-100",
+    "cssVar": "--keel-color-cyan-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -39,7 +39,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/200",
-    "cssVar": "--ds-color-cyan-200",
+    "cssVar": "--keel-color-cyan-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -50,7 +50,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/300",
-    "cssVar": "--ds-color-cyan-300",
+    "cssVar": "--keel-color-cyan-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -61,7 +61,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/400",
-    "cssVar": "--ds-color-cyan-400",
+    "cssVar": "--keel-color-cyan-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -72,7 +72,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/500",
-    "cssVar": "--ds-color-cyan-500",
+    "cssVar": "--keel-color-cyan-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -83,7 +83,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/600",
-    "cssVar": "--ds-color-cyan-600",
+    "cssVar": "--keel-color-cyan-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -94,7 +94,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/700",
-    "cssVar": "--ds-color-cyan-700",
+    "cssVar": "--keel-color-cyan-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -105,7 +105,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/800",
-    "cssVar": "--ds-color-cyan-800",
+    "cssVar": "--keel-color-cyan-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -116,7 +116,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/900",
-    "cssVar": "--ds-color-cyan-900",
+    "cssVar": "--keel-color-cyan-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -127,7 +127,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Cyan/950",
-    "cssVar": "--ds-color-cyan-950",
+    "cssVar": "--keel-color-cyan-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -138,7 +138,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Foundation/black",
-    "cssVar": "--ds-color-foundation-black",
+    "cssVar": "--keel-color-foundation-black",
     "type": "COLOR",
     "values": {
       "value": {
@@ -149,7 +149,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Foundation/white",
-    "cssVar": "--ds-color-foundation-white",
+    "cssVar": "--keel-color-foundation-white",
     "type": "COLOR",
     "values": {
       "value": {
@@ -160,7 +160,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/50",
-    "cssVar": "--ds-color-indigo-50",
+    "cssVar": "--keel-color-indigo-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -171,7 +171,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/100",
-    "cssVar": "--ds-color-indigo-100",
+    "cssVar": "--keel-color-indigo-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -182,7 +182,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/200",
-    "cssVar": "--ds-color-indigo-200",
+    "cssVar": "--keel-color-indigo-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -193,7 +193,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/300",
-    "cssVar": "--ds-color-indigo-300",
+    "cssVar": "--keel-color-indigo-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -204,7 +204,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/400",
-    "cssVar": "--ds-color-indigo-400",
+    "cssVar": "--keel-color-indigo-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -215,7 +215,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/500",
-    "cssVar": "--ds-color-indigo-500",
+    "cssVar": "--keel-color-indigo-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -226,7 +226,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/600",
-    "cssVar": "--ds-color-indigo-600",
+    "cssVar": "--keel-color-indigo-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -237,7 +237,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/700",
-    "cssVar": "--ds-color-indigo-700",
+    "cssVar": "--keel-color-indigo-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -248,7 +248,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/800",
-    "cssVar": "--ds-color-indigo-800",
+    "cssVar": "--keel-color-indigo-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -259,7 +259,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/900",
-    "cssVar": "--ds-color-indigo-900",
+    "cssVar": "--keel-color-indigo-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -270,7 +270,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Indigo/950",
-    "cssVar": "--ds-color-indigo-950",
+    "cssVar": "--keel-color-indigo-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -281,7 +281,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/50",
-    "cssVar": "--ds-color-ink-50",
+    "cssVar": "--keel-color-ink-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -292,7 +292,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/100",
-    "cssVar": "--ds-color-ink-100",
+    "cssVar": "--keel-color-ink-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -303,7 +303,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/200",
-    "cssVar": "--ds-color-ink-200",
+    "cssVar": "--keel-color-ink-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -314,7 +314,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/300",
-    "cssVar": "--ds-color-ink-300",
+    "cssVar": "--keel-color-ink-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -325,7 +325,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/400",
-    "cssVar": "--ds-color-ink-400",
+    "cssVar": "--keel-color-ink-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -336,7 +336,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/500",
-    "cssVar": "--ds-color-ink-500",
+    "cssVar": "--keel-color-ink-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -347,7 +347,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/600",
-    "cssVar": "--ds-color-ink-600",
+    "cssVar": "--keel-color-ink-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -358,7 +358,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/700",
-    "cssVar": "--ds-color-ink-700",
+    "cssVar": "--keel-color-ink-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -369,7 +369,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/800",
-    "cssVar": "--ds-color-ink-800",
+    "cssVar": "--keel-color-ink-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -380,7 +380,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/900",
-    "cssVar": "--ds-color-ink-900",
+    "cssVar": "--keel-color-ink-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -391,7 +391,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Ink/950",
-    "cssVar": "--ds-color-ink-950",
+    "cssVar": "--keel-color-ink-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -402,7 +402,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/50",
-    "cssVar": "--ds-color-mustard-50",
+    "cssVar": "--keel-color-mustard-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -413,7 +413,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/100",
-    "cssVar": "--ds-color-mustard-100",
+    "cssVar": "--keel-color-mustard-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -424,7 +424,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/200",
-    "cssVar": "--ds-color-mustard-200",
+    "cssVar": "--keel-color-mustard-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -435,7 +435,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/300",
-    "cssVar": "--ds-color-mustard-300",
+    "cssVar": "--keel-color-mustard-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -446,7 +446,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/400",
-    "cssVar": "--ds-color-mustard-400",
+    "cssVar": "--keel-color-mustard-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -457,7 +457,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/500",
-    "cssVar": "--ds-color-mustard-500",
+    "cssVar": "--keel-color-mustard-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -468,7 +468,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/600",
-    "cssVar": "--ds-color-mustard-600",
+    "cssVar": "--keel-color-mustard-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -479,7 +479,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/700",
-    "cssVar": "--ds-color-mustard-700",
+    "cssVar": "--keel-color-mustard-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -490,7 +490,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/800",
-    "cssVar": "--ds-color-mustard-800",
+    "cssVar": "--keel-color-mustard-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -501,7 +501,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/900",
-    "cssVar": "--ds-color-mustard-900",
+    "cssVar": "--keel-color-mustard-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -512,7 +512,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Mustard/950",
-    "cssVar": "--ds-color-mustard-950",
+    "cssVar": "--keel-color-mustard-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -523,7 +523,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/50",
-    "cssVar": "--ds-color-phosphor-50",
+    "cssVar": "--keel-color-phosphor-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -534,7 +534,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/100",
-    "cssVar": "--ds-color-phosphor-100",
+    "cssVar": "--keel-color-phosphor-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -545,7 +545,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/200",
-    "cssVar": "--ds-color-phosphor-200",
+    "cssVar": "--keel-color-phosphor-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -556,7 +556,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/300",
-    "cssVar": "--ds-color-phosphor-300",
+    "cssVar": "--keel-color-phosphor-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -567,7 +567,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/400",
-    "cssVar": "--ds-color-phosphor-400",
+    "cssVar": "--keel-color-phosphor-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -578,7 +578,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/500",
-    "cssVar": "--ds-color-phosphor-500",
+    "cssVar": "--keel-color-phosphor-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -589,7 +589,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/600",
-    "cssVar": "--ds-color-phosphor-600",
+    "cssVar": "--keel-color-phosphor-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -600,7 +600,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/700",
-    "cssVar": "--ds-color-phosphor-700",
+    "cssVar": "--keel-color-phosphor-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -611,7 +611,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/800",
-    "cssVar": "--ds-color-phosphor-800",
+    "cssVar": "--keel-color-phosphor-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -622,7 +622,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/900",
-    "cssVar": "--ds-color-phosphor-900",
+    "cssVar": "--keel-color-phosphor-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -633,7 +633,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Phosphor/950",
-    "cssVar": "--ds-color-phosphor-950",
+    "cssVar": "--keel-color-phosphor-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -644,7 +644,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/50",
-    "cssVar": "--ds-color-slate-50",
+    "cssVar": "--keel-color-slate-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -655,7 +655,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/100",
-    "cssVar": "--ds-color-slate-100",
+    "cssVar": "--keel-color-slate-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -666,7 +666,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/200",
-    "cssVar": "--ds-color-slate-200",
+    "cssVar": "--keel-color-slate-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -677,7 +677,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/300",
-    "cssVar": "--ds-color-slate-300",
+    "cssVar": "--keel-color-slate-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -688,7 +688,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/400",
-    "cssVar": "--ds-color-slate-400",
+    "cssVar": "--keel-color-slate-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -699,7 +699,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/500",
-    "cssVar": "--ds-color-slate-500",
+    "cssVar": "--keel-color-slate-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -710,7 +710,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/600",
-    "cssVar": "--ds-color-slate-600",
+    "cssVar": "--keel-color-slate-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -721,7 +721,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/700",
-    "cssVar": "--ds-color-slate-700",
+    "cssVar": "--keel-color-slate-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -732,7 +732,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/800",
-    "cssVar": "--ds-color-slate-800",
+    "cssVar": "--keel-color-slate-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -743,7 +743,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/900",
-    "cssVar": "--ds-color-slate-900",
+    "cssVar": "--keel-color-slate-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -754,7 +754,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Slate/950",
-    "cssVar": "--ds-color-slate-950",
+    "cssVar": "--keel-color-slate-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -765,7 +765,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/50",
-    "cssVar": "--ds-color-tangerine-50",
+    "cssVar": "--keel-color-tangerine-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -776,7 +776,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/100",
-    "cssVar": "--ds-color-tangerine-100",
+    "cssVar": "--keel-color-tangerine-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -787,7 +787,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/200",
-    "cssVar": "--ds-color-tangerine-200",
+    "cssVar": "--keel-color-tangerine-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -798,7 +798,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/300",
-    "cssVar": "--ds-color-tangerine-300",
+    "cssVar": "--keel-color-tangerine-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -809,7 +809,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/400",
-    "cssVar": "--ds-color-tangerine-400",
+    "cssVar": "--keel-color-tangerine-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -820,7 +820,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/500",
-    "cssVar": "--ds-color-tangerine-500",
+    "cssVar": "--keel-color-tangerine-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -831,7 +831,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/600",
-    "cssVar": "--ds-color-tangerine-600",
+    "cssVar": "--keel-color-tangerine-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -842,7 +842,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/700",
-    "cssVar": "--ds-color-tangerine-700",
+    "cssVar": "--keel-color-tangerine-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -853,7 +853,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/800",
-    "cssVar": "--ds-color-tangerine-800",
+    "cssVar": "--keel-color-tangerine-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -864,7 +864,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/900",
-    "cssVar": "--ds-color-tangerine-900",
+    "cssVar": "--keel-color-tangerine-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -875,7 +875,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tangerine/950",
-    "cssVar": "--ds-color-tangerine-950",
+    "cssVar": "--keel-color-tangerine-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -886,7 +886,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/50",
-    "cssVar": "--ds-color-tomato-50",
+    "cssVar": "--keel-color-tomato-50",
     "type": "COLOR",
     "values": {
       "value": {
@@ -897,7 +897,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/100",
-    "cssVar": "--ds-color-tomato-100",
+    "cssVar": "--keel-color-tomato-100",
     "type": "COLOR",
     "values": {
       "value": {
@@ -908,7 +908,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/200",
-    "cssVar": "--ds-color-tomato-200",
+    "cssVar": "--keel-color-tomato-200",
     "type": "COLOR",
     "values": {
       "value": {
@@ -919,7 +919,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/300",
-    "cssVar": "--ds-color-tomato-300",
+    "cssVar": "--keel-color-tomato-300",
     "type": "COLOR",
     "values": {
       "value": {
@@ -930,7 +930,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/400",
-    "cssVar": "--ds-color-tomato-400",
+    "cssVar": "--keel-color-tomato-400",
     "type": "COLOR",
     "values": {
       "value": {
@@ -941,7 +941,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/500",
-    "cssVar": "--ds-color-tomato-500",
+    "cssVar": "--keel-color-tomato-500",
     "type": "COLOR",
     "values": {
       "value": {
@@ -952,7 +952,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/600",
-    "cssVar": "--ds-color-tomato-600",
+    "cssVar": "--keel-color-tomato-600",
     "type": "COLOR",
     "values": {
       "value": {
@@ -963,7 +963,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/700",
-    "cssVar": "--ds-color-tomato-700",
+    "cssVar": "--keel-color-tomato-700",
     "type": "COLOR",
     "values": {
       "value": {
@@ -974,7 +974,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/800",
-    "cssVar": "--ds-color-tomato-800",
+    "cssVar": "--keel-color-tomato-800",
     "type": "COLOR",
     "values": {
       "value": {
@@ -985,7 +985,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/900",
-    "cssVar": "--ds-color-tomato-900",
+    "cssVar": "--keel-color-tomato-900",
     "type": "COLOR",
     "values": {
       "value": {
@@ -996,7 +996,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Color/Tomato/950",
-    "cssVar": "--ds-color-tomato-950",
+    "cssVar": "--keel-color-tomato-950",
     "type": "COLOR",
     "values": {
       "value": {
@@ -1007,7 +1007,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Family/Body",
-    "cssVar": "--ds-font-family-body",
+    "cssVar": "--keel-font-family-body",
     "type": "STRING",
     "values": {
       "value": {
@@ -1018,7 +1018,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Family/Title",
-    "cssVar": "--ds-font-family-title",
+    "cssVar": "--keel-font-family-title",
     "type": "STRING",
     "values": {
       "value": {
@@ -1029,7 +1029,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Thin",
-    "cssVar": "--ds-font-weight-inter-thin",
+    "cssVar": "--keel-font-weight-inter-thin",
     "type": "STRING",
     "values": {
       "value": {
@@ -1040,7 +1040,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Extra Light",
-    "cssVar": "--ds-font-weight-inter-extra-light",
+    "cssVar": "--keel-font-weight-inter-extra-light",
     "type": "STRING",
     "values": {
       "value": {
@@ -1051,7 +1051,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Light",
-    "cssVar": "--ds-font-weight-inter-light",
+    "cssVar": "--keel-font-weight-inter-light",
     "type": "STRING",
     "values": {
       "value": {
@@ -1062,7 +1062,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Regular",
-    "cssVar": "--ds-font-weight-inter-regular",
+    "cssVar": "--keel-font-weight-inter-regular",
     "type": "STRING",
     "values": {
       "value": {
@@ -1073,7 +1073,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Medium",
-    "cssVar": "--ds-font-weight-inter-medium",
+    "cssVar": "--keel-font-weight-inter-medium",
     "type": "STRING",
     "values": {
       "value": {
@@ -1084,7 +1084,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Semi Bold",
-    "cssVar": "--ds-font-weight-inter-semi-bold",
+    "cssVar": "--keel-font-weight-inter-semi-bold",
     "type": "STRING",
     "values": {
       "value": {
@@ -1095,7 +1095,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Bold",
-    "cssVar": "--ds-font-weight-inter-bold",
+    "cssVar": "--keel-font-weight-inter-bold",
     "type": "STRING",
     "values": {
       "value": {
@@ -1106,7 +1106,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Extra Bold",
-    "cssVar": "--ds-font-weight-inter-extra-bold",
+    "cssVar": "--keel-font-weight-inter-extra-bold",
     "type": "STRING",
     "values": {
       "value": {
@@ -1117,7 +1117,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Font/Font Weight/Inter/Black",
-    "cssVar": "--ds-font-weight-inter-black",
+    "cssVar": "--keel-font-weight-inter-black",
     "type": "STRING",
     "values": {
       "value": {
@@ -1128,7 +1128,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/0",
-    "cssVar": "--ds-scale-0",
+    "cssVar": "--keel-scale-0",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1139,7 +1139,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/1",
-    "cssVar": "--ds-scale-1",
+    "cssVar": "--keel-scale-1",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1150,7 +1150,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/2",
-    "cssVar": "--ds-scale-2",
+    "cssVar": "--keel-scale-2",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1161,7 +1161,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/4",
-    "cssVar": "--ds-scale-4",
+    "cssVar": "--keel-scale-4",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1172,7 +1172,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/8",
-    "cssVar": "--ds-scale-8",
+    "cssVar": "--keel-scale-8",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1183,7 +1183,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/12",
-    "cssVar": "--ds-scale-12",
+    "cssVar": "--keel-scale-12",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1194,7 +1194,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/16",
-    "cssVar": "--ds-scale-16",
+    "cssVar": "--keel-scale-16",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1205,7 +1205,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/20",
-    "cssVar": "--ds-scale-20",
+    "cssVar": "--keel-scale-20",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1216,7 +1216,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/24",
-    "cssVar": "--ds-scale-24",
+    "cssVar": "--keel-scale-24",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1227,7 +1227,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/28",
-    "cssVar": "--ds-scale-28",
+    "cssVar": "--keel-scale-28",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1238,7 +1238,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/32",
-    "cssVar": "--ds-scale-32",
+    "cssVar": "--keel-scale-32",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1249,7 +1249,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/36",
-    "cssVar": "--ds-scale-36",
+    "cssVar": "--keel-scale-36",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1260,7 +1260,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/40",
-    "cssVar": "--ds-scale-40",
+    "cssVar": "--keel-scale-40",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1271,7 +1271,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/48",
-    "cssVar": "--ds-scale-48",
+    "cssVar": "--keel-scale-48",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1282,7 +1282,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/56",
-    "cssVar": "--ds-scale-56",
+    "cssVar": "--keel-scale-56",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1293,7 +1293,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/64",
-    "cssVar": "--ds-scale-64",
+    "cssVar": "--keel-scale-64",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1304,7 +1304,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/72",
-    "cssVar": "--ds-scale-72",
+    "cssVar": "--keel-scale-72",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1315,7 +1315,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/80",
-    "cssVar": "--ds-scale-80",
+    "cssVar": "--keel-scale-80",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1326,7 +1326,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/96",
-    "cssVar": "--ds-scale-96",
+    "cssVar": "--keel-scale-96",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1337,7 +1337,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/128",
-    "cssVar": "--ds-scale-128",
+    "cssVar": "--keel-scale-128",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1348,7 +1348,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/256",
-    "cssVar": "--ds-scale-256",
+    "cssVar": "--keel-scale-256",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1359,7 +1359,7 @@ export const tokens: Token[] = [
   {
     "collection": "Primitives",
     "figmaName": "Scale/512",
-    "cssVar": "--ds-scale-512",
+    "cssVar": "--keel-scale-512",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -1370,11 +1370,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Radius/lg",
-    "cssVar": "--ds-border-radius-lg",
+    "cssVar": "--keel-border-radius-lg",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-8",
+        "alias": "--keel-scale-8",
         "figmaAlias": "Scale/8"
       }
     }
@@ -1382,11 +1382,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Radius/max",
-    "cssVar": "--ds-border-radius-max",
+    "cssVar": "--keel-border-radius-max",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-512",
+        "alias": "--keel-scale-512",
         "figmaAlias": "Scale/512"
       }
     }
@@ -1394,11 +1394,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Radius/md",
-    "cssVar": "--ds-border-radius-md",
+    "cssVar": "--keel-border-radius-md",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-4",
+        "alias": "--keel-scale-4",
         "figmaAlias": "Scale/4"
       }
     }
@@ -1406,11 +1406,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Radius/none",
-    "cssVar": "--ds-border-radius-none",
+    "cssVar": "--keel-border-radius-none",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-0",
+        "alias": "--keel-scale-0",
         "figmaAlias": "Scale/0"
       }
     }
@@ -1418,11 +1418,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Radius/sm",
-    "cssVar": "--ds-border-radius-sm",
+    "cssVar": "--keel-border-radius-sm",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-2",
+        "alias": "--keel-scale-2",
         "figmaAlias": "Scale/2"
       }
     }
@@ -1430,11 +1430,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Width/lg",
-    "cssVar": "--ds-border-width-lg",
+    "cssVar": "--keel-border-width-lg",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-4",
+        "alias": "--keel-scale-4",
         "figmaAlias": "Scale/4"
       }
     }
@@ -1442,11 +1442,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Width/md",
-    "cssVar": "--ds-border-width-md",
+    "cssVar": "--keel-border-width-md",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-2",
+        "alias": "--keel-scale-2",
         "figmaAlias": "Scale/2"
       }
     }
@@ -1454,11 +1454,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Width/none",
-    "cssVar": "--ds-border-width-none",
+    "cssVar": "--keel-border-width-none",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-0",
+        "alias": "--keel-scale-0",
         "figmaAlias": "Scale/0"
       }
     }
@@ -1466,11 +1466,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Border Width/sm",
-    "cssVar": "--ds-border-width-sm",
+    "cssVar": "--keel-border-width-sm",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-1",
+        "alias": "--keel-scale-1",
         "figmaAlias": "Scale/1"
       }
     }
@@ -1478,11 +1478,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/0",
-    "cssVar": "--ds-spacing-0",
+    "cssVar": "--keel-spacing-0",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-0",
+        "alias": "--keel-scale-0",
         "figmaAlias": "Scale/0"
       }
     }
@@ -1490,11 +1490,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/10x",
-    "cssVar": "--ds-spacing-10x",
+    "cssVar": "--keel-spacing-10x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-40",
+        "alias": "--keel-scale-40",
         "figmaAlias": "Scale/40"
       }
     }
@@ -1502,11 +1502,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/12x",
-    "cssVar": "--ds-spacing-12x",
+    "cssVar": "--keel-spacing-12x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-48",
+        "alias": "--keel-scale-48",
         "figmaAlias": "Scale/48"
       }
     }
@@ -1514,11 +1514,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/16x",
-    "cssVar": "--ds-spacing-16x",
+    "cssVar": "--keel-spacing-16x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-64",
+        "alias": "--keel-scale-64",
         "figmaAlias": "Scale/64"
       }
     }
@@ -1526,11 +1526,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/1x",
-    "cssVar": "--ds-spacing-1x",
+    "cssVar": "--keel-spacing-1x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-4",
+        "alias": "--keel-scale-4",
         "figmaAlias": "Scale/4"
       }
     }
@@ -1538,11 +1538,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/2x",
-    "cssVar": "--ds-spacing-2x",
+    "cssVar": "--keel-spacing-2x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-8",
+        "alias": "--keel-scale-8",
         "figmaAlias": "Scale/8"
       }
     }
@@ -1550,11 +1550,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/3x",
-    "cssVar": "--ds-spacing-3x",
+    "cssVar": "--keel-spacing-3x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-12",
+        "alias": "--keel-scale-12",
         "figmaAlias": "Scale/12"
       }
     }
@@ -1562,11 +1562,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/4x",
-    "cssVar": "--ds-spacing-4x",
+    "cssVar": "--keel-spacing-4x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-16",
+        "alias": "--keel-scale-16",
         "figmaAlias": "Scale/16"
       }
     }
@@ -1574,11 +1574,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/5x",
-    "cssVar": "--ds-spacing-5x",
+    "cssVar": "--keel-spacing-5x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-20",
+        "alias": "--keel-scale-20",
         "figmaAlias": "Scale/20"
       }
     }
@@ -1586,11 +1586,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/6x",
-    "cssVar": "--ds-spacing-6x",
+    "cssVar": "--keel-spacing-6x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-24",
+        "alias": "--keel-scale-24",
         "figmaAlias": "Scale/24"
       }
     }
@@ -1598,11 +1598,11 @@ export const tokens: Token[] = [
   {
     "collection": "Spacing and Radius",
     "figmaName": "Spacing/8x",
-    "cssVar": "--ds-spacing-8x",
+    "cssVar": "--keel-spacing-8x",
     "type": "FLOAT",
     "values": {
       "value": {
-        "alias": "--ds-scale-32",
+        "alias": "--keel-scale-32",
         "figmaAlias": "Scale/32"
       }
     }
@@ -1610,15 +1610,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "border/default",
-    "cssVar": "--ds-border-default",
+    "cssVar": "--keel-border-default",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       },
       "indigo": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       }
     }
@@ -1626,15 +1626,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "border/focus",
-    "cssVar": "--ds-border-focus",
+    "cssVar": "--keel-border-focus",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       },
       "indigo": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       }
     }
@@ -1642,15 +1642,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "border/subtle",
-    "cssVar": "--ds-border-subtle",
+    "cssVar": "--keel-border-subtle",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-400",
+        "alias": "--keel-color-slate-400",
         "figmaAlias": "Color/Slate/400"
       },
       "indigo": {
-        "alias": "--ds-color-slate-400",
+        "alias": "--keel-color-slate-400",
         "figmaAlias": "Color/Slate/400"
       }
     }
@@ -1658,15 +1658,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "element/accent",
-    "cssVar": "--ds-element-accent",
+    "cssVar": "--keel-element-accent",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       },
       "indigo": {
-        "alias": "--ds-color-indigo-600",
+        "alias": "--keel-color-indigo-600",
         "figmaAlias": "Color/Indigo/600"
       }
     }
@@ -1674,15 +1674,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "element/on-accent",
-    "cssVar": "--ds-element-on-accent",
+    "cssVar": "--keel-element-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-50",
+        "alias": "--keel-color-slate-50",
         "figmaAlias": "Color/Slate/50"
       },
       "indigo": {
-        "alias": "--ds-color-slate-50",
+        "alias": "--keel-color-slate-50",
         "figmaAlias": "Color/Slate/50"
       }
     }
@@ -1690,15 +1690,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "icon/default",
-    "cssVar": "--ds-icon-default",
+    "cssVar": "--keel-icon-default",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-700",
+        "alias": "--keel-color-slate-700",
         "figmaAlias": "Color/Slate/700"
       },
       "indigo": {
-        "alias": "--ds-color-slate-700",
+        "alias": "--keel-color-slate-700",
         "figmaAlias": "Color/Slate/700"
       }
     }
@@ -1706,15 +1706,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "icon/on-accent",
-    "cssVar": "--ds-icon-on-accent",
+    "cssVar": "--keel-icon-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-50",
+        "alias": "--keel-color-slate-50",
         "figmaAlias": "Color/Slate/50"
       },
       "indigo": {
-        "alias": "--ds-color-slate-50",
+        "alias": "--keel-color-slate-50",
         "figmaAlias": "Color/Slate/50"
       }
     }
@@ -1722,15 +1722,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "slider/track",
-    "cssVar": "--ds-slider-track",
+    "cssVar": "--keel-slider-track",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-500",
+        "alias": "--keel-color-slate-500",
         "figmaAlias": "Color/Slate/500"
       },
       "indigo": {
-        "alias": "--ds-color-slate-500",
+        "alias": "--keel-color-slate-500",
         "figmaAlias": "Color/Slate/500"
       }
     }
@@ -1738,15 +1738,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "surface/accent",
-    "cssVar": "--ds-surface-accent",
+    "cssVar": "--keel-surface-accent",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       },
       "indigo": {
-        "alias": "--ds-color-indigo-600",
+        "alias": "--keel-color-indigo-600",
         "figmaAlias": "Color/Indigo/600"
       }
     }
@@ -1754,15 +1754,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "surface/accent-hover",
-    "cssVar": "--ds-surface-accent-hover",
+    "cssVar": "--keel-surface-accent-hover",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-700",
+        "alias": "--keel-color-slate-700",
         "figmaAlias": "Color/Slate/700"
       },
       "indigo": {
-        "alias": "--ds-color-indigo-500",
+        "alias": "--keel-color-indigo-500",
         "figmaAlias": "Color/Indigo/500"
       }
     }
@@ -1770,15 +1770,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "surface/card",
-    "cssVar": "--ds-surface-card",
+    "cssVar": "--keel-surface-card",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-100",
+        "alias": "--keel-color-slate-100",
         "figmaAlias": "Color/Slate/100"
       },
       "indigo": {
-        "alias": "--ds-color-slate-100",
+        "alias": "--keel-color-slate-100",
         "figmaAlias": "Color/Slate/100"
       }
     }
@@ -1786,15 +1786,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "surface/page",
-    "cssVar": "--ds-surface-page",
+    "cssVar": "--keel-surface-page",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-foundation-white",
+        "alias": "--keel-color-foundation-white",
         "figmaAlias": "Color/Foundation/white"
       },
       "indigo": {
-        "alias": "--ds-color-foundation-white",
+        "alias": "--keel-color-foundation-white",
         "figmaAlias": "Color/Foundation/white"
       }
     }
@@ -1802,15 +1802,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "surface/page-hover",
-    "cssVar": "--ds-surface-page-hover",
+    "cssVar": "--keel-surface-page-hover",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-100",
+        "alias": "--keel-color-slate-100",
         "figmaAlias": "Color/Slate/100"
       },
       "indigo": {
-        "alias": "--ds-color-slate-100",
+        "alias": "--keel-color-slate-100",
         "figmaAlias": "Color/Slate/100"
       }
     }
@@ -1818,15 +1818,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "text/on-accent",
-    "cssVar": "--ds-text-on-accent",
+    "cssVar": "--keel-text-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-50",
+        "alias": "--keel-color-slate-50",
         "figmaAlias": "Color/Slate/50"
       },
       "indigo": {
-        "alias": "--ds-color-slate-50",
+        "alias": "--keel-color-slate-50",
         "figmaAlias": "Color/Slate/50"
       }
     }
@@ -1834,15 +1834,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "text/primary",
-    "cssVar": "--ds-text-primary",
+    "cssVar": "--keel-text-primary",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       },
       "indigo": {
-        "alias": "--ds-color-slate-950",
+        "alias": "--keel-color-slate-950",
         "figmaAlias": "Color/Slate/950"
       }
     }
@@ -1850,15 +1850,15 @@ export const tokens: Token[] = [
   {
     "collection": "Theme",
     "figmaName": "text/secondary",
-    "cssVar": "--ds-text-secondary",
+    "cssVar": "--keel-text-secondary",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--ds-color-slate-500",
+        "alias": "--keel-color-slate-500",
         "figmaAlias": "Color/Slate/500"
       },
       "indigo": {
-        "alias": "--ds-color-slate-500",
+        "alias": "--keel-color-slate-500",
         "figmaAlias": "Color/Slate/500"
       }
     }

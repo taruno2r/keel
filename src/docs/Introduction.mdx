@@ -4,26 +4,36 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 # ds-theming
 
-A themeable design system for the web, built from the tokens and components in Figma.
+A themeable design system for the web, built from the variables and components in the
+[DS-Theming Figma file](https://www.figma.com/design/8IEdts3bNiwKEwISZ9Md9D/DS-Theming).
 
-## How theming works
+## Tokens
 
-Tokens live in `src/tokens/` as CSS custom properties, in two tiers:
+Every Figma variable is a CSS custom property prefixed `--ds-`. Names follow the Figma path:
+`Color/Slate/950` → `--ds-color-slate-950`, `surface/accent` → `--ds-surface-accent`.
 
-1. **Primitives** (`primitives.css`): the raw palette and scales, e.g. `--ds-color-brand-500`.
-2. **Semantic tokens** (`themes/*.css`): intent-based names, e.g. `--ds-color-bg-default`,
-   each mapped to a primitive. Every theme defines the same names with different mappings.
+| Figma collection | Modes | CSS |
+| --- | --- | --- |
+| Primitives | Value | `:root` in `generated/primitives.css` |
+| Spacing and Radius | Mode 1 | `:root` in `generated/spacing-and-radius.css` |
+| Theme | Default, Indigo | one file per mode in `generated/themes/` |
 
-Components use **semantic tokens only**. A theme is applied by setting `data-theme` on an
-ancestor element (usually `<html>`), so switching themes never touches component code.
+Aliases are kept as `var()` references, so a theme token points at a primitive just like in Figma.
+**Components use theme, spacing and radius tokens only, never primitives.**
 
+## Themes
+
+Each mode of the Theme collection is a theme. A theme applies to everything under an element
+with `data-theme="<mode>"` (usually `<html>`). Default is also applied to `:root`.
 Use the paintbrush in the toolbar to switch themes in any story.
 
-## Adding a theme
+## Updating tokens from Figma
 
-1. Add `src/tokens/themes/<name>.css` with a `[data-theme='<name>']` block defining every semantic token.
-2. Import it in `src/tokens/index.css`.
-3. Add it to the `themes` map in `.storybook/preview.tsx`.
+1. Re-export the variables into `src/tokens/figma/variables.json` (same shape as today).
+2. Run `npm run tokens` to regenerate `src/tokens/generated/`.
+3. A new mode in the Theme collection becomes a new theme automatically, including in the toolbar.
+
+Never edit files in `src/tokens/generated/` by hand.
 
 ## Adding a component
 

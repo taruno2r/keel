@@ -1,13 +1,16 @@
 /* Entry point for all design tokens. Import once at the app root. */
-@import './primitives.css';
-@import './themes/light.css';
-@import './themes/dark.css';
+@import './generated/index.css';
 
 body {
   margin: 0;
-  font-family: var(--ds-font-family-sans);
-  font-size: var(--ds-font-size-300);
-  line-height: var(--ds-line-height-normal);
-  color: var(--ds-color-text-default);
-  background: var(--ds-color-bg-default);
+  font-family: var(--ds-font-family-body);
+  font-weight: var(--ds-font-weight-inter-regular);
+  line-height: 1.5;
+  color: var(--ds-text-primary);
+  background: var(--ds-surface-page);
+}
+
+::selection {
+  color: var(--ds-selection-fg);
+  background: var(--ds-selection-bg);
 }

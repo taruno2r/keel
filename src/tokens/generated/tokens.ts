@@ -1830,6 +1830,38 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
+    "figmaName": "keel-surface/danger",
+    "cssVar": "--keel-surface-danger",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-tomato-600",
+        "figmaAlias": "keel-color/tomato/600"
+      },
+      "indigo": {
+        "alias": "--keel-color-tomato-600",
+        "figmaAlias": "keel-color/tomato/600"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-surface/danger-hover",
+    "cssVar": "--keel-surface-danger-hover",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-tomato-700",
+        "figmaAlias": "keel-color/tomato/700"
+      },
+      "indigo": {
+        "alias": "--keel-color-tomato-700",
+        "figmaAlias": "keel-color/tomato/700"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
     "figmaName": "keel-surface/page",
     "cssVar": "--keel-surface-page",
     "type": "COLOR",

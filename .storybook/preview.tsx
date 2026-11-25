@@ -14,7 +14,11 @@ const preview: Preview = {
     // Canvas background comes from the theme tokens, not the backgrounds addon.
     backgrounds: { disable: true },
     options: {
-      storySort: { order: ['Introduction', 'Foundations', ['Primitives', 'Accent', 'Spacing', 'Border'], 'Components'] },
+      // Introduction and Foundations keep this order; anything not listed (e.g. each component) is alphabetical.
+      storySort: {
+        method: 'alphabetical',
+        order: ['Introduction', 'Foundations', ['Primitives', 'Accent', 'Spacing', 'Border'], 'Components'],
+      },
     },
     a11y: {
       // 'todo' - show a11y violations in the test UI only

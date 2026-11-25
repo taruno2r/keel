@@ -9,7 +9,7 @@ function Colors() {
   const colors = tokensFor(coverage.primitives.color)
   const families = [...new Set(colors.map((t) => t.figmaName.split('/')[1]))]
   return (
-    <Section title="Color" description="Raw palette. Alias these from Theme tokens only; never use them in components directly.">
+    <Section title="Color" description="Raw palette. Alias these from Accent tokens only; never use them in components directly.">
       {families.map((family) => (
         <Subsection key={family} title={family}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(88px, 1fr))', gap: 'var(--keel-spacing-2x)' }}>

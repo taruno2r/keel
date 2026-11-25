@@ -7,7 +7,7 @@ import { aliasOf, groupByFirstSegment, resolve, td, titleCase, tokensFor } from 
 const themeLabel = (t: string) => t[0].toUpperCase() + t.slice(1)
 
 const meta = {
-  title: 'Foundations/Theme',
+  title: 'Foundations/Accent',
   parameters: { layout: 'padded' },
 } satisfies Meta
 
@@ -15,7 +15,7 @@ export default meta
 type Story = StoryObj<typeof meta>
 
 /** Figma collection “Accent”. One theme per mode; swatches follow the toolbar theme. */
-export const Theme: Story = {
+export const Accent: Story = {
   render: () => (
     <>
       <p style={{ margin: '0 0 var(--keel-spacing-8x)', color: 'var(--keel-text-secondary)' }}>

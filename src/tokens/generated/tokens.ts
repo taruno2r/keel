@@ -1679,8 +1679,8 @@ export const tokens: Token[] = [
         "figmaAlias": "keel-color/slate/950"
       },
       "indigo": {
-        "alias": "--keel-color-slate-950",
-        "figmaAlias": "keel-color/slate/950"
+        "alias": "--keel-color-indigo-600",
+        "figmaAlias": "keel-color/indigo/600"
       }
     }
   },

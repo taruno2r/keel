@@ -1,0 +1,54 @@
+/*
+ * Chip: Figma Keel, component set "Chip" (node 10228:156).
+ * Uses accent / spacing / radius / typography tokens only, so it follows data-theme.
+ */
+.keel-chip {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--keel-spacing-2x);
+  margin: 0;
+  padding: var(--keel-spacing-2x) var(--keel-spacing-3x);
+  border: none;
+  border-radius: var(--keel-border-radius-md);
+  background: transparent;
+  color: var(--keel-text-primary);
+  /* Figma stroke is INSIDE (doesn't change the size), so draw it as an inset
+     shadow rather than a border: both states stay 36px tall, like Figma. */
+  box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-border-default);
+  cursor: pointer;
+
+  /* Text style "Typography/Body/Medium". */
+  font-family: var(--keel-font-family-body);
+  font-weight: var(--keel-font-weight-inter-regular);
+  font-size: var(--keel-typography-font-size-16);
+  line-height: var(--keel-typography-line-height-20);
+  white-space: nowrap;
+}
+
+/* selected = true: filled, no stroke. */
+.keel-chip--selected {
+  background: var(--keel-surface-accent);
+  color: var(--keel-text-on-accent);
+  box-shadow: none;
+}
+
+/* State = hover. selected = false: page-hover fill, outline unchanged.
+   selected = true: accent-hover fill. */
+.keel-chip:hover {
+  background: var(--keel-surface-page-hover);
+}
+.keel-chip--selected:hover {
+  background: var(--keel-surface-accent-hover);
+}
+
+/* State = focused (both selected values): Figma "Focus Ring" is a rectangle 2px outside the chip
+   (radius 4 + 2 = 6px) with a 1px OUTSIDE dashed stroke in border/focus. The
+   outline follows the chip's radius, so it gets the same 6px corners. */
+.keel-chip:focus {
+  outline: none;
+}
+.keel-chip:focus-visible {
+  outline: var(--keel-border-width-sm) dashed var(--keel-border-focus);
+  outline-offset: 2px;
+}

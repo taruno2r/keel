@@ -14,13 +14,10 @@
   box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-border-default);
   color: var(--keel-text-primary);
 
-  /* Text style "Typography/Body/XSmall". Its size and line-height variables
-     (paragraph xsm/font-size, paragraph sm/line-height) belong to Figma's
-     deleted "Responsive" collection, so there are no tokens for them yet;
-     values copied from the text style. */
+  /* Text style "Typography/Body/XSmall". */
   font-family: var(--keel-font-family-body);
   font-weight: var(--keel-font-weight-inter-regular);
-  font-size: 12px;
-  line-height: 16px;
+  font-size: var(--keel-typography-font-size-12);
+  line-height: var(--keel-typography-line-height-16);
   white-space: nowrap;
 }

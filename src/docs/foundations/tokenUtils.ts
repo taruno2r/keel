@@ -26,11 +26,15 @@ export const td: CSSProperties = {
   verticalAlign: 'middle',
 }
 
-/** Groups tokens by the first segment of their Figma name ("surface/page" -> "surface"; a name without "/" like "focus-ring" -> "focus"). */
+/**
+ * Groups tokens by the first segment of their Figma name, without the "keel-" prefix
+ * ("keel-surface/page" -> "surface"; a name without "/" like "focus-ring" -> "focus").
+ */
 export function groupByFirstSegment(items: Token[]): [string, Token[]][] {
   const groups = new Map<string, Token[]>()
   for (const t of items) {
-    const key = t.figmaName.includes('/') ? t.figmaName.split('/')[0] : t.figmaName.replace(/-[^-]+$/, '')
+    const name = t.figmaName.replace(/^keel-/, '')
+    const key = name.includes('/') ? name.split('/')[0] : name.replace(/-[^-]+$/, '')
     groups.set(key, [...(groups.get(key) ?? []), t])
   }
   return [...groups]

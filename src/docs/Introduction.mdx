@@ -9,17 +9,20 @@ A themeable design system for the web, built from the variables and components i
 
 ## Tokens
 
-Every Figma variable is a CSS custom property prefixed `--keel-`. Names follow the Figma path:
-`Color/Slate/950` → `--keel-color-slate-950`, `surface/accent` → `--keel-surface-accent`.
+Every Figma variable is a CSS custom property. Names follow the Figma path, whose top folder
+carries the `keel-` prefix: `keel-color/slate/950` → `--keel-color-slate-950`,
+`keel-surface/accent` → `--keel-surface-accent`.
 
 | Figma collection | Modes | CSS |
 | --- | --- | --- |
 | Primitives | Value | `:root` in `generated/primitives.css` |
 | Spacing and Radius | Mode 1 | `:root` in `generated/spacing-and-radius.css` |
-| Theme | Default, Indigo | one file per mode in `generated/themes/` |
+| Accent | Default, Indigo | one file per mode in `generated/themes/` |
+| Typography | Mode 1 | `:root` in `generated/typography.css` |
 
 Aliases are kept as `var()` references, so a theme token points at a primitive just like in Figma.
-**Components use theme, spacing and radius tokens only, never primitives.**
+**Components use accent, spacing, radius and typography tokens. Of the primitives, only font
+family and font weight, which have no semantic tokens yet.**
 
 ## Themes
 

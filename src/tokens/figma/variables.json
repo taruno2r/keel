@@ -1,7 +1,7 @@
 {
   "source": {
     "fileKey": "8IEdts3bNiwKEwISZ9Md9D",
-    "exportedAt": "2026-11-25T05:44:04.466Z"
+    "exportedAt": "2026-11-25T06:26:25.366Z"
   },
   "collections": [
     {
@@ -11,7 +11,7 @@
       ],
       "variables": [
         {
-          "name": "Font/Font Family/Title",
+          "name": "keel-font/font-family/title",
           "type": "STRING",
           "values": {
             "Value": {
@@ -20,7 +20,7 @@
           }
         },
         {
-          "name": "Font/Font Family/Body",
+          "name": "keel-font/font-family/body",
           "type": "STRING",
           "values": {
             "Value": {
@@ -29,7 +29,7 @@
           }
         },
         {
-          "name": "Scale/0",
+          "name": "keel-scale/0",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -38,7 +38,7 @@
           }
         },
         {
-          "name": "Scale/1",
+          "name": "keel-scale/1",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -47,7 +47,7 @@
           }
         },
         {
-          "name": "Scale/2",
+          "name": "keel-scale/2",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -56,7 +56,7 @@
           }
         },
         {
-          "name": "Scale/4",
+          "name": "keel-scale/4",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -65,7 +65,7 @@
           }
         },
         {
-          "name": "Scale/8",
+          "name": "keel-scale/8",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -74,7 +74,7 @@
           }
         },
         {
-          "name": "Scale/12",
+          "name": "keel-scale/12",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -83,7 +83,16 @@
           }
         },
         {
-          "name": "Scale/16",
+          "name": "keel-scale/14",
+          "type": "FLOAT",
+          "values": {
+            "Value": {
+              "value": 14
+            }
+          }
+        },
+        {
+          "name": "keel-scale/16",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -92,7 +101,16 @@
           }
         },
         {
-          "name": "Scale/20",
+          "name": "keel-scale/18",
+          "type": "FLOAT",
+          "values": {
+            "Value": {
+              "value": 18
+            }
+          }
+        },
+        {
+          "name": "keel-scale/20",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -101,7 +119,7 @@
           }
         },
         {
-          "name": "Scale/24",
+          "name": "keel-scale/24",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -110,7 +128,7 @@
           }
         },
         {
-          "name": "Scale/28",
+          "name": "keel-scale/28",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -119,7 +137,7 @@
           }
         },
         {
-          "name": "Scale/32",
+          "name": "keel-scale/32",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -128,7 +146,7 @@
           }
         },
         {
-          "name": "Scale/36",
+          "name": "keel-scale/36",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -137,7 +155,7 @@
           }
         },
         {
-          "name": "Scale/40",
+          "name": "keel-scale/40",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -146,7 +164,7 @@
           }
         },
         {
-          "name": "Scale/48",
+          "name": "keel-scale/48",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -155,7 +173,7 @@
           }
         },
         {
-          "name": "Scale/56",
+          "name": "keel-scale/56",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -164,7 +182,16 @@
           }
         },
         {
-          "name": "Scale/64",
+          "name": "keel-scale/60",
+          "type": "FLOAT",
+          "values": {
+            "Value": {
+              "value": 60
+            }
+          }
+        },
+        {
+          "name": "keel-scale/64",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -173,7 +200,7 @@
           }
         },
         {
-          "name": "Scale/72",
+          "name": "keel-scale/72",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -182,7 +209,7 @@
           }
         },
         {
-          "name": "Scale/80",
+          "name": "keel-scale/80",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -191,7 +218,7 @@
           }
         },
         {
-          "name": "Scale/96",
+          "name": "keel-scale/96",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -200,7 +227,7 @@
           }
         },
         {
-          "name": "Scale/128",
+          "name": "keel-scale/128",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -209,7 +236,7 @@
           }
         },
         {
-          "name": "Scale/256",
+          "name": "keel-scale/256",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -218,7 +245,7 @@
           }
         },
         {
-          "name": "Scale/512",
+          "name": "keel-scale/512",
           "type": "FLOAT",
           "values": {
             "Value": {
@@ -227,7 +254,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Thin",
+          "name": "keel-font/font-weight/inter/thin",
           "type": "STRING",
           "values": {
             "Value": {
@@ -236,7 +263,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Extra Light",
+          "name": "keel-font/font-weight/inter/extra-light",
           "type": "STRING",
           "values": {
             "Value": {
@@ -245,7 +272,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Light",
+          "name": "keel-font/font-weight/inter/light",
           "type": "STRING",
           "values": {
             "Value": {
@@ -254,7 +281,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Regular",
+          "name": "keel-font/font-weight/inter/regular",
           "type": "STRING",
           "values": {
             "Value": {
@@ -263,7 +290,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Medium",
+          "name": "keel-font/font-weight/inter/medium",
           "type": "STRING",
           "values": {
             "Value": {
@@ -272,7 +299,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Semi Bold",
+          "name": "keel-font/font-weight/inter/semi-bold",
           "type": "STRING",
           "values": {
             "Value": {
@@ -281,7 +308,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Bold",
+          "name": "keel-font/font-weight/inter/bold",
           "type": "STRING",
           "values": {
             "Value": {
@@ -290,7 +317,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Extra Bold",
+          "name": "keel-font/font-weight/inter/extra-bold",
           "type": "STRING",
           "values": {
             "Value": {
@@ -299,7 +326,7 @@
           }
         },
         {
-          "name": "Font/Font Weight/Inter/Black",
+          "name": "keel-font/font-weight/inter/black",
           "type": "STRING",
           "values": {
             "Value": {
@@ -308,7 +335,7 @@
           }
         },
         {
-          "name": "Color/Indigo/50",
+          "name": "keel-color/indigo/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -318,7 +345,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/100",
+          "name": "keel-color/indigo/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -328,7 +355,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/200",
+          "name": "keel-color/indigo/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -338,7 +365,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/300",
+          "name": "keel-color/indigo/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -348,7 +375,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/400",
+          "name": "keel-color/indigo/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -358,7 +385,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/500",
+          "name": "keel-color/indigo/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -368,7 +395,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/600",
+          "name": "keel-color/indigo/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -378,7 +405,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/700",
+          "name": "keel-color/indigo/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -388,7 +415,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/800",
+          "name": "keel-color/indigo/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -398,7 +425,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/900",
+          "name": "keel-color/indigo/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -408,7 +435,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Indigo/950",
+          "name": "keel-color/indigo/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -418,7 +445,7 @@
           "description": "Primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/50",
+          "name": "keel-color/cyan/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -428,7 +455,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/100",
+          "name": "keel-color/cyan/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -438,7 +465,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/200",
+          "name": "keel-color/cyan/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -448,7 +475,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/300",
+          "name": "keel-color/cyan/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -458,7 +485,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/400",
+          "name": "keel-color/cyan/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -468,7 +495,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/500",
+          "name": "keel-color/cyan/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -478,7 +505,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/600",
+          "name": "keel-color/cyan/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -488,7 +515,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/700",
+          "name": "keel-color/cyan/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -498,7 +525,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/800",
+          "name": "keel-color/cyan/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -508,7 +535,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/900",
+          "name": "keel-color/cyan/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -518,7 +545,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Cyan/950",
+          "name": "keel-color/cyan/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -528,7 +555,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/50",
+          "name": "keel-color/phosphor/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -538,7 +565,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/50",
+          "name": "keel-color/mustard/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -548,7 +575,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/100",
+          "name": "keel-color/mustard/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -558,7 +585,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/200",
+          "name": "keel-color/mustard/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -568,7 +595,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/300",
+          "name": "keel-color/mustard/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -578,7 +605,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/400",
+          "name": "keel-color/mustard/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -588,7 +615,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/500",
+          "name": "keel-color/mustard/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -598,7 +625,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/600",
+          "name": "keel-color/mustard/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -608,7 +635,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/700",
+          "name": "keel-color/mustard/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -618,7 +645,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/800",
+          "name": "keel-color/mustard/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -628,7 +655,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/900",
+          "name": "keel-color/mustard/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -638,7 +665,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Mustard/950",
+          "name": "keel-color/mustard/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -648,7 +675,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/100",
+          "name": "keel-color/phosphor/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -658,7 +685,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/200",
+          "name": "keel-color/phosphor/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -668,7 +695,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/300",
+          "name": "keel-color/phosphor/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -678,7 +705,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/400",
+          "name": "keel-color/phosphor/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -688,7 +715,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/500",
+          "name": "keel-color/phosphor/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -698,7 +725,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/600",
+          "name": "keel-color/phosphor/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -708,7 +735,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/700",
+          "name": "keel-color/phosphor/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -718,7 +745,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/800",
+          "name": "keel-color/phosphor/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -728,7 +755,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/900",
+          "name": "keel-color/phosphor/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -738,7 +765,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Phosphor/950",
+          "name": "keel-color/phosphor/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -748,7 +775,7 @@
           "description": "Terminal brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tangerine/50",
+          "name": "keel-color/tangerine/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -757,7 +784,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/100",
+          "name": "keel-color/tangerine/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -766,7 +793,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/200",
+          "name": "keel-color/tangerine/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -775,7 +802,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/300",
+          "name": "keel-color/tangerine/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -784,7 +811,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/400",
+          "name": "keel-color/tangerine/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -793,7 +820,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/500",
+          "name": "keel-color/tangerine/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -802,7 +829,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/600",
+          "name": "keel-color/tangerine/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -811,7 +838,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/700",
+          "name": "keel-color/tangerine/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -820,7 +847,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/800",
+          "name": "keel-color/tangerine/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -829,7 +856,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/900",
+          "name": "keel-color/tangerine/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -838,7 +865,7 @@
           }
         },
         {
-          "name": "Color/Tangerine/950",
+          "name": "keel-color/tangerine/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -847,7 +874,7 @@
           }
         },
         {
-          "name": "Color/Tomato/50",
+          "name": "keel-color/tomato/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -857,7 +884,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/100",
+          "name": "keel-color/tomato/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -867,7 +894,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/200",
+          "name": "keel-color/tomato/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -877,7 +904,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/300",
+          "name": "keel-color/tomato/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -887,7 +914,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/400",
+          "name": "keel-color/tomato/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -897,7 +924,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/500",
+          "name": "keel-color/tomato/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -907,7 +934,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/600",
+          "name": "keel-color/tomato/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -917,7 +944,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/700",
+          "name": "keel-color/tomato/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -927,7 +954,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/800",
+          "name": "keel-color/tomato/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -937,7 +964,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/900",
+          "name": "keel-color/tomato/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -947,7 +974,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Tomato/950",
+          "name": "keel-color/tomato/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -957,7 +984,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Slate/50",
+          "name": "keel-color/slate/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -966,7 +993,7 @@
           }
         },
         {
-          "name": "Color/Slate/100",
+          "name": "keel-color/slate/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -975,7 +1002,7 @@
           }
         },
         {
-          "name": "Color/Slate/200",
+          "name": "keel-color/slate/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -984,7 +1011,7 @@
           }
         },
         {
-          "name": "Color/Slate/300",
+          "name": "keel-color/slate/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -993,7 +1020,7 @@
           }
         },
         {
-          "name": "Color/Slate/400",
+          "name": "keel-color/slate/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1002,7 +1029,7 @@
           }
         },
         {
-          "name": "Color/Slate/500",
+          "name": "keel-color/slate/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1011,7 +1038,7 @@
           }
         },
         {
-          "name": "Color/Slate/600",
+          "name": "keel-color/slate/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1020,7 +1047,7 @@
           }
         },
         {
-          "name": "Color/Slate/700",
+          "name": "keel-color/slate/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1029,7 +1056,7 @@
           }
         },
         {
-          "name": "Color/Slate/800",
+          "name": "keel-color/slate/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1038,7 +1065,7 @@
           }
         },
         {
-          "name": "Color/Slate/900",
+          "name": "keel-color/slate/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1047,7 +1074,7 @@
           }
         },
         {
-          "name": "Color/Slate/950",
+          "name": "keel-color/slate/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1056,7 +1083,7 @@
           }
         },
         {
-          "name": "Color/Ink/50",
+          "name": "keel-color/ink/50",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1066,7 +1093,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/100",
+          "name": "keel-color/ink/100",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1076,7 +1103,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/200",
+          "name": "keel-color/ink/200",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1086,7 +1113,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/300",
+          "name": "keel-color/ink/300",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1096,7 +1123,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/400",
+          "name": "keel-color/ink/400",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1106,7 +1133,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/500",
+          "name": "keel-color/ink/500",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1116,7 +1143,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/600",
+          "name": "keel-color/ink/600",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1126,7 +1153,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/700",
+          "name": "keel-color/ink/700",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1136,7 +1163,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/800",
+          "name": "keel-color/ink/800",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1146,7 +1173,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/900",
+          "name": "keel-color/ink/900",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1156,7 +1183,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Ink/950",
+          "name": "keel-color/ink/950",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1166,7 +1193,7 @@
           "description": "Retro brand primitive. Alias from semantic tokens only."
         },
         {
-          "name": "Color/Foundation/white",
+          "name": "keel-color/foundation/white",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1175,7 +1202,7 @@
           }
         },
         {
-          "name": "Color/Foundation/black",
+          "name": "keel-color/foundation/black",
           "type": "COLOR",
           "values": {
             "Value": {
@@ -1192,191 +1219,191 @@
       ],
       "variables": [
         {
-          "name": "Border Radius/none",
+          "name": "keel-border-radius/none",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/0"
+              "alias": "keel-scale/0"
             }
           }
         },
         {
-          "name": "Border Radius/sm",
+          "name": "keel-border-radius/sm",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/2"
+              "alias": "keel-scale/2"
             }
           }
         },
         {
-          "name": "Border Radius/md",
+          "name": "keel-border-radius/md",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/4"
+              "alias": "keel-scale/4"
             }
           }
         },
         {
-          "name": "Border Radius/lg",
+          "name": "keel-border-radius/lg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/8"
+              "alias": "keel-scale/8"
             }
           }
         },
         {
-          "name": "Border Radius/xlg",
+          "name": "keel-border-radius/xlg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/16"
+              "alias": "keel-scale/16"
             }
           }
         },
         {
-          "name": "Border Radius/max",
+          "name": "keel-border-radius/max",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/512"
+              "alias": "keel-scale/512"
             }
           }
         },
         {
-          "name": "Border Width/none",
+          "name": "keel-border-width/none",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/0"
+              "alias": "keel-scale/0"
             }
           }
         },
         {
-          "name": "Border Width/sm",
+          "name": "keel-border-width/sm",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/1"
+              "alias": "keel-scale/1"
             }
           }
         },
         {
-          "name": "Border Width/md",
+          "name": "keel-border-width/md",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/2"
+              "alias": "keel-scale/2"
             }
           }
         },
         {
-          "name": "Border Width/lg",
+          "name": "keel-border-width/lg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/4"
+              "alias": "keel-scale/4"
             }
           }
         },
         {
-          "name": "Spacing/0",
+          "name": "keel-spacing/0",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/0"
+              "alias": "keel-scale/0"
             }
           }
         },
         {
-          "name": "Spacing/1x",
+          "name": "keel-spacing/1x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/4"
+              "alias": "keel-scale/4"
             }
           }
         },
         {
-          "name": "Spacing/2x",
+          "name": "keel-spacing/2x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/8"
+              "alias": "keel-scale/8"
             }
           }
         },
         {
-          "name": "Spacing/3x",
+          "name": "keel-spacing/3x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/12"
+              "alias": "keel-scale/12"
             }
           }
         },
         {
-          "name": "Spacing/4x",
+          "name": "keel-spacing/4x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/16"
+              "alias": "keel-scale/16"
             }
           }
         },
         {
-          "name": "Spacing/5x",
+          "name": "keel-spacing/5x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/20"
+              "alias": "keel-scale/20"
             }
           }
         },
         {
-          "name": "Spacing/6x",
+          "name": "keel-spacing/6x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/24"
+              "alias": "keel-scale/24"
             }
           }
         },
         {
-          "name": "Spacing/8x",
+          "name": "keel-spacing/8x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/32"
+              "alias": "keel-scale/32"
             }
           }
         },
         {
-          "name": "Spacing/10x",
+          "name": "keel-spacing/10x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/40"
+              "alias": "keel-scale/40"
             }
           }
         },
         {
-          "name": "Spacing/12x",
+          "name": "keel-spacing/12x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/48"
+              "alias": "keel-scale/48"
             }
           }
         },
         {
-          "name": "Spacing/16x",
+          "name": "keel-spacing/16x",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
-              "alias": "Scale/64"
+              "alias": "keel-scale/64"
             }
           }
         }
@@ -1390,182 +1417,370 @@
       ],
       "variables": [
         {
-          "name": "surface/page",
+          "name": "keel-surface/page",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Foundation/white"
+              "alias": "keel-color/foundation/white"
             },
             "Indigo": {
-              "alias": "Color/Foundation/white"
+              "alias": "keel-color/foundation/white"
             }
           }
         },
         {
-          "name": "surface/page-hover",
+          "name": "keel-surface/page-hover",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/100"
+              "alias": "keel-color/slate/100"
             },
             "Indigo": {
-              "alias": "Color/Slate/100"
+              "alias": "keel-color/slate/100"
             }
           }
         },
         {
-          "name": "surface/card",
+          "name": "keel-surface/card",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/100"
+              "alias": "keel-color/slate/100"
             },
             "Indigo": {
-              "alias": "Color/Slate/100"
+              "alias": "keel-color/slate/100"
             }
           }
         },
         {
-          "name": "text/primary",
+          "name": "keel-text/primary",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/950"
+              "alias": "keel-color/slate/950"
             },
             "Indigo": {
-              "alias": "Color/Slate/950"
+              "alias": "keel-color/slate/950"
             }
           }
         },
         {
-          "name": "text/secondary",
+          "name": "keel-text/secondary",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/500"
+              "alias": "keel-color/slate/500"
             },
             "Indigo": {
-              "alias": "Color/Slate/500"
+              "alias": "keel-color/slate/500"
             }
           }
         },
         {
-          "name": "border/default",
+          "name": "keel-border/default",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/300"
+              "alias": "keel-color/slate/300"
             },
             "Indigo": {
-              "alias": "Color/Slate/300"
+              "alias": "keel-color/slate/300"
             }
           }
         },
         {
-          "name": "border/focus",
+          "name": "keel-border/focus",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/950"
+              "alias": "keel-color/slate/950"
             },
             "Indigo": {
-              "alias": "Color/Slate/950"
+              "alias": "keel-color/slate/950"
             }
           }
         },
         {
-          "name": "icon/default",
+          "name": "keel-icon/default",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/700"
+              "alias": "keel-color/slate/700"
             },
             "Indigo": {
-              "alias": "Color/Slate/700"
+              "alias": "keel-color/slate/700"
             }
           }
         },
         {
-          "name": "icon/on-accent",
+          "name": "keel-icon/on-accent",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/50"
+              "alias": "keel-color/slate/50"
             },
             "Indigo": {
-              "alias": "Color/Slate/50"
+              "alias": "keel-color/slate/50"
             }
           }
         },
         {
-          "name": "surface/accent",
+          "name": "keel-surface/accent",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/950"
+              "alias": "keel-color/slate/950"
             },
             "Indigo": {
-              "alias": "Color/Indigo/600"
+              "alias": "keel-color/indigo/600"
             }
           }
         },
         {
-          "name": "surface/accent-hover",
+          "name": "keel-surface/accent-hover",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/700"
+              "alias": "keel-color/slate/700"
             },
             "Indigo": {
-              "alias": "Color/Indigo/500"
+              "alias": "keel-color/indigo/500"
             }
           }
         },
         {
-          "name": "element/accent",
+          "name": "keel-element/accent",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/950"
+              "alias": "keel-color/slate/950"
             },
             "Indigo": {
-              "alias": "Color/Indigo/600"
+              "alias": "keel-color/indigo/600"
             }
           }
         },
         {
-          "name": "text/on-accent",
+          "name": "keel-text/on-accent",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/50"
+              "alias": "keel-color/slate/50"
             },
             "Indigo": {
-              "alias": "Color/Slate/50"
+              "alias": "keel-color/slate/50"
             }
           }
         },
         {
-          "name": "element/on-accent",
+          "name": "keel-element/on-accent",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/50"
+              "alias": "keel-color/slate/50"
             },
             "Indigo": {
-              "alias": "Color/Slate/50"
+              "alias": "keel-color/slate/50"
             }
           }
         },
         {
-          "name": "slider/track",
+          "name": "keel-slider/track",
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/500"
+              "alias": "keel-color/slate/500"
             },
             "Indigo": {
-              "alias": "Color/Slate/500"
+              "alias": "keel-color/slate/500"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Typography",
+      "modes": [
+        "Mode 1"
+      ],
+      "variables": [
+        {
+          "name": "keel-typography/font-size/12",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/12"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/14",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/14"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/16",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/16"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/20",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/20"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/24",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/24"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/32",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/32"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/40",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/40"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/48",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/48"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/font-size/60",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/60"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/16",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/16"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/18",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/18"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/20",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/20"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/24",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/24"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/28",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/28"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/32",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/32"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/36",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/36"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/40",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/40"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/48",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/48"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/56",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/56"
+            }
+          }
+        },
+        {
+          "name": "keel-typography/line-height/72",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/72"
             }
           }
         }

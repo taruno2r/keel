@@ -21,7 +21,7 @@ const snapshotPath = join(root, 'src/tokens/figma/variables.json');
 const outArg = process.argv.indexOf('--out');
 const outDir = outArg > -1 ? process.argv[outArg + 1] : join(root, 'src/tokens/generated');
 const PREFIX = 'keel';
-const THEME_COLLECTION = 'Theme';
+const THEME_COLLECTION = 'Accent';
 
 const snapshot = JSON.parse(readFileSync(snapshotPath, 'utf8'));
 

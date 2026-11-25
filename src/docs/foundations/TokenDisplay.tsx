@@ -23,7 +23,7 @@ export function TokenTable({ head, children }: { head: string[]; children: React
   const cell: CSSProperties = {
     textAlign: 'left',
     padding: 'var(--keel-spacing-2x) var(--keel-spacing-3x)',
-    borderBottom: 'var(--keel-border-width-sm) solid var(--keel-border-subtle)',
+    borderBottom: 'var(--keel-border-width-sm) solid var(--keel-border-default)',
     fontWeight: 'var(--keel-font-weight-inter-semi-bold)',
     fontSize: 13,
     color: 'var(--keel-text-secondary)',
@@ -53,7 +53,7 @@ export const Swatch = ({ cssVar, size = 40 }: { cssVar: string; size?: number })
       width: size,
       height: size,
       borderRadius: 'var(--keel-border-radius-md)',
-      border: 'var(--keel-border-width-sm) solid var(--keel-border-subtle)',
+      border: 'var(--keel-border-width-sm) solid var(--keel-border-default)',
       background: `var(${cssVar})`,
     }}
   />

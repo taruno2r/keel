@@ -21,7 +21,7 @@ function Colors() {
                     style={{
                       height: 56,
                       borderRadius: 'var(--keel-border-radius-md)',
-                      border: 'var(--keel-border-width-sm) solid var(--keel-border-subtle)',
+                      border: 'var(--keel-border-width-sm) solid var(--keel-border-default)',
                       background: `var(${t.cssVar})`,
                     }}
                   />

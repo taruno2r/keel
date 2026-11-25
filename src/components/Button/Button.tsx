@@ -6,9 +6,9 @@ import './Button.css'
 export type ButtonFillWidth = CssLength
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  /** Same as Figma `variant` (Primary, Secondary). Primary for the main action, Secondary for supporting actions. */
+  /** Same as Figma `variant` (`primary`, `secondary`). `primary` for the main action, `secondary` for supporting actions. */
   variant?: 'primary' | 'secondary'
-  /** Same as Figma `width` (Auto, Fill). `fill` stretches to the container; long labels truncate. */
+  /** Same as Figma `width` (`auto`, `fill`). `fill` stretches to the container; long labels truncate. */
   width?: 'auto' | 'fill'
   /**
    * Code only (not in Figma, where the width is set on the instance). Used when `width` is `fill`:
@@ -16,7 +16,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
    * Ignored when `width` is `auto`.
    */
   fillWidth?: ButtonFillWidth
-  /** Figma `Label`. A concise, action-oriented label. */
+  /** Figma `label`. A concise, action-oriented label. */
   children: ReactNode
 }
 
@@ -27,7 +27,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
  * page, use a link instead.
  *
  * Hover and focus are real browser states (`:hover`, `:focus-visible`),
- * matching Figma's `State` = Hover / Focus variants.
+ * matching Figma's `State` = `hover` / `focused` variants.
  */
 export function Button({
   variant = 'primary',

@@ -12,7 +12,7 @@ export interface CardProps extends Omit<HTMLAttributes<HTMLElement>, 'title'> {
   description: string
   /** The image at the top of the card, shown 160px tall and cropped to fill. Leave `alt` empty if it's decorative. */
   image: { src: string; alt: string }
-  /** Buttons in the action row; they share the width equally. In Figma: a Secondary and a Primary `Button`. */
+  /** Buttons in the action row; they share the width equally. In Figma: a `secondary` and a `primary` `Button`, both `width` = `fill`. */
   actions: ReactNode
   /**
    * Code only (not in Figma). The HTML heading tag for the title (`h2`–`h6`), so it fits the page's

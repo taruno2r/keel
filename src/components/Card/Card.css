@@ -22,7 +22,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  border: var(--keel-border-width-sm) solid var(--keel-border-subtle);
+  border: var(--keel-border-width-sm) solid var(--keel-border-default);
   border-radius: inherit;
   pointer-events: none;
 }

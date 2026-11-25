@@ -1429,6 +1429,18 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
+    "figmaName": "Border Radius/xlg",
+    "cssVar": "--keel-border-radius-xlg",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-16",
+        "figmaAlias": "Scale/16"
+      }
+    }
+  },
+  {
+    "collection": "Spacing and Radius",
     "figmaName": "Border Width/lg",
     "cssVar": "--keel-border-width-lg",
     "type": "FLOAT",
@@ -1608,23 +1620,23 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "border/default",
     "cssVar": "--keel-border-default",
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "alias": "--keel-color-slate-300",
+        "figmaAlias": "Color/Slate/300"
       },
       "indigo": {
-        "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "alias": "--keel-color-slate-300",
+        "figmaAlias": "Color/Slate/300"
       }
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "border/focus",
     "cssVar": "--keel-border-focus",
     "type": "COLOR",
@@ -1640,23 +1652,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
-    "figmaName": "border/subtle",
-    "cssVar": "--keel-border-subtle",
-    "type": "COLOR",
-    "values": {
-      "default": {
-        "alias": "--keel-color-slate-400",
-        "figmaAlias": "Color/Slate/400"
-      },
-      "indigo": {
-        "alias": "--keel-color-slate-400",
-        "figmaAlias": "Color/Slate/400"
-      }
-    }
-  },
-  {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "element/accent",
     "cssVar": "--keel-element-accent",
     "type": "COLOR",
@@ -1672,7 +1668,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "element/on-accent",
     "cssVar": "--keel-element-on-accent",
     "type": "COLOR",
@@ -1688,7 +1684,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "icon/default",
     "cssVar": "--keel-icon-default",
     "type": "COLOR",
@@ -1704,7 +1700,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "icon/on-accent",
     "cssVar": "--keel-icon-on-accent",
     "type": "COLOR",
@@ -1720,7 +1716,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "slider/track",
     "cssVar": "--keel-slider-track",
     "type": "COLOR",
@@ -1736,7 +1732,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "surface/accent",
     "cssVar": "--keel-surface-accent",
     "type": "COLOR",
@@ -1752,7 +1748,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "surface/accent-hover",
     "cssVar": "--keel-surface-accent-hover",
     "type": "COLOR",
@@ -1768,7 +1764,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "surface/card",
     "cssVar": "--keel-surface-card",
     "type": "COLOR",
@@ -1784,7 +1780,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "surface/page",
     "cssVar": "--keel-surface-page",
     "type": "COLOR",
@@ -1800,7 +1796,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "surface/page-hover",
     "cssVar": "--keel-surface-page-hover",
     "type": "COLOR",
@@ -1816,7 +1812,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "text/on-accent",
     "cssVar": "--keel-text-on-accent",
     "type": "COLOR",
@@ -1832,7 +1828,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "text/primary",
     "cssVar": "--keel-text-primary",
     "type": "COLOR",
@@ -1848,7 +1844,7 @@ export const tokens: Token[] = [
     }
   },
   {
-    "collection": "Theme",
+    "collection": "Accent",
     "figmaName": "text/secondary",
     "cssVar": "--keel-text-secondary",
     "type": "COLOR",

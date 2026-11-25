@@ -1,7 +1,7 @@
 {
   "source": {
     "fileKey": "8IEdts3bNiwKEwISZ9Md9D",
-    "exportedAt": "2026-11-23T07:00:28.267Z"
+    "exportedAt": "2026-11-25T05:44:04.466Z"
   },
   "collections": [
     {
@@ -1228,11 +1228,29 @@
           }
         },
         {
+          "name": "Border Radius/xlg",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "Scale/16"
+            }
+          }
+        },
+        {
           "name": "Border Radius/max",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
               "alias": "Scale/512"
+            }
+          }
+        },
+        {
+          "name": "Border Width/none",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "Scale/0"
             }
           }
         },
@@ -1260,15 +1278,6 @@
           "values": {
             "Mode 1": {
               "alias": "Scale/4"
-            }
-          }
-        },
-        {
-          "name": "Border Width/none",
-          "type": "FLOAT",
-          "values": {
-            "Mode 1": {
-              "alias": "Scale/0"
             }
           }
         },
@@ -1374,7 +1383,7 @@
       ]
     },
     {
-      "name": "Theme",
+      "name": "Accent",
       "modes": [
         "Default",
         "Indigo"
@@ -1445,22 +1454,10 @@
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "Color/Slate/950"
+              "alias": "Color/Slate/300"
             },
             "Indigo": {
-              "alias": "Color/Slate/950"
-            }
-          }
-        },
-        {
-          "name": "border/subtle",
-          "type": "COLOR",
-          "values": {
-            "Default": {
-              "alias": "Color/Slate/400"
-            },
-            "Indigo": {
-              "alias": "Color/Slate/400"
+              "alias": "Color/Slate/300"
             }
           }
         },

@@ -14,7 +14,7 @@ const preview: Preview = {
     // Canvas background comes from the theme tokens, not the backgrounds addon.
     backgrounds: { disable: true },
     options: {
-      storySort: { order: ['Introduction', 'Foundations', ['Primitives', 'Theme', 'Spacing', 'Border'], 'Components'] },
+      storySort: { order: ['Introduction', 'Foundations', ['Primitives', 'Accent', 'Spacing', 'Border'], 'Components'] },
     },
     a11y: {
       // 'todo' - show a11y violations in the test UI only
@@ -25,7 +25,7 @@ const preview: Preview = {
   },
   decorators: [
     // Toolbar theme switcher. Sets <html data-theme="..."> to one of the
-    // modes of the Figma "Theme" collection (generated into tokens.ts).
+    // modes of the Figma "Accent" collection (generated into tokens.ts).
     withThemeByDataAttribute({
       themes: Object.fromEntries(themes.map((t) => [t[0].toUpperCase() + t.slice(1), t])),
       defaultTheme: 'Default',

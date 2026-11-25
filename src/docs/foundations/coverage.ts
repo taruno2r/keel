@@ -14,7 +14,7 @@ export const coverage = {
     fontWeight: ['Primitives', 'Font/Font Weight/'],
   },
   theme: {
-    all: ['Theme', ''],
+    all: ['Accent', ''],
   },
   spacing: {
     spacing: ['Spacing and Radius', 'Spacing/'],

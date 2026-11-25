@@ -1654,6 +1654,22 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
+    "figmaName": "keel-badge/default",
+    "cssVar": "--keel-badge-default",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-slate-50",
+        "figmaAlias": "keel-color/slate/50"
+      },
+      "indigo": {
+        "alias": "--keel-color-indigo-50",
+        "figmaAlias": "keel-color/indigo/50"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
     "figmaName": "keel-border/default",
     "cssVar": "--keel-border-default",
     "type": "COLOR",

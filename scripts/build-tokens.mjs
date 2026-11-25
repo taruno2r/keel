@@ -43,11 +43,15 @@ const slug = (s) =>
     .replace(/^-|-$/g, '')
     .toLowerCase();
 
-// "Font/Font Family/Body" -> "font/family/body" (drop the repeated "Font" word)
+// Figma names carry the prefix on their top folder ("keel-color/slate/50");
+// drop it so the CSS name gets it once: --keel-color-slate-50.
+const unprefixed = (figmaName) => figmaName.replace(new RegExp(`^${PREFIX}-`, 'i'), '');
+
+// "keel-font/font-family/body" -> "font/family/body" (drop the repeated "font" word)
 export const cssVarName = (figmaName) =>
   `--${PREFIX}-` +
-  figmaName
-    .replace(/^Font\/Font /, 'Font/')
+  unprefixed(figmaName)
+    .replace(/^font\/font[ -]/i, 'font/')
     .split('/')
     .map(slug)
     .join('-');
@@ -65,8 +69,8 @@ const FONT_WEIGHTS = {
 };
 const fontWeight = (s) => FONT_WEIGHTS[s.replace(/\s+/g, '').toLowerCase()];
 
-const isFontFamily = (name) => /^Font\/Font Family\//.test(name);
-const isFontWeight = (name) => /^Font\/Font Weight\//.test(name);
+const isFontFamily = (name) => /^font\/font[ -]family\//i.test(unprefixed(name));
+const isFontWeight = (name) => /^font\/font[ -]weight\//i.test(unprefixed(name));
 
 function cssValue(variable, entry) {
   if (entry.alias) return `var(${cssVarName(entry.alias)})`;

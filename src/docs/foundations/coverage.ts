@@ -8,19 +8,23 @@ export type CoverageEntry = readonly [collection: string, prefix: string]
 
 export const coverage = {
   primitives: {
-    color: ['Primitives', 'Color/'],
-    scale: ['Primitives', 'Scale/'],
-    fontFamily: ['Primitives', 'Font/Font Family/'],
-    fontWeight: ['Primitives', 'Font/Font Weight/'],
+    color: ['Primitives', 'keel-color/'],
+    scale: ['Primitives', 'keel-scale/'],
+    fontFamily: ['Primitives', 'keel-font/font-family/'],
+    fontWeight: ['Primitives', 'keel-font/font-weight/'],
   },
   theme: {
     all: ['Accent', ''],
   },
   spacing: {
-    spacing: ['Spacing and Radius', 'Spacing/'],
+    spacing: ['Spacing and Radius', 'keel-spacing/'],
+  },
+  typography: {
+    fontSize: ['Typography', 'keel-typography/font-size/'],
+    lineHeight: ['Typography', 'keel-typography/line-height/'],
   },
   border: {
-    radius: ['Spacing and Radius', 'Border Radius/'],
-    width: ['Spacing and Radius', 'Border Width/'],
+    radius: ['Spacing and Radius', 'keel-border-radius/'],
+    width: ['Spacing and Radius', 'keel-border-width/'],
   },
 } as const satisfies Record<string, Record<string, CoverageEntry>>

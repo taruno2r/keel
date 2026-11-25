@@ -47,16 +47,14 @@
   gap: var(--keel-spacing-1x);
 }
 
-/* Text styles "Typography/Title/H6" and "Typography/Body/Medium". Their size
-   and line-height variables belong to Figma's deleted "Responsive" collection,
-   so there are no tokens for them yet; values copied from the text styles. */
+/* Title: text style "Typography/Title/H6". */
 .keel-card__title {
   margin: 0;
   color: var(--keel-text-primary);
   font-family: var(--keel-font-family-title);
   font-weight: var(--keel-font-weight-inter-bold);
-  font-size: 20px;
-  line-height: 24px;
+  font-size: var(--keel-typography-font-size-20);
+  line-height: var(--keel-typography-line-height-24);
   /* Figma: truncate at the end after 2 lines. */
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -65,13 +63,14 @@
   overflow: hidden;
 }
 
+/* Description: text style "Typography/Body/Medium". */
 .keel-card__description {
   margin: 0;
   color: var(--keel-text-secondary);
   font-family: var(--keel-font-family-body);
   font-weight: var(--keel-font-weight-inter-regular);
-  font-size: 16px;
-  line-height: 20px;
+  font-size: var(--keel-typography-font-size-16);
+  line-height: var(--keel-typography-line-height-20);
 }
 
 /* Action row: buttons share the width equally (Button width = Fill). */

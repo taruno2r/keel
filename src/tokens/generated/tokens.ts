@@ -16,7 +16,7 @@ export type Theme = (typeof themes)[number]
 export const tokens: Token[] = [
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/50",
+    "figmaName": "keel-color/cyan/50",
     "cssVar": "--keel-color-cyan-50",
     "type": "COLOR",
     "values": {
@@ -27,7 +27,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/100",
+    "figmaName": "keel-color/cyan/100",
     "cssVar": "--keel-color-cyan-100",
     "type": "COLOR",
     "values": {
@@ -38,7 +38,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/200",
+    "figmaName": "keel-color/cyan/200",
     "cssVar": "--keel-color-cyan-200",
     "type": "COLOR",
     "values": {
@@ -49,7 +49,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/300",
+    "figmaName": "keel-color/cyan/300",
     "cssVar": "--keel-color-cyan-300",
     "type": "COLOR",
     "values": {
@@ -60,7 +60,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/400",
+    "figmaName": "keel-color/cyan/400",
     "cssVar": "--keel-color-cyan-400",
     "type": "COLOR",
     "values": {
@@ -71,7 +71,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/500",
+    "figmaName": "keel-color/cyan/500",
     "cssVar": "--keel-color-cyan-500",
     "type": "COLOR",
     "values": {
@@ -82,7 +82,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/600",
+    "figmaName": "keel-color/cyan/600",
     "cssVar": "--keel-color-cyan-600",
     "type": "COLOR",
     "values": {
@@ -93,7 +93,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/700",
+    "figmaName": "keel-color/cyan/700",
     "cssVar": "--keel-color-cyan-700",
     "type": "COLOR",
     "values": {
@@ -104,7 +104,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/800",
+    "figmaName": "keel-color/cyan/800",
     "cssVar": "--keel-color-cyan-800",
     "type": "COLOR",
     "values": {
@@ -115,7 +115,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/900",
+    "figmaName": "keel-color/cyan/900",
     "cssVar": "--keel-color-cyan-900",
     "type": "COLOR",
     "values": {
@@ -126,7 +126,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Cyan/950",
+    "figmaName": "keel-color/cyan/950",
     "cssVar": "--keel-color-cyan-950",
     "type": "COLOR",
     "values": {
@@ -137,7 +137,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Foundation/black",
+    "figmaName": "keel-color/foundation/black",
     "cssVar": "--keel-color-foundation-black",
     "type": "COLOR",
     "values": {
@@ -148,7 +148,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Foundation/white",
+    "figmaName": "keel-color/foundation/white",
     "cssVar": "--keel-color-foundation-white",
     "type": "COLOR",
     "values": {
@@ -159,7 +159,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/50",
+    "figmaName": "keel-color/indigo/50",
     "cssVar": "--keel-color-indigo-50",
     "type": "COLOR",
     "values": {
@@ -170,7 +170,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/100",
+    "figmaName": "keel-color/indigo/100",
     "cssVar": "--keel-color-indigo-100",
     "type": "COLOR",
     "values": {
@@ -181,7 +181,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/200",
+    "figmaName": "keel-color/indigo/200",
     "cssVar": "--keel-color-indigo-200",
     "type": "COLOR",
     "values": {
@@ -192,7 +192,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/300",
+    "figmaName": "keel-color/indigo/300",
     "cssVar": "--keel-color-indigo-300",
     "type": "COLOR",
     "values": {
@@ -203,7 +203,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/400",
+    "figmaName": "keel-color/indigo/400",
     "cssVar": "--keel-color-indigo-400",
     "type": "COLOR",
     "values": {
@@ -214,7 +214,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/500",
+    "figmaName": "keel-color/indigo/500",
     "cssVar": "--keel-color-indigo-500",
     "type": "COLOR",
     "values": {
@@ -225,7 +225,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/600",
+    "figmaName": "keel-color/indigo/600",
     "cssVar": "--keel-color-indigo-600",
     "type": "COLOR",
     "values": {
@@ -236,7 +236,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/700",
+    "figmaName": "keel-color/indigo/700",
     "cssVar": "--keel-color-indigo-700",
     "type": "COLOR",
     "values": {
@@ -247,7 +247,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/800",
+    "figmaName": "keel-color/indigo/800",
     "cssVar": "--keel-color-indigo-800",
     "type": "COLOR",
     "values": {
@@ -258,7 +258,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/900",
+    "figmaName": "keel-color/indigo/900",
     "cssVar": "--keel-color-indigo-900",
     "type": "COLOR",
     "values": {
@@ -269,7 +269,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Indigo/950",
+    "figmaName": "keel-color/indigo/950",
     "cssVar": "--keel-color-indigo-950",
     "type": "COLOR",
     "values": {
@@ -280,7 +280,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/50",
+    "figmaName": "keel-color/ink/50",
     "cssVar": "--keel-color-ink-50",
     "type": "COLOR",
     "values": {
@@ -291,7 +291,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/100",
+    "figmaName": "keel-color/ink/100",
     "cssVar": "--keel-color-ink-100",
     "type": "COLOR",
     "values": {
@@ -302,7 +302,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/200",
+    "figmaName": "keel-color/ink/200",
     "cssVar": "--keel-color-ink-200",
     "type": "COLOR",
     "values": {
@@ -313,7 +313,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/300",
+    "figmaName": "keel-color/ink/300",
     "cssVar": "--keel-color-ink-300",
     "type": "COLOR",
     "values": {
@@ -324,7 +324,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/400",
+    "figmaName": "keel-color/ink/400",
     "cssVar": "--keel-color-ink-400",
     "type": "COLOR",
     "values": {
@@ -335,7 +335,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/500",
+    "figmaName": "keel-color/ink/500",
     "cssVar": "--keel-color-ink-500",
     "type": "COLOR",
     "values": {
@@ -346,7 +346,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/600",
+    "figmaName": "keel-color/ink/600",
     "cssVar": "--keel-color-ink-600",
     "type": "COLOR",
     "values": {
@@ -357,7 +357,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/700",
+    "figmaName": "keel-color/ink/700",
     "cssVar": "--keel-color-ink-700",
     "type": "COLOR",
     "values": {
@@ -368,7 +368,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/800",
+    "figmaName": "keel-color/ink/800",
     "cssVar": "--keel-color-ink-800",
     "type": "COLOR",
     "values": {
@@ -379,7 +379,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/900",
+    "figmaName": "keel-color/ink/900",
     "cssVar": "--keel-color-ink-900",
     "type": "COLOR",
     "values": {
@@ -390,7 +390,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Ink/950",
+    "figmaName": "keel-color/ink/950",
     "cssVar": "--keel-color-ink-950",
     "type": "COLOR",
     "values": {
@@ -401,7 +401,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/50",
+    "figmaName": "keel-color/mustard/50",
     "cssVar": "--keel-color-mustard-50",
     "type": "COLOR",
     "values": {
@@ -412,7 +412,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/100",
+    "figmaName": "keel-color/mustard/100",
     "cssVar": "--keel-color-mustard-100",
     "type": "COLOR",
     "values": {
@@ -423,7 +423,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/200",
+    "figmaName": "keel-color/mustard/200",
     "cssVar": "--keel-color-mustard-200",
     "type": "COLOR",
     "values": {
@@ -434,7 +434,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/300",
+    "figmaName": "keel-color/mustard/300",
     "cssVar": "--keel-color-mustard-300",
     "type": "COLOR",
     "values": {
@@ -445,7 +445,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/400",
+    "figmaName": "keel-color/mustard/400",
     "cssVar": "--keel-color-mustard-400",
     "type": "COLOR",
     "values": {
@@ -456,7 +456,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/500",
+    "figmaName": "keel-color/mustard/500",
     "cssVar": "--keel-color-mustard-500",
     "type": "COLOR",
     "values": {
@@ -467,7 +467,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/600",
+    "figmaName": "keel-color/mustard/600",
     "cssVar": "--keel-color-mustard-600",
     "type": "COLOR",
     "values": {
@@ -478,7 +478,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/700",
+    "figmaName": "keel-color/mustard/700",
     "cssVar": "--keel-color-mustard-700",
     "type": "COLOR",
     "values": {
@@ -489,7 +489,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/800",
+    "figmaName": "keel-color/mustard/800",
     "cssVar": "--keel-color-mustard-800",
     "type": "COLOR",
     "values": {
@@ -500,7 +500,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/900",
+    "figmaName": "keel-color/mustard/900",
     "cssVar": "--keel-color-mustard-900",
     "type": "COLOR",
     "values": {
@@ -511,7 +511,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Mustard/950",
+    "figmaName": "keel-color/mustard/950",
     "cssVar": "--keel-color-mustard-950",
     "type": "COLOR",
     "values": {
@@ -522,7 +522,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/50",
+    "figmaName": "keel-color/phosphor/50",
     "cssVar": "--keel-color-phosphor-50",
     "type": "COLOR",
     "values": {
@@ -533,7 +533,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/100",
+    "figmaName": "keel-color/phosphor/100",
     "cssVar": "--keel-color-phosphor-100",
     "type": "COLOR",
     "values": {
@@ -544,7 +544,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/200",
+    "figmaName": "keel-color/phosphor/200",
     "cssVar": "--keel-color-phosphor-200",
     "type": "COLOR",
     "values": {
@@ -555,7 +555,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/300",
+    "figmaName": "keel-color/phosphor/300",
     "cssVar": "--keel-color-phosphor-300",
     "type": "COLOR",
     "values": {
@@ -566,7 +566,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/400",
+    "figmaName": "keel-color/phosphor/400",
     "cssVar": "--keel-color-phosphor-400",
     "type": "COLOR",
     "values": {
@@ -577,7 +577,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/500",
+    "figmaName": "keel-color/phosphor/500",
     "cssVar": "--keel-color-phosphor-500",
     "type": "COLOR",
     "values": {
@@ -588,7 +588,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/600",
+    "figmaName": "keel-color/phosphor/600",
     "cssVar": "--keel-color-phosphor-600",
     "type": "COLOR",
     "values": {
@@ -599,7 +599,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/700",
+    "figmaName": "keel-color/phosphor/700",
     "cssVar": "--keel-color-phosphor-700",
     "type": "COLOR",
     "values": {
@@ -610,7 +610,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/800",
+    "figmaName": "keel-color/phosphor/800",
     "cssVar": "--keel-color-phosphor-800",
     "type": "COLOR",
     "values": {
@@ -621,7 +621,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/900",
+    "figmaName": "keel-color/phosphor/900",
     "cssVar": "--keel-color-phosphor-900",
     "type": "COLOR",
     "values": {
@@ -632,7 +632,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Phosphor/950",
+    "figmaName": "keel-color/phosphor/950",
     "cssVar": "--keel-color-phosphor-950",
     "type": "COLOR",
     "values": {
@@ -643,7 +643,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/50",
+    "figmaName": "keel-color/slate/50",
     "cssVar": "--keel-color-slate-50",
     "type": "COLOR",
     "values": {
@@ -654,7 +654,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/100",
+    "figmaName": "keel-color/slate/100",
     "cssVar": "--keel-color-slate-100",
     "type": "COLOR",
     "values": {
@@ -665,7 +665,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/200",
+    "figmaName": "keel-color/slate/200",
     "cssVar": "--keel-color-slate-200",
     "type": "COLOR",
     "values": {
@@ -676,7 +676,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/300",
+    "figmaName": "keel-color/slate/300",
     "cssVar": "--keel-color-slate-300",
     "type": "COLOR",
     "values": {
@@ -687,7 +687,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/400",
+    "figmaName": "keel-color/slate/400",
     "cssVar": "--keel-color-slate-400",
     "type": "COLOR",
     "values": {
@@ -698,7 +698,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/500",
+    "figmaName": "keel-color/slate/500",
     "cssVar": "--keel-color-slate-500",
     "type": "COLOR",
     "values": {
@@ -709,7 +709,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/600",
+    "figmaName": "keel-color/slate/600",
     "cssVar": "--keel-color-slate-600",
     "type": "COLOR",
     "values": {
@@ -720,7 +720,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/700",
+    "figmaName": "keel-color/slate/700",
     "cssVar": "--keel-color-slate-700",
     "type": "COLOR",
     "values": {
@@ -731,7 +731,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/800",
+    "figmaName": "keel-color/slate/800",
     "cssVar": "--keel-color-slate-800",
     "type": "COLOR",
     "values": {
@@ -742,7 +742,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/900",
+    "figmaName": "keel-color/slate/900",
     "cssVar": "--keel-color-slate-900",
     "type": "COLOR",
     "values": {
@@ -753,7 +753,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Slate/950",
+    "figmaName": "keel-color/slate/950",
     "cssVar": "--keel-color-slate-950",
     "type": "COLOR",
     "values": {
@@ -764,7 +764,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/50",
+    "figmaName": "keel-color/tangerine/50",
     "cssVar": "--keel-color-tangerine-50",
     "type": "COLOR",
     "values": {
@@ -775,7 +775,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/100",
+    "figmaName": "keel-color/tangerine/100",
     "cssVar": "--keel-color-tangerine-100",
     "type": "COLOR",
     "values": {
@@ -786,7 +786,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/200",
+    "figmaName": "keel-color/tangerine/200",
     "cssVar": "--keel-color-tangerine-200",
     "type": "COLOR",
     "values": {
@@ -797,7 +797,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/300",
+    "figmaName": "keel-color/tangerine/300",
     "cssVar": "--keel-color-tangerine-300",
     "type": "COLOR",
     "values": {
@@ -808,7 +808,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/400",
+    "figmaName": "keel-color/tangerine/400",
     "cssVar": "--keel-color-tangerine-400",
     "type": "COLOR",
     "values": {
@@ -819,7 +819,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/500",
+    "figmaName": "keel-color/tangerine/500",
     "cssVar": "--keel-color-tangerine-500",
     "type": "COLOR",
     "values": {
@@ -830,7 +830,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/600",
+    "figmaName": "keel-color/tangerine/600",
     "cssVar": "--keel-color-tangerine-600",
     "type": "COLOR",
     "values": {
@@ -841,7 +841,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/700",
+    "figmaName": "keel-color/tangerine/700",
     "cssVar": "--keel-color-tangerine-700",
     "type": "COLOR",
     "values": {
@@ -852,7 +852,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/800",
+    "figmaName": "keel-color/tangerine/800",
     "cssVar": "--keel-color-tangerine-800",
     "type": "COLOR",
     "values": {
@@ -863,7 +863,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/900",
+    "figmaName": "keel-color/tangerine/900",
     "cssVar": "--keel-color-tangerine-900",
     "type": "COLOR",
     "values": {
@@ -874,7 +874,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tangerine/950",
+    "figmaName": "keel-color/tangerine/950",
     "cssVar": "--keel-color-tangerine-950",
     "type": "COLOR",
     "values": {
@@ -885,7 +885,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/50",
+    "figmaName": "keel-color/tomato/50",
     "cssVar": "--keel-color-tomato-50",
     "type": "COLOR",
     "values": {
@@ -896,7 +896,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/100",
+    "figmaName": "keel-color/tomato/100",
     "cssVar": "--keel-color-tomato-100",
     "type": "COLOR",
     "values": {
@@ -907,7 +907,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/200",
+    "figmaName": "keel-color/tomato/200",
     "cssVar": "--keel-color-tomato-200",
     "type": "COLOR",
     "values": {
@@ -918,7 +918,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/300",
+    "figmaName": "keel-color/tomato/300",
     "cssVar": "--keel-color-tomato-300",
     "type": "COLOR",
     "values": {
@@ -929,7 +929,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/400",
+    "figmaName": "keel-color/tomato/400",
     "cssVar": "--keel-color-tomato-400",
     "type": "COLOR",
     "values": {
@@ -940,7 +940,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/500",
+    "figmaName": "keel-color/tomato/500",
     "cssVar": "--keel-color-tomato-500",
     "type": "COLOR",
     "values": {
@@ -951,7 +951,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/600",
+    "figmaName": "keel-color/tomato/600",
     "cssVar": "--keel-color-tomato-600",
     "type": "COLOR",
     "values": {
@@ -962,7 +962,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/700",
+    "figmaName": "keel-color/tomato/700",
     "cssVar": "--keel-color-tomato-700",
     "type": "COLOR",
     "values": {
@@ -973,7 +973,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/800",
+    "figmaName": "keel-color/tomato/800",
     "cssVar": "--keel-color-tomato-800",
     "type": "COLOR",
     "values": {
@@ -984,7 +984,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/900",
+    "figmaName": "keel-color/tomato/900",
     "cssVar": "--keel-color-tomato-900",
     "type": "COLOR",
     "values": {
@@ -995,7 +995,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Color/Tomato/950",
+    "figmaName": "keel-color/tomato/950",
     "cssVar": "--keel-color-tomato-950",
     "type": "COLOR",
     "values": {
@@ -1006,7 +1006,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Family/Body",
+    "figmaName": "keel-font/font-family/body",
     "cssVar": "--keel-font-family-body",
     "type": "STRING",
     "values": {
@@ -1017,7 +1017,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Family/Title",
+    "figmaName": "keel-font/font-family/title",
     "cssVar": "--keel-font-family-title",
     "type": "STRING",
     "values": {
@@ -1028,7 +1028,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Thin",
+    "figmaName": "keel-font/font-weight/inter/thin",
     "cssVar": "--keel-font-weight-inter-thin",
     "type": "STRING",
     "values": {
@@ -1039,18 +1039,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Extra Light",
-    "cssVar": "--keel-font-weight-inter-extra-light",
-    "type": "STRING",
-    "values": {
-      "value": {
-        "value": "200"
-      }
-    }
-  },
-  {
-    "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Light",
+    "figmaName": "keel-font/font-weight/inter/light",
     "cssVar": "--keel-font-weight-inter-light",
     "type": "STRING",
     "values": {
@@ -1061,7 +1050,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Regular",
+    "figmaName": "keel-font/font-weight/inter/regular",
     "cssVar": "--keel-font-weight-inter-regular",
     "type": "STRING",
     "values": {
@@ -1072,7 +1061,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Medium",
+    "figmaName": "keel-font/font-weight/inter/medium",
     "cssVar": "--keel-font-weight-inter-medium",
     "type": "STRING",
     "values": {
@@ -1083,18 +1072,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Semi Bold",
-    "cssVar": "--keel-font-weight-inter-semi-bold",
-    "type": "STRING",
-    "values": {
-      "value": {
-        "value": "600"
-      }
-    }
-  },
-  {
-    "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Bold",
+    "figmaName": "keel-font/font-weight/inter/bold",
     "cssVar": "--keel-font-weight-inter-bold",
     "type": "STRING",
     "values": {
@@ -1105,18 +1083,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Extra Bold",
-    "cssVar": "--keel-font-weight-inter-extra-bold",
-    "type": "STRING",
-    "values": {
-      "value": {
-        "value": "800"
-      }
-    }
-  },
-  {
-    "collection": "Primitives",
-    "figmaName": "Font/Font Weight/Inter/Black",
+    "figmaName": "keel-font/font-weight/inter/black",
     "cssVar": "--keel-font-weight-inter-black",
     "type": "STRING",
     "values": {
@@ -1127,7 +1094,40 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/0",
+    "figmaName": "keel-font/font-weight/inter/extra-bold",
+    "cssVar": "--keel-font-weight-inter-extra-bold",
+    "type": "STRING",
+    "values": {
+      "value": {
+        "value": "800"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
+    "figmaName": "keel-font/font-weight/inter/extra-light",
+    "cssVar": "--keel-font-weight-inter-extra-light",
+    "type": "STRING",
+    "values": {
+      "value": {
+        "value": "200"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
+    "figmaName": "keel-font/font-weight/inter/semi-bold",
+    "cssVar": "--keel-font-weight-inter-semi-bold",
+    "type": "STRING",
+    "values": {
+      "value": {
+        "value": "600"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
+    "figmaName": "keel-scale/0",
     "cssVar": "--keel-scale-0",
     "type": "FLOAT",
     "values": {
@@ -1138,7 +1138,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/1",
+    "figmaName": "keel-scale/1",
     "cssVar": "--keel-scale-1",
     "type": "FLOAT",
     "values": {
@@ -1149,7 +1149,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/2",
+    "figmaName": "keel-scale/2",
     "cssVar": "--keel-scale-2",
     "type": "FLOAT",
     "values": {
@@ -1160,7 +1160,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/4",
+    "figmaName": "keel-scale/4",
     "cssVar": "--keel-scale-4",
     "type": "FLOAT",
     "values": {
@@ -1171,7 +1171,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/8",
+    "figmaName": "keel-scale/8",
     "cssVar": "--keel-scale-8",
     "type": "FLOAT",
     "values": {
@@ -1182,7 +1182,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/12",
+    "figmaName": "keel-scale/12",
     "cssVar": "--keel-scale-12",
     "type": "FLOAT",
     "values": {
@@ -1193,7 +1193,18 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/16",
+    "figmaName": "keel-scale/14",
+    "cssVar": "--keel-scale-14",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "14px"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
+    "figmaName": "keel-scale/16",
     "cssVar": "--keel-scale-16",
     "type": "FLOAT",
     "values": {
@@ -1204,7 +1215,18 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/20",
+    "figmaName": "keel-scale/18",
+    "cssVar": "--keel-scale-18",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "18px"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
+    "figmaName": "keel-scale/20",
     "cssVar": "--keel-scale-20",
     "type": "FLOAT",
     "values": {
@@ -1215,7 +1237,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/24",
+    "figmaName": "keel-scale/24",
     "cssVar": "--keel-scale-24",
     "type": "FLOAT",
     "values": {
@@ -1226,7 +1248,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/28",
+    "figmaName": "keel-scale/28",
     "cssVar": "--keel-scale-28",
     "type": "FLOAT",
     "values": {
@@ -1237,7 +1259,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/32",
+    "figmaName": "keel-scale/32",
     "cssVar": "--keel-scale-32",
     "type": "FLOAT",
     "values": {
@@ -1248,7 +1270,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/36",
+    "figmaName": "keel-scale/36",
     "cssVar": "--keel-scale-36",
     "type": "FLOAT",
     "values": {
@@ -1259,7 +1281,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/40",
+    "figmaName": "keel-scale/40",
     "cssVar": "--keel-scale-40",
     "type": "FLOAT",
     "values": {
@@ -1270,7 +1292,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/48",
+    "figmaName": "keel-scale/48",
     "cssVar": "--keel-scale-48",
     "type": "FLOAT",
     "values": {
@@ -1281,7 +1303,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/56",
+    "figmaName": "keel-scale/56",
     "cssVar": "--keel-scale-56",
     "type": "FLOAT",
     "values": {
@@ -1292,7 +1314,18 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/64",
+    "figmaName": "keel-scale/60",
+    "cssVar": "--keel-scale-60",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "60px"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
+    "figmaName": "keel-scale/64",
     "cssVar": "--keel-scale-64",
     "type": "FLOAT",
     "values": {
@@ -1303,7 +1336,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/72",
+    "figmaName": "keel-scale/72",
     "cssVar": "--keel-scale-72",
     "type": "FLOAT",
     "values": {
@@ -1314,7 +1347,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/80",
+    "figmaName": "keel-scale/80",
     "cssVar": "--keel-scale-80",
     "type": "FLOAT",
     "values": {
@@ -1325,7 +1358,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/96",
+    "figmaName": "keel-scale/96",
     "cssVar": "--keel-scale-96",
     "type": "FLOAT",
     "values": {
@@ -1336,7 +1369,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/128",
+    "figmaName": "keel-scale/128",
     "cssVar": "--keel-scale-128",
     "type": "FLOAT",
     "values": {
@@ -1347,7 +1380,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/256",
+    "figmaName": "keel-scale/256",
     "cssVar": "--keel-scale-256",
     "type": "FLOAT",
     "values": {
@@ -1358,7 +1391,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
-    "figmaName": "Scale/512",
+    "figmaName": "keel-scale/512",
     "cssVar": "--keel-scale-512",
     "type": "FLOAT",
     "values": {
@@ -1369,493 +1402,733 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Radius/lg",
+    "figmaName": "keel-border-radius/lg",
     "cssVar": "--keel-border-radius-lg",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-8",
-        "figmaAlias": "Scale/8"
+        "figmaAlias": "keel-scale/8"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Radius/max",
+    "figmaName": "keel-border-radius/max",
     "cssVar": "--keel-border-radius-max",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-512",
-        "figmaAlias": "Scale/512"
+        "figmaAlias": "keel-scale/512"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Radius/md",
+    "figmaName": "keel-border-radius/md",
     "cssVar": "--keel-border-radius-md",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-4",
-        "figmaAlias": "Scale/4"
+        "figmaAlias": "keel-scale/4"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Radius/none",
+    "figmaName": "keel-border-radius/none",
     "cssVar": "--keel-border-radius-none",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-0",
-        "figmaAlias": "Scale/0"
+        "figmaAlias": "keel-scale/0"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Radius/sm",
+    "figmaName": "keel-border-radius/sm",
     "cssVar": "--keel-border-radius-sm",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-2",
-        "figmaAlias": "Scale/2"
+        "figmaAlias": "keel-scale/2"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Radius/xlg",
+    "figmaName": "keel-border-radius/xlg",
     "cssVar": "--keel-border-radius-xlg",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-16",
-        "figmaAlias": "Scale/16"
+        "figmaAlias": "keel-scale/16"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Width/lg",
+    "figmaName": "keel-border-width/lg",
     "cssVar": "--keel-border-width-lg",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-4",
-        "figmaAlias": "Scale/4"
+        "figmaAlias": "keel-scale/4"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Width/md",
+    "figmaName": "keel-border-width/md",
     "cssVar": "--keel-border-width-md",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-2",
-        "figmaAlias": "Scale/2"
+        "figmaAlias": "keel-scale/2"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Width/none",
+    "figmaName": "keel-border-width/none",
     "cssVar": "--keel-border-width-none",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-0",
-        "figmaAlias": "Scale/0"
+        "figmaAlias": "keel-scale/0"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Border Width/sm",
+    "figmaName": "keel-border-width/sm",
     "cssVar": "--keel-border-width-sm",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-1",
-        "figmaAlias": "Scale/1"
+        "figmaAlias": "keel-scale/1"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/0",
+    "figmaName": "keel-spacing/0",
     "cssVar": "--keel-spacing-0",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-0",
-        "figmaAlias": "Scale/0"
+        "figmaAlias": "keel-scale/0"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/10x",
+    "figmaName": "keel-spacing/10x",
     "cssVar": "--keel-spacing-10x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-40",
-        "figmaAlias": "Scale/40"
+        "figmaAlias": "keel-scale/40"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/12x",
+    "figmaName": "keel-spacing/12x",
     "cssVar": "--keel-spacing-12x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-48",
-        "figmaAlias": "Scale/48"
+        "figmaAlias": "keel-scale/48"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/16x",
+    "figmaName": "keel-spacing/16x",
     "cssVar": "--keel-spacing-16x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-64",
-        "figmaAlias": "Scale/64"
+        "figmaAlias": "keel-scale/64"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/1x",
+    "figmaName": "keel-spacing/1x",
     "cssVar": "--keel-spacing-1x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-4",
-        "figmaAlias": "Scale/4"
+        "figmaAlias": "keel-scale/4"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/2x",
+    "figmaName": "keel-spacing/2x",
     "cssVar": "--keel-spacing-2x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-8",
-        "figmaAlias": "Scale/8"
+        "figmaAlias": "keel-scale/8"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/3x",
+    "figmaName": "keel-spacing/3x",
     "cssVar": "--keel-spacing-3x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-12",
-        "figmaAlias": "Scale/12"
+        "figmaAlias": "keel-scale/12"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/4x",
+    "figmaName": "keel-spacing/4x",
     "cssVar": "--keel-spacing-4x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-16",
-        "figmaAlias": "Scale/16"
+        "figmaAlias": "keel-scale/16"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/5x",
+    "figmaName": "keel-spacing/5x",
     "cssVar": "--keel-spacing-5x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-20",
-        "figmaAlias": "Scale/20"
+        "figmaAlias": "keel-scale/20"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/6x",
+    "figmaName": "keel-spacing/6x",
     "cssVar": "--keel-spacing-6x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-24",
-        "figmaAlias": "Scale/24"
+        "figmaAlias": "keel-scale/24"
       }
     }
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "Spacing/8x",
+    "figmaName": "keel-spacing/8x",
     "cssVar": "--keel-spacing-8x",
     "type": "FLOAT",
     "values": {
       "value": {
         "alias": "--keel-scale-32",
-        "figmaAlias": "Scale/32"
+        "figmaAlias": "keel-scale/32"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "border/default",
+    "figmaName": "keel-border/default",
     "cssVar": "--keel-border-default",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-300",
-        "figmaAlias": "Color/Slate/300"
+        "figmaAlias": "keel-color/slate/300"
       },
       "indigo": {
         "alias": "--keel-color-slate-300",
-        "figmaAlias": "Color/Slate/300"
+        "figmaAlias": "keel-color/slate/300"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "border/focus",
+    "figmaName": "keel-border/focus",
     "cssVar": "--keel-border-focus",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "figmaAlias": "keel-color/slate/950"
       },
       "indigo": {
         "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "figmaAlias": "keel-color/slate/950"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "element/accent",
+    "figmaName": "keel-element/accent",
     "cssVar": "--keel-element-accent",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "figmaAlias": "keel-color/slate/950"
       },
       "indigo": {
         "alias": "--keel-color-indigo-600",
-        "figmaAlias": "Color/Indigo/600"
+        "figmaAlias": "keel-color/indigo/600"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "element/on-accent",
+    "figmaName": "keel-element/on-accent",
     "cssVar": "--keel-element-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
+        "figmaAlias": "keel-color/slate/50"
       },
       "indigo": {
         "alias": "--keel-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
+        "figmaAlias": "keel-color/slate/50"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "icon/default",
+    "figmaName": "keel-icon/default",
     "cssVar": "--keel-icon-default",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-700",
-        "figmaAlias": "Color/Slate/700"
+        "figmaAlias": "keel-color/slate/700"
       },
       "indigo": {
         "alias": "--keel-color-slate-700",
-        "figmaAlias": "Color/Slate/700"
+        "figmaAlias": "keel-color/slate/700"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "icon/on-accent",
+    "figmaName": "keel-icon/on-accent",
     "cssVar": "--keel-icon-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
+        "figmaAlias": "keel-color/slate/50"
       },
       "indigo": {
         "alias": "--keel-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
+        "figmaAlias": "keel-color/slate/50"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "slider/track",
+    "figmaName": "keel-slider/track",
     "cssVar": "--keel-slider-track",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-500",
-        "figmaAlias": "Color/Slate/500"
+        "figmaAlias": "keel-color/slate/500"
       },
       "indigo": {
         "alias": "--keel-color-slate-500",
-        "figmaAlias": "Color/Slate/500"
+        "figmaAlias": "keel-color/slate/500"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "surface/accent",
+    "figmaName": "keel-surface/accent",
     "cssVar": "--keel-surface-accent",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "figmaAlias": "keel-color/slate/950"
       },
       "indigo": {
         "alias": "--keel-color-indigo-600",
-        "figmaAlias": "Color/Indigo/600"
+        "figmaAlias": "keel-color/indigo/600"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "surface/accent-hover",
+    "figmaName": "keel-surface/accent-hover",
     "cssVar": "--keel-surface-accent-hover",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-700",
-        "figmaAlias": "Color/Slate/700"
+        "figmaAlias": "keel-color/slate/700"
       },
       "indigo": {
         "alias": "--keel-color-indigo-500",
-        "figmaAlias": "Color/Indigo/500"
+        "figmaAlias": "keel-color/indigo/500"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "surface/card",
+    "figmaName": "keel-surface/card",
     "cssVar": "--keel-surface-card",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-100",
-        "figmaAlias": "Color/Slate/100"
+        "figmaAlias": "keel-color/slate/100"
       },
       "indigo": {
         "alias": "--keel-color-slate-100",
-        "figmaAlias": "Color/Slate/100"
+        "figmaAlias": "keel-color/slate/100"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "surface/page",
+    "figmaName": "keel-surface/page",
     "cssVar": "--keel-surface-page",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-foundation-white",
-        "figmaAlias": "Color/Foundation/white"
+        "figmaAlias": "keel-color/foundation/white"
       },
       "indigo": {
         "alias": "--keel-color-foundation-white",
-        "figmaAlias": "Color/Foundation/white"
+        "figmaAlias": "keel-color/foundation/white"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "surface/page-hover",
+    "figmaName": "keel-surface/page-hover",
     "cssVar": "--keel-surface-page-hover",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-100",
-        "figmaAlias": "Color/Slate/100"
+        "figmaAlias": "keel-color/slate/100"
       },
       "indigo": {
         "alias": "--keel-color-slate-100",
-        "figmaAlias": "Color/Slate/100"
+        "figmaAlias": "keel-color/slate/100"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "text/on-accent",
+    "figmaName": "keel-text/on-accent",
     "cssVar": "--keel-text-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
+        "figmaAlias": "keel-color/slate/50"
       },
       "indigo": {
         "alias": "--keel-color-slate-50",
-        "figmaAlias": "Color/Slate/50"
+        "figmaAlias": "keel-color/slate/50"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "text/primary",
+    "figmaName": "keel-text/primary",
     "cssVar": "--keel-text-primary",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "figmaAlias": "keel-color/slate/950"
       },
       "indigo": {
         "alias": "--keel-color-slate-950",
-        "figmaAlias": "Color/Slate/950"
+        "figmaAlias": "keel-color/slate/950"
       }
     }
   },
   {
     "collection": "Accent",
-    "figmaName": "text/secondary",
+    "figmaName": "keel-text/secondary",
     "cssVar": "--keel-text-secondary",
     "type": "COLOR",
     "values": {
       "default": {
         "alias": "--keel-color-slate-500",
-        "figmaAlias": "Color/Slate/500"
+        "figmaAlias": "keel-color/slate/500"
       },
       "indigo": {
         "alias": "--keel-color-slate-500",
-        "figmaAlias": "Color/Slate/500"
+        "figmaAlias": "keel-color/slate/500"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/12",
+    "cssVar": "--keel-typography-font-size-12",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-12",
+        "figmaAlias": "keel-scale/12"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/14",
+    "cssVar": "--keel-typography-font-size-14",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-14",
+        "figmaAlias": "keel-scale/14"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/16",
+    "cssVar": "--keel-typography-font-size-16",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-16",
+        "figmaAlias": "keel-scale/16"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/20",
+    "cssVar": "--keel-typography-font-size-20",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-20",
+        "figmaAlias": "keel-scale/20"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/24",
+    "cssVar": "--keel-typography-font-size-24",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-24",
+        "figmaAlias": "keel-scale/24"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/32",
+    "cssVar": "--keel-typography-font-size-32",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-32",
+        "figmaAlias": "keel-scale/32"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/40",
+    "cssVar": "--keel-typography-font-size-40",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-40",
+        "figmaAlias": "keel-scale/40"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/48",
+    "cssVar": "--keel-typography-font-size-48",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-48",
+        "figmaAlias": "keel-scale/48"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/font-size/60",
+    "cssVar": "--keel-typography-font-size-60",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-60",
+        "figmaAlias": "keel-scale/60"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/16",
+    "cssVar": "--keel-typography-line-height-16",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-16",
+        "figmaAlias": "keel-scale/16"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/18",
+    "cssVar": "--keel-typography-line-height-18",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-18",
+        "figmaAlias": "keel-scale/18"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/20",
+    "cssVar": "--keel-typography-line-height-20",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-20",
+        "figmaAlias": "keel-scale/20"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/24",
+    "cssVar": "--keel-typography-line-height-24",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-24",
+        "figmaAlias": "keel-scale/24"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/28",
+    "cssVar": "--keel-typography-line-height-28",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-28",
+        "figmaAlias": "keel-scale/28"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/32",
+    "cssVar": "--keel-typography-line-height-32",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-32",
+        "figmaAlias": "keel-scale/32"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/36",
+    "cssVar": "--keel-typography-line-height-36",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-36",
+        "figmaAlias": "keel-scale/36"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/40",
+    "cssVar": "--keel-typography-line-height-40",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-40",
+        "figmaAlias": "keel-scale/40"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/48",
+    "cssVar": "--keel-typography-line-height-48",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-48",
+        "figmaAlias": "keel-scale/48"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/56",
+    "cssVar": "--keel-typography-line-height-56",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-56",
+        "figmaAlias": "keel-scale/56"
+      }
+    }
+  },
+  {
+    "collection": "Typography",
+    "figmaName": "keel-typography/line-height/72",
+    "cssVar": "--keel-typography-line-height-72",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-72",
+        "figmaAlias": "keel-scale/72"
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "source": {
     "fileKey": "8IEdts3bNiwKEwISZ9Md9D",
-    "exportedAt": "2026-11-25T06:26:25.366Z"
+    "exportedAt": "2026-11-25T06:39:49.496Z"
   },
   "collections": [
     {
@@ -1264,20 +1264,20 @@
           }
         },
         {
-          "name": "keel-border-radius/max",
-          "type": "FLOAT",
-          "values": {
-            "Mode 1": {
-              "alias": "keel-scale/512"
-            }
-          }
-        },
-        {
           "name": "keel-border-width/none",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
               "alias": "keel-scale/0"
+            }
+          }
+        },
+        {
+          "name": "keel-border-radius/max",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/512"
             }
           }
         },
@@ -1496,7 +1496,7 @@
               "alias": "keel-color/slate/950"
             },
             "Indigo": {
-              "alias": "keel-color/slate/950"
+              "alias": "keel-color/indigo/600"
             }
           }
         },

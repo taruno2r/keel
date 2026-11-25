@@ -1,6 +1,6 @@
 /*
  * Button: Figma Keel, component set "Button" (node 5032:51).
- * Uses theme / spacing / radius tokens only, so it follows data-theme.
+ * Uses accent / spacing / radius / typography tokens only, so it follows data-theme.
  */
 .keel-button {
   position: relative;
@@ -9,19 +9,15 @@
   align-items: center;
   justify-content: center;
   gap: var(--keel-spacing-2x);
-  min-height: 32px;
   max-width: 100%;
   margin: 0;
-  padding: var(--keel-spacing-1x) var(--keel-spacing-4x);
   border: none;
-  border-radius: var(--keel-border-radius-max);
+  border-radius: var(--keel-border-radius-lg);
+  background: transparent;
+  color: var(--keel-text-primary);
   cursor: pointer;
-
-  /* Text style "Typography/Body/Medium". */
   font-family: var(--keel-font-family-body);
   font-weight: var(--keel-font-weight-inter-regular);
-  font-size: var(--keel-typography-font-size-16);
-  line-height: var(--keel-typography-line-height-20);
   white-space: nowrap;
 }
 
@@ -30,7 +26,31 @@
   text-overflow: ellipsis;
 }
 
-/* variant */
+/* size. Vertical padding is spacing/1x for every size; the height comes from
+   Figma's min height (32 / 40 / 48). */
+.keel-button--small {
+  min-height: 32px;
+  padding: var(--keel-spacing-1x) var(--keel-spacing-4x);
+  /* Text style "Typography/Body/Small". */
+  font-size: var(--keel-typography-font-size-14);
+  line-height: var(--keel-typography-line-height-18);
+}
+.keel-button--medium {
+  min-height: 40px;
+  padding: var(--keel-spacing-1x) var(--keel-spacing-5x);
+  /* Text style "Typography/Body/Medium". */
+  font-size: var(--keel-typography-font-size-16);
+  line-height: var(--keel-typography-line-height-20);
+}
+.keel-button--large {
+  min-height: 48px;
+  padding: var(--keel-spacing-1x) var(--keel-spacing-6x);
+  /* Text style "Typography/Body/Medium". */
+  font-size: var(--keel-typography-font-size-16);
+  line-height: var(--keel-typography-line-height-20);
+}
+
+/* variant (State = default, then State = hover) */
 .keel-button--primary {
   background: var(--keel-surface-accent);
   color: var(--keel-text-on-accent);
@@ -40,27 +60,38 @@
 }
 
 .keel-button--secondary {
-  background: transparent;
-  color: var(--keel-text-primary);
   /* Figma stroke is INSIDE (doesn't change the size), so draw it as an inset
-     shadow rather than a border: Primary and Secondary stay the same size. */
+     shadow rather than a border: every variant stays the same size. */
   box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-border-default);
 }
 .keel-button--secondary:hover {
   background: var(--keel-surface-page-hover);
 }
 
-/* Focus: Figma "Focus Ring" is a rectangle 2px outside the button with a 1px
-   OUTSIDE dashed stroke, so the ring sits 2–3px outside the button edge. */
+.keel-button--ghost:hover {
+  background: var(--keel-surface-page-hover);
+}
+
+.keel-button--danger {
+  background: var(--keel-surface-danger);
+  color: var(--keel-text-on-accent);
+}
+.keel-button--danger:hover {
+  background: var(--keel-surface-danger-hover);
+}
+
+/* State = focused: Figma "Focus Ring" is a rectangle 2px outside the button
+   (radius 8 + 2 = 10px) with a 1px OUTSIDE solid stroke in border/focus. The
+   outline follows the button's radius, so it gets the same 10px corners. */
 .keel-button:focus {
   outline: none;
 }
 .keel-button:focus-visible {
-  outline: var(--keel-border-width-sm) dashed var(--keel-border-focus);
+  outline: var(--keel-border-width-sm) solid var(--keel-border-focus);
   outline-offset: 2px;
 }
 
-/* width = Fill. The fillWidth prop (code only) sets --keel-button-fill-width. */
+/* width = fill. The fillWidth prop (code only) sets --keel-button-fill-width. */
 .keel-button--fill {
   display: flex;
   width: var(--keel-button-fill-width, 100%);

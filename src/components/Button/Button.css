@@ -31,9 +31,9 @@
 .keel-button--small {
   min-height: 32px;
   padding: var(--keel-spacing-1x) var(--keel-spacing-4x);
-  /* Text style "Typography/Body/Small". */
-  font-size: var(--keel-typography-font-size-14);
-  line-height: var(--keel-typography-line-height-18);
+  /* Text style "Typography/Body/XSmall". */
+  font-size: var(--keel-typography-font-size-12);
+  line-height: var(--keel-typography-line-height-16);
 }
 .keel-button--medium {
   min-height: 40px;

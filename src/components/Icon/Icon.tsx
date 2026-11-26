@@ -1,21 +1,15 @@
 import type { CSSProperties, SVGAttributes } from 'react'
 import { icons, type IconName } from '../../icons/generated/icons'
+import { ICON_MIN_SIZE, ICON_SIZES, type IconSize } from './sizes'
 import './Icon.css'
 
-/** Icons are never drawn smaller than this, in pixels (applies to `customSize`). */
-export const ICON_MIN_SIZE = 12
-
-/** Pixel size of each Figma `size` variant (except `custom`). */
-export const ICON_SIZES = { small: 16, medium: 20, large: 24 } as const
-
-export type IconSize = keyof typeof ICON_SIZES | 'custom'
 
 export interface IconProps extends Omit<SVGAttributes<SVGSVGElement>, 'children' | 'color'> {
   /** Figma `Icon/<name>` on the "Icons" page, e.g. `check` for `Icon/check`. */
   name: IconName
   /**
-   * Same as Figma `size`: `small` (16px), `medium` (20px), `large` (24px) or `custom`
-   * (uses `customSize`). Defaults to `small`, like Figma. Icons are always square.
+   * Same as Figma `size`: `xsmall` (12px), `small` (16px), `medium` (20px), `large` (24px)
+   * or `custom` (uses `customSize`). Defaults to `small`, like Figma. Icons are always square.
    */
   size?: IconSize
   /**
@@ -39,9 +33,9 @@ export interface IconProps extends Omit<SVGAttributes<SVGSVGElement>, 'children'
 /**
  * Use an icon to support a label or action with a familiar symbol, like a chevron on a
  * dropdown or a check in a confirmation. Choose the symbol with iconName, from the Icons
- * page. The size is small (16px) by default; use medium (20px) or large (24px), or
- * custom for any size from 12px up. When an icon is the only content of a control, give the
- * control an accessible name.
+ * page. The size is small (16px) by default; use xsmall (12px), medium (20px) or large
+ * (24px), or custom for any size from 12px up. When an icon is the only content of a control,
+ * give the control an accessible name.
  */
 export function Icon({ name, size = 'small', customSize = 24, color, label, className, style, ...rest }: IconProps) {
   const { viewBox, paths } = icons[name]

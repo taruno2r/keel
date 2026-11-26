@@ -42,6 +42,7 @@ export const Icons: Story = {
               onChange={(e) => setSize(e.target.value as IconSize)}
               style={{ font: 'inherit', padding: 'var(--keel-spacing-1x) var(--keel-spacing-2x)' }}
             >
+              <option value="xsmall">xsmall (12px)</option>
               <option value="small">small (16px)</option>
               <option value="medium">medium (20px)</option>
               <option value="large">large (24px)</option>

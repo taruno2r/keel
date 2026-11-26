@@ -40,6 +40,6 @@ if (errors.length) {
   console.error(`✗ Import failed:\n${errors.map((e) => `    ${e}`).join('\n')}`);
   process.exit(1);
 }
-const snapshot = { source: { fileKey: '8IEdts3bNiwKEwISZ9Md9D', page: 'Icons (core)', importedAt: new Date().toISOString() }, icons };
+const snapshot = { source: { fileKey: '8IEdts3bNiwKEwISZ9Md9D', page: 'Icons', importedAt: new Date().toISOString() }, icons };
 writeFileSync(join(root, 'src/icons/figma/icons.json'), JSON.stringify(snapshot, null, 2) + '\n');
 console.log(`Imported ${icons.length} icons into src/icons/figma/icons.json`);

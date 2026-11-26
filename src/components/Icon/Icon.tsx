@@ -2,17 +2,28 @@ import type { CSSProperties, SVGAttributes } from 'react'
 import { icons, type IconName } from '../../icons/generated/icons'
 import './Icon.css'
 
-/** Icons are never drawn smaller than this, in pixels. */
+/** Icons are never drawn smaller than this, in pixels (applies to `customSize`). */
 export const ICON_MIN_SIZE = 12
 
+/** Pixel size of each Figma `size` variant (except `custom`). */
+export const ICON_SIZES = { small: 16, medium: 20, large: 24 } as const
+
+export type IconSize = keyof typeof ICON_SIZES | 'custom'
+
 export interface IconProps extends Omit<SVGAttributes<SVGSVGElement>, 'children' | 'color'> {
-  /** Figma `Icon/<name>` on the "Icons (core)" page, e.g. `check` for `Icon/check`. */
+  /** Figma `Icon/<name>` on the "Icons" page, e.g. `check` for `Icon/check`. */
   name: IconName
   /**
-   * Width and height in pixels; icons are always square. Any size from 12 up; smaller
-   * values are drawn at 12. Defaults to 24, the size the icons are drawn at in Figma.
+   * Same as Figma `size`: `small` (16px), `medium` (20px), `large` (24px) or `custom`
+   * (uses `customSize`). Defaults to `small`, like Figma. Icons are always square.
    */
-  size?: number
+  size?: IconSize
+  /**
+   * Code only (Figma's `custom` variant is resized on the instance). Width and height in
+   * pixels when `size` is `custom`; anything below 12 is drawn at 12. Defaults to 24, the
+   * custom variant's size in Figma. Ignored for the other sizes.
+   */
+  customSize?: number
   /**
    * Any CSS colour, including a token like `var(--keel-text-on-accent)`. Defaults to
    * `--keel-icon-default`, the colour the Figma icons are bound to.
@@ -27,12 +38,14 @@ export interface IconProps extends Omit<SVGAttributes<SVGSVGElement>, 'children'
 
 /**
  * Use an icon to support a label or action with a familiar symbol, like a chevron on a
- * dropdown or a check in a confirmation. Icons come from the Figma "Icons (core)" page.
- * When an icon is the only content of a control, give it a `label`.
+ * dropdown or a check in a confirmation. Choose the symbol with iconName, from the Icons
+ * page. The size is small (16px) by default; use medium (20px) or large (24px), or
+ * custom for any size from 12px up. When an icon is the only content of a control, give the
+ * control an accessible name.
  */
-export function Icon({ name, size = 24, color, label, className, style, ...rest }: IconProps) {
+export function Icon({ name, size = 'small', customSize = 24, color, label, className, style, ...rest }: IconProps) {
   const { viewBox, paths } = icons[name]
-  const px = Math.max(ICON_MIN_SIZE, size)
+  const px = size === 'custom' ? Math.max(ICON_MIN_SIZE, customSize) : ICON_SIZES[size]
   const a11y = label ? { role: 'img', 'aria-label': label } : { 'aria-hidden': true as const }
   const colorStyle: CSSProperties | undefined = color ? { color } : undefined
   return (

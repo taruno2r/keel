@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { useState } from 'react'
-import { Icon } from '../../components/Icon'
+import { Icon, ICON_MIN_SIZE, type IconSize } from '../../components/Icon'
 import { iconNames } from '../../icons/generated/icons'
 import { Code, Section } from './TokenDisplay'
 
@@ -12,16 +12,17 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-/** Every icon from the Figma “Icons (core)” page, with its `name` for `<Icon name="…" />`. */
+/** Every icon from the Figma “Icons” page, with its `name` for `<Icon name="…" />`. */
 export const Icons: Story = {
   render: function Render() {
     const [query, setQuery] = useState('')
-    const [size, setSize] = useState(24)
+    const [size, setSize] = useState<IconSize>('small')
+    const [customSize, setCustomSize] = useState(32)
     const shown = iconNames.filter((n) => n.includes(query.trim().toLowerCase()))
     return (
       <Section
         title="Icons"
-        description={`${iconNames.length} icons from the Figma “Icons (core)” page (Icon/<name>). Use them with <Icon name="…" />.`}
+        description={`${iconNames.length} icons from the Figma “Icons” page (Icon/<name>). Use them with <Icon name="…" />.`}
       >
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--keel-spacing-4x)', alignItems: 'center', marginBottom: 'var(--keel-spacing-6x)' }}>
           <label style={{ display: 'flex', gap: 'var(--keel-spacing-2x)', alignItems: 'center' }}>
@@ -36,15 +37,29 @@ export const Icons: Story = {
           </label>
           <label style={{ display: 'flex', gap: 'var(--keel-spacing-2x)', alignItems: 'center' }}>
             Size
-            <input
-              type="number"
-              min={12}
+            <select
               value={size}
-              onChange={(e) => setSize(Number(e.target.value) || 12)}
-              style={{ font: 'inherit', width: 64, padding: 'var(--keel-spacing-1x) var(--keel-spacing-2x)' }}
-            />
-            px
+              onChange={(e) => setSize(e.target.value as IconSize)}
+              style={{ font: 'inherit', padding: 'var(--keel-spacing-1x) var(--keel-spacing-2x)' }}
+            >
+              <option value="small">small (16px)</option>
+              <option value="medium">medium (20px)</option>
+              <option value="large">large (24px)</option>
+              <option value="custom">custom</option>
+            </select>
           </label>
+          {size === 'custom' && (
+            <label style={{ display: 'flex', gap: 'var(--keel-spacing-2x)', alignItems: 'center' }}>
+              <input
+                type="number"
+                min={ICON_MIN_SIZE}
+                value={customSize}
+                onChange={(e) => setCustomSize(Number(e.target.value) || ICON_MIN_SIZE)}
+                style={{ font: 'inherit', width: 64, padding: 'var(--keel-spacing-1x) var(--keel-spacing-2x)' }}
+              />
+              px
+            </label>
+          )}
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))', gap: 'var(--keel-spacing-4x)' }}>
           {shown.map((n) => (
@@ -60,7 +75,7 @@ export const Icons: Story = {
                 borderRadius: 'var(--keel-border-radius-md)',
               }}
             >
-              <Icon name={n} size={size} />
+              <Icon name={n} size={size} customSize={customSize} />
               <Code>{n}</Code>
             </div>
           ))}

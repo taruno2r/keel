@@ -1,5 +1,5 @@
 // Runs INSIDE Figma via the Figma MCP `use_figma` tool (Plugin API), read-only.
-// Lists every icon component on the "Icons (core)" page (names start with "Icon/")
+// Lists every icon component on the "Icons" page (names start with "Icon/")
 // and returns { fingerprint, nodes }:
 //   - nodes: icon name -> node id. Download each node as SVG with the Figma MCP
 //     `download_assets` tool (defaultFormat "svg") into one folder as <name>.svg,
@@ -8,7 +8,7 @@
 //     (same algorithm), proving the repo snapshot matches Figma exactly.
 // Used by the /sync-icons skill (.claude/skills/sync-icons/SKILL.md).
 
-const PAGE = 'Icons (core)';
+const PAGE = 'Icons';
 const PREFIX = 'Icon/';
 
 const page = figma.root.children.find((p) => p.name === PAGE);

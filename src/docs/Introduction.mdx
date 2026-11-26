@@ -45,6 +45,15 @@ Two commands keep code and Storybook honest (`/sync-tokens` runs both):
 A new mode in the Accent collection becomes a new theme automatically, including in the toolbar.
 Never edit files in `src/tokens/generated/` by hand.
 
+## Icons
+
+Icons come from the **Icons (core)** page in Figma (components named `Icon/<name>`) and are used with
+`<Icon name="check" />`. They are square, any size from 12px up (`size`, default 24), and use
+`--keel-icon-default` unless you pass a `color`. See **Foundations / Icons** for the full set.
+
+After adding or changing icons in Figma, run **`/sync-icons`** in Claude Code. `npm run icons:check`
+fails if `src/icons/generated/` is out of date. Never edit it by hand.
+
 ## Adding a component
 
 Create `src/components/<Name>/` with `<Name>.tsx`, `<Name>.css` and `<Name>.stories.tsx`,

@@ -12,20 +12,24 @@ const meta = {
       description: {
         component:
           'Use an icon to support a label or action with a familiar symbol, like a chevron on a dropdown or a check in a confirmation. ' +
-          'Icons come from the Figma “Icons (core)” page; see **Foundations / Icons** for all of them.\n\n' +
-          `Icons are always square and can be any size from ${ICON_MIN_SIZE}px up. ` +
-          'They use `--keel-icon-default` unless you pass a `color`. ' +
-          'When an icon is the only content of a control, give it a `label` for screen readers.',
+          'Choose the symbol with iconName, from the Icons page. ' +
+          'The size is small (16px) by default; use medium (20px) or large (24px), or custom for any size from 12px up. ' +
+          'When an icon is the only content of a control, give the control an accessible name.\n\n' +
+          'In code: `name` is the icon (see **Foundations / Icons** for all of them), and `size="custom"` takes a `customSize` in pixels ' +
+          `(${ICON_MIN_SIZE} or more). Icons are always square and use \`--keel-icon-default\` unless you pass a \`color\`. ` +
+          'For an icon that stands alone, pass a `label` so screen readers announce it.',
       },
     },
   },
   args: {
     name: 'check',
-    size: 24,
+    size: 'small',
   },
   argTypes: {
     name: { control: 'select', options: iconNames },
-    size: { control: { type: 'number', min: ICON_MIN_SIZE, step: 1 } },
+    size: { control: 'inline-radio', options: ['small', 'medium', 'large', 'custom'] },
+    // Only shown when size is custom. Pixels, 12 or more.
+    customSize: { control: { type: 'number', min: ICON_MIN_SIZE, step: 1 }, if: { arg: 'size', eq: 'custom' } },
     color: { control: 'text' },
     label: { control: 'text' },
   },
@@ -36,15 +40,20 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {}
 
-/** The same icon at 12 (the minimum), 16, 20, 24, 32 and 48px. */
+/** Small (16px), medium (20px) and large (24px). */
 export const Sizes: Story = {
   render: (args) => (
     <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--keel-spacing-4x)' }}>
-      {[12, 16, 20, 24, 32, 48].map((s) => (
-        <Icon key={s} {...args} size={s} />
-      ))}
+      <Icon {...args} size="small" />
+      <Icon {...args} size="medium" />
+      <Icon {...args} size="large" />
     </div>
   ),
+}
+
+/** Any pixel size from 12px up. Change `customSize` in the controls; smaller values draw at 12px. */
+export const CustomSize: Story = {
+  args: { size: 'custom', customSize: 40 },
 }
 
 /** Override the default colour with any token or CSS colour. */

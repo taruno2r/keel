@@ -1,11 +1,11 @@
 ---
 name: sync-icons
-description: Sync icons from the Keel Figma "Icons (core)" page into this repo and Storybook. Exports every Icon/<name> component as SVG, verifies the copy is exact, regenerates the typed icon set used by <Icon />, and reports what changed. Use when the user says "sync icons", "update icons from Figma", "I added/changed an icon in Figma", or runs /sync-icons.
+description: Sync icons from the Keel Figma "Icons" page into this repo and Storybook. Exports every Icon/<name> component as SVG, verifies the copy is exact, regenerates the typed icon set used by <Icon />, and reports what changed. Use when the user says "sync icons", "update icons from Figma", "I added/changed an icon in Figma", or runs /sync-icons.
 ---
 
 # Sync icons from Figma
 
-Source of truth: the "Icons (core)" page in the Keel Figma file (`8IEdts3bNiwKEwISZ9Md9D`).
+Source of truth: the "Icons" page in the Keel Figma file (`8IEdts3bNiwKEwISZ9Md9D`).
 Every icon is a component named `Icon/<name>`. The repo keeps an exact snapshot of their
 geometry in `src/icons/figma/icons.json`; `src/icons/generated/icons.ts` is built from it.
 

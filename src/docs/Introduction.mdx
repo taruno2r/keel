@@ -47,8 +47,9 @@ Never edit files in `src/tokens/generated/` by hand.
 
 ## Icons
 
-Icons come from the **Icons (core)** page in Figma (components named `Icon/<name>`) and are used with
-`<Icon name="check" />`. They are square, any size from 12px up (`size`, default 24), and use
+Icons come from the **Icons** page in Figma (components named `Icon/<name>`) and are used with
+`<Icon name="check" />`. They are square: `size` is `small` (16px, the default), `medium` (20px),
+`large` (24px) or `custom` with any `customSize` from 12px up. They use
 `--keel-icon-default` unless you pass a `color`. See **Foundations / Icons** for the full set.
 
 After adding or changing icons in Figma, run **`/sync-icons`** in Claude Code. `npm run icons:check`

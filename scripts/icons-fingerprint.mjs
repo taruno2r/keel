@@ -1,6 +1,6 @@
 // Order-independent fingerprint of the icon snapshot. The same algorithm runs inside
 // Figma (scripts/figma/export-icons.js), so equal fingerprints mean every icon's
-// name, viewBox and path data in the repo exactly match the Figma "Icons (core)" page.
+// name, viewBox and path data in the repo exactly match the Figma "Icons" page.
 export function fingerprint(snapshot) {
   const lines = snapshot.icons.map((i) => `${i.name}|${i.viewBox}|${i.paths.map((p) => p.d).join('|')}`).sort();
   const s = lines.join('\n');

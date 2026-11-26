@@ -45,9 +45,9 @@
 .keel-button--large {
   min-height: 48px;
   padding: var(--keel-spacing-1x) var(--keel-spacing-6x);
-  /* Text style "Typography/Body/Medium". */
-  font-size: var(--keel-typography-font-size-16);
-  line-height: var(--keel-typography-line-height-20);
+  /* Text style "Typography/Body/Large". */
+  font-size: var(--keel-typography-font-size-20);
+  line-height: var(--keel-typography-line-height-24);
 }
 
 /* variant (State = default, then State = hover) */

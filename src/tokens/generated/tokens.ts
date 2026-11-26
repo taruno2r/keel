@@ -1766,6 +1766,22 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
+    "figmaName": "keel-icon/on-danger",
+    "cssVar": "--keel-icon-on-danger",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-slate-50",
+        "figmaAlias": "keel-color/slate/50"
+      },
+      "indigo": {
+        "alias": "--keel-color-slate-50",
+        "figmaAlias": "keel-color/slate/50"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
     "figmaName": "keel-slider/track",
     "cssVar": "--keel-slider-track",
     "type": "COLOR",

@@ -80,6 +80,17 @@
   background: var(--keel-surface-danger-hover);
 }
 
+/* Icons (Figma iconLeft / iconRight). The gap to the label is spacing/2x (above);
+   the icon size is set per button size in Button.tsx. Colour per variant, unchanged
+   on hover and focus: icon/on-accent on primary, icon/on-danger on danger, and
+   icon/default (the Icon default) on secondary and ghost. */
+.keel-button--primary .keel-button__icon {
+  color: var(--keel-icon-on-accent);
+}
+.keel-button--danger .keel-button__icon {
+  color: var(--keel-icon-on-danger);
+}
+
 /* State = focused: Figma "Focus Ring" is a rectangle 2px outside the button
    (radius 8 + 2 = 10px) with a 1px OUTSIDE solid stroke in border/focus. The
    outline follows the button's radius, so it gets the same 10px corners. */
@@ -89,15 +100,4 @@
 .keel-button:focus-visible {
   outline: var(--keel-border-width-sm) solid var(--keel-border-focus);
   outline-offset: 2px;
-}
-
-/* width = fill. The fillWidth prop (code only) sets --keel-button-fill-width. */
-.keel-button--fill {
-  display: flex;
-  width: var(--keel-button-fill-width, 100%);
-}
-.keel-button--fill .keel-button__label {
-  flex: 1 0 0;
-  min-width: 0;
-  text-align: center;
 }

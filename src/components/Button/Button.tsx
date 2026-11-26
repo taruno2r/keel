@@ -1,9 +1,10 @@
-import type { ButtonHTMLAttributes, CSSProperties, ReactNode } from 'react'
-import { toCssLength, type CssLength } from '../shared/cssLength'
+import type { ButtonHTMLAttributes, ReactNode } from 'react'
+import type { IconName } from '../../icons/generated/icons'
+import { Icon, type IconSize } from '../Icon'
 import './Button.css'
 
-/** A pixel value (`240` or `'240px'`) or a percentage of the container (`'50%'`). */
-export type ButtonFillWidth = CssLength
+/** Figma: the icon slots use the Icon component one size below the button. */
+const ICON_SIZE: Record<NonNullable<ButtonProps['size']>, IconSize> = { small: 'xsmall', medium: 'small', large: 'medium' }
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   /**
@@ -13,14 +14,16 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'ghost' | 'danger'
   /** Same as Figma `size`: `small` (32px tall), `medium` (40px) or `large` (48px). */
   size?: 'small' | 'medium' | 'large'
-  /** Same as Figma `width` (`auto`, `fill`). `fill` stretches to the container; long labels truncate. */
-  width?: 'auto' | 'fill'
   /**
-   * Code only (not in Figma, where the width is set on the instance). Used when `width` is `fill`:
-   * a pixel value (`240` or `'240px'`) or a percentage of the container (`'50%'`). Defaults to `100%`.
-   * Ignored when `width` is `auto`.
+   * Figma `iconLeft`: an icon before the label. Pass an icon name (Figma's default is `search`);
+   * leave it out for no icon. Sized to the button (12 / 16 / 20px) and coloured per variant.
    */
-  fillWidth?: ButtonFillWidth
+  iconLeft?: IconName
+  /**
+   * Figma `iconRight`: an icon after the label. Pass an icon name (Figma's default is
+   * `chevron-down`); leave it out for no icon.
+   */
+  iconRight?: IconName
   /** Figma `label`. A concise, action-oriented label. */
   children: ReactNode
 }
@@ -38,23 +41,19 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export function Button({
   variant = 'primary',
   size = 'small',
-  width = 'auto',
-  fillWidth,
+  iconLeft,
+  iconRight,
   type = 'button',
   className,
-  style,
   children,
   ...rest
 }: ButtonProps) {
-  const fill = width === 'fill'
-  const classes = ['keel-button', `keel-button--${variant}`, `keel-button--${size}`, fill && 'keel-button--fill', className]
-    .filter(Boolean)
-    .join(' ')
-  const cssFillWidth = fill ? toCssLength(fillWidth) : undefined
-  const fillStyle = cssFillWidth ? ({ '--keel-button-fill-width': cssFillWidth } as CSSProperties) : undefined
+  const classes = ['keel-button', `keel-button--${variant}`, `keel-button--${size}`, className].filter(Boolean).join(' ')
   return (
-    <button type={type} className={classes} style={fillStyle ? { ...fillStyle, ...style } : style} {...rest}>
+    <button type={type} className={classes} {...rest}>
+      {iconLeft && <Icon name={iconLeft} size={ICON_SIZE[size]} className="keel-button__icon" />}
       <span className="keel-button__label">{children}</span>
+      {iconRight && <Icon name={iconRight} size={ICON_SIZE[size]} className="keel-button__icon" />}
     </button>
   )
 }

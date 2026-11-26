@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { fn } from 'storybook/test'
+import { iconNames } from '../../icons/generated/icons'
 import { Button } from './Button'
 
 const meta = {
@@ -23,16 +24,14 @@ const meta = {
     children: 'Label',
     variant: 'primary',
     size: 'small',
-    width: 'auto',
     onClick: fn(),
   },
   argTypes: {
     variant: { control: 'inline-radio', options: ['primary', 'secondary', 'ghost', 'danger'] },
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },
-    width: { control: 'inline-radio', options: ['auto', 'fill'] },
-    // Only shown when width is fill. Pixels (240 or 240px) or a percentage (50%).
-    fillWidth: { control: 'text', if: { arg: 'width', eq: 'fill' } },
     children: { control: 'text', name: 'label' },
+    iconLeft: { control: 'select', options: [undefined, ...iconNames], labels: { undefined: '(none)' } },
+    iconRight: { control: 'select', options: [undefined, ...iconNames], labels: { undefined: '(none)' } },
   },
 } satisfies Meta<typeof Button>
 
@@ -51,4 +50,9 @@ export const Ghost: Story = {
 
 export const Danger: Story = {
   args: { variant: 'danger', children: 'Delete' },
+}
+
+/** Figma iconLeft and iconRight, with Figma's default icons. Pick other icons in the controls. */
+export const WithIcons: Story = {
+  args: { iconLeft: 'search', iconRight: 'chevron-down' },
 }

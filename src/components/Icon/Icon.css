@@ -1,0 +1,11 @@
+/*
+ * Icon: Figma Keel, page "Icons (core)" (components named "Icon/<name>").
+ * Paths are filled with currentColor; the default colour is the token the Figma
+ * icons are bound to, keel-icon/default. The `color` prop overrides it.
+ */
+.keel-icon {
+  display: inline-block;
+  flex-shrink: 0;
+  vertical-align: middle;
+  color: var(--keel-icon-default);
+}

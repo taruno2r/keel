@@ -17,7 +17,7 @@ const meta = {
           'The size is small (16px) by default; use xsmall (12px), medium (20px) or large (24px), or custom for any size from 12px up. ' +
           'When an icon is the only content of a control, give the control an accessible name.\n\n' +
           'In code: `name` is the icon (see **Foundations / Icons** for all of them), and `size="custom"` takes a `customSize` in pixels ' +
-          `(${ICON_MIN_SIZE} or more). Icons are always square and use \`--keel-icon-default\` unless you pass a \`color\`. ` +
+          `(${ICON_MIN_SIZE} or more). Icons are always square and use \`--keel-color-icon-default\` unless you pass a \`color\`. ` +
           'For an icon that stands alone, pass a `label` so screen readers announce it.',
       },
     },
@@ -60,5 +60,5 @@ export const CustomSize: Story = {
 
 /** Override the default colour with any token or CSS colour. */
 export const CustomColor: Story = {
-  args: { name: 'triangle-alert', color: 'var(--keel-surface-danger)' },
+  args: { name: 'triangle-alert', color: 'var(--keel-color-surface-danger)' },
 }

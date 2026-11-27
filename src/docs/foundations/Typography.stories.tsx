@@ -93,7 +93,7 @@ export const Typography: Story = {
       <Section title="Line height" description="Figma collection “Typography”.">
         <MeasureTable
           items={tokensFor(coverage.typography.lineHeight)}
-          visual={(v) => <div style={{ width: 16, height: `var(${v})`, background: 'var(--keel-element-accent)', borderRadius: 2 }} />}
+          visual={(v) => <div style={{ width: 16, height: `var(${v})`, background: 'var(--keel-color-element-accent)', borderRadius: 2 }} />}
         />
       </Section>
     </>

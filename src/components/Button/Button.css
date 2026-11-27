@@ -14,7 +14,7 @@
   border: none;
   border-radius: var(--keel-border-radius-lg);
   background: transparent;
-  color: var(--keel-text-primary);
+  color: var(--keel-color-text-primary);
   cursor: pointer;
   font-family: var(--keel-font-family-body);
   font-weight: var(--keel-font-weight-inter-regular);
@@ -56,36 +56,36 @@
 
 /* variant (State = default, then State = hover / active: Figma's active variants use the hover colours) */
 .keel-button--primary {
-  background: var(--keel-surface-accent);
-  color: var(--keel-text-on-accent);
+  background: var(--keel-color-surface-accent);
+  color: var(--keel-color-text-on-accent);
 }
 .keel-button--primary:hover:not(:disabled),
 .keel-button--primary:active:not(:disabled) {
-  background: var(--keel-surface-accent-hover);
+  background: var(--keel-color-surface-accent-hover);
 }
 
 .keel-button--secondary {
   /* Figma stroke is INSIDE (doesn't change the size), so draw it as an inset
      shadow rather than a border: every variant stays the same size. */
-  box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-border-default);
+  box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-color-border-default);
 }
 .keel-button--secondary:hover:not(:disabled),
 .keel-button--secondary:active:not(:disabled) {
-  background: var(--keel-surface-page-hover);
+  background: var(--keel-color-surface-page-hover);
 }
 
 .keel-button--ghost:hover:not(:disabled),
 .keel-button--ghost:active:not(:disabled) {
-  background: var(--keel-surface-page-hover);
+  background: var(--keel-color-surface-page-hover);
 }
 
 .keel-button--danger {
-  background: var(--keel-surface-danger);
-  color: var(--keel-text-on-accent);
+  background: var(--keel-color-surface-danger);
+  color: var(--keel-color-text-on-accent);
 }
 .keel-button--danger:hover:not(:disabled),
 .keel-button--danger:active:not(:disabled) {
-  background: var(--keel-surface-danger-hover);
+  background: var(--keel-color-surface-danger-hover);
 }
 
 /* Icons (Figma iconLeft / iconRight). The gap to the label is spacing/2x (above);
@@ -93,10 +93,10 @@
    on hover and focus: icon/on-accent on primary, icon/on-danger on danger, and
    icon/default (the Icon default) on secondary and ghost. */
 .keel-button--primary .keel-button__icon {
-  color: var(--keel-icon-on-accent);
+  color: var(--keel-color-icon-on-accent);
 }
 .keel-button--danger .keel-button__icon {
-  color: var(--keel-icon-on-danger);
+  color: var(--keel-color-icon-on-danger);
 }
 
 /* State = active: pressing also scales the button down to interactive/active/scale-3 (every size).
@@ -118,14 +118,14 @@
   cursor: not-allowed;
 }
 
-/* State = focused: Figma "Focus Ring" is a rectangle interactive/focus/offset (2px) outside the button
-   with an OUTSIDE solid stroke of interactive/focus/width in border/focus, and corners bound to
-   interactive/focus/radius/lg (radius/lg + offset = 10px). The outline follows the button's own
+/* State = focused: Figma "Focus Ring" is a rectangle interactive/focus-ring/offset (2px) outside the button
+   with an OUTSIDE solid stroke of interactive/focus-ring/width in border/focus, and corners bound to
+   interactive/focus-ring/radius/lg (radius/lg + offset = 10px). The outline follows the button's own
    radius plus the offset, so the browser draws those corners itself; no radius token needed. */
 .keel-button:focus {
   outline: none;
 }
 .keel-button:focus-visible {
-  outline: var(--keel-interactive-focus-width) solid var(--keel-border-focus);
-  outline-offset: var(--keel-interactive-focus-offset);
+  outline: var(--keel-interactive-focus-ring-width) solid var(--keel-color-border-focus);
+  outline-offset: var(--keel-interactive-focus-ring-offset);
 }

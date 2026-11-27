@@ -22,18 +22,19 @@ export function aliasOf(token: Token, mode: string): string | undefined {
 
 export const td: CSSProperties = {
   padding: 'var(--keel-spacing-2x) var(--keel-spacing-3x)',
-  borderBottom: 'var(--keel-border-width-sm) solid var(--keel-surface-card)',
+  borderBottom: 'var(--keel-border-width-sm) solid var(--keel-color-surface-card)',
   verticalAlign: 'middle',
 }
 
 /**
- * Groups tokens by the first segment of their Figma name, without the "keel-" prefix
- * ("keel-surface/page" -> "surface"; a name without "/" like "focus-ring" -> "focus").
+ * Groups tokens by the first segment of their Figma name, without the "keel-" prefix and, for
+ * semantic colours, the shared "color/" folder ("keel-color/surface/page" -> "surface";
+ * a name without "/" like "focus-ring" -> "focus").
  */
 export function groupByFirstSegment(items: Token[]): [string, Token[]][] {
   const groups = new Map<string, Token[]>()
   for (const t of items) {
-    const name = t.figmaName.replace(/^keel-/, '')
+    const name = t.figmaName.replace(/^keel-(color\/)?/, '')
     const key = name.includes('/') ? name.split('/')[0] : name.replace(/-[^-]+$/, '')
     groups.set(key, [...(groups.get(key) ?? []), t])
   }

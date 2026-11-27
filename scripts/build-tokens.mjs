@@ -77,7 +77,7 @@ const isFontWeight = (name) => /^font\/font[ -]weight\//i.test(unprefixed(name))
 // - interactive/disabled is a Figma layer opacity in percent (25 = 25%) -> CSS opacity 0..1.
 // - interactive/active/scale-* are transform scale factors.
 // - motion/duration-* are milliseconds.
-// - interactive/focus/* are lengths (px). They're aliases today, which skip this table, but a raw
+// - interactive/focus-ring/* are lengths (px). They're aliases today, which skip this table, but a raw
 //   value still needs a rule because of the group guard.
 // Any other token in a NON_PX_GROUPS folder is an error, so a new one gets a deliberate unit here.
 const tidy = (n) => Number(n.toPrecision(6));
@@ -85,7 +85,7 @@ const NON_PX = [
   [/^interactive\/disabled$/, (v) => String(tidy(v / 100))],
   [/^interactive\/active\/scale-/, (v) => String(tidy(v))],
   [/^motion\/duration-/, (v) => `${tidy(v)}ms`],
-  [/^interactive\/focus\//, (v) => (v === 0 ? '0' : `${tidy(v)}px`)],
+  [/^interactive\/focus-ring\//, (v) => (v === 0 ? '0' : `${tidy(v)}px`)],
 ];
 const NON_PX_GROUPS = /^(interactive|motion)\//;
 

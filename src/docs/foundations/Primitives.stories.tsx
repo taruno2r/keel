@@ -21,7 +21,7 @@ function Colors() {
                     style={{
                       height: 56,
                       borderRadius: 'var(--keel-border-radius-md)',
-                      border: 'var(--keel-border-width-sm) solid var(--keel-border-default)',
+                      border: 'var(--keel-border-width-sm) solid var(--keel-color-border-default)',
                       background: `var(${t.cssVar})`,
                     }}
                   />
@@ -41,7 +41,7 @@ function Scale() {
     <Section title="Scale" description="Raw numeric scale (px). Spacing, Radius and Border Width alias these.">
       <MeasureTable
         items={tokensFor(coverage.primitives.scale)}
-        visual={(v) => <div style={{ width: `var(${v})`, maxWidth: '100%', height: 16, background: 'var(--keel-element-accent)', borderRadius: 2 }} />}
+        visual={(v) => <div style={{ width: `var(${v})`, maxWidth: '100%', height: 16, background: 'var(--keel-color-element-accent)', borderRadius: 2 }} />}
       />
     </Section>
   )

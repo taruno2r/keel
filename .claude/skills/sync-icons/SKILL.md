@@ -43,4 +43,4 @@ geometry in `src/icons/figma/icons.json`; `src/icons/generated/icons.ts` is buil
 
 - Figma is the source of truth. Don't edit `src/icons/generated/` or hand-edit path data.
 - Every Figma call in this flow is read-only. Never write to the Figma file.
-- Icons are filled with `currentColor` in code; their default colour is `--keel-icon-default` (Icon.css).
+- Icons are filled with `currentColor` in code; their default colour is `--keel-color-icon-default` (Icon.css).

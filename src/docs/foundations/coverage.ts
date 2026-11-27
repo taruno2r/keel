@@ -24,15 +24,15 @@ export const coverage = {
     lineHeight: ['Typography', 'keel-typography/line-height/'],
   },
   border: {
-    radius: ['Spacing and Radius', 'keel-border-radius/'],
-    width: ['Spacing and Radius', 'keel-border-width/'],
+    radius: ['Spacing and Radius', 'keel-border/radius/'],
+    width: ['Spacing and Radius', 'keel-border/width/'],
   },
   interactive: {
     disabled: ['Interactive', 'keel-interactive/disabled'],
     activeScale: ['Interactive', 'keel-interactive/active/'],
-    focusOffset: ['Interactive', 'keel-interactive/focus/offset'],
-    focusWidth: ['Interactive', 'keel-interactive/focus/width'],
-    focusRadius: ['Interactive', 'keel-interactive/focus/radius/'],
+    focusOffset: ['Interactive', 'keel-interactive/focus-ring/offset'],
+    focusWidth: ['Interactive', 'keel-interactive/focus-ring/width'],
+    focusRadius: ['Interactive', 'keel-interactive/focus-ring/radius/'],
   },
   motion: {
     duration: ['Motion', 'keel-motion/duration-'],

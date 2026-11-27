@@ -27,4 +27,14 @@ export const coverage = {
     radius: ['Spacing and Radius', 'keel-border-radius/'],
     width: ['Spacing and Radius', 'keel-border-width/'],
   },
+  interactive: {
+    disabled: ['Interactive', 'keel-interactive/disabled'],
+    activeScale: ['Interactive', 'keel-interactive/active/'],
+    focusOffset: ['Interactive', 'keel-interactive/focus/offset'],
+    focusWidth: ['Interactive', 'keel-interactive/focus/width'],
+    focusRadius: ['Interactive', 'keel-interactive/focus/radius/'],
+  },
+  motion: {
+    duration: ['Motion', 'keel-motion/duration-'],
+  },
 } as const satisfies Record<string, Record<string, CoverageEntry>>

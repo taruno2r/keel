@@ -19,9 +19,11 @@ carries the `keel-` prefix: `keel-color/slate/950` → `--keel-color-slate-950`,
 | Spacing and Radius | Mode 1 | `:root` in `generated/spacing-and-radius.css` |
 | Accent | Default, Indigo | one file per mode in `generated/themes/` |
 | Typography | Mode 1 | `:root` in `generated/typography.css` |
+| Interactive | Mode 1 | `:root` in `generated/interactive.css` (unitless: opacity 0–1, scale factors) |
+| Motion | Mode 1 | `:root` in `generated/motion.css` (durations in ms) |
 
 Aliases are kept as `var()` references, so a theme token points at a primitive just like in Figma.
-**Components use accent, spacing, radius and typography tokens. Of the primitives, only font
+**Components use accent, spacing, radius, typography, interactive and motion tokens. Of the primitives, only font
 family and font weight, which have no semantic tokens yet.**
 
 ## Themes

@@ -1,7 +1,7 @@
 {
   "source": {
     "fileKey": "8IEdts3bNiwKEwISZ9Md9D",
-    "exportedAt": "2026-11-26T10:44:58.852Z"
+    "exportedAt": "2026-11-27T07:42:15.004Z"
   },
   "collections": [
     {
@@ -65,11 +65,29 @@
           }
         },
         {
+          "name": "keel-scale/6",
+          "type": "FLOAT",
+          "values": {
+            "Value": {
+              "value": 6
+            }
+          }
+        },
+        {
           "name": "keel-scale/8",
           "type": "FLOAT",
           "values": {
             "Value": {
               "value": 8
+            }
+          }
+        },
+        {
+          "name": "keel-scale/10",
+          "type": "FLOAT",
+          "values": {
+            "Value": {
+              "value": 10
             }
           }
         },
@@ -1763,6 +1781,157 @@
           "values": {
             "Mode 1": {
               "alias": "keel-scale/72"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Interactive",
+      "modes": [
+        "Mode 1"
+      ],
+      "variables": [
+        {
+          "name": "keel-interactive/disabled",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "value": 25
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/active/scale-1",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "value": 0.9300000071525574
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/offset",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/2"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/width",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/1"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/radius/none",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/0"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/radius/sm",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/4"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/radius/md",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/6"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/radius/lg",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/10"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/radius/xlg",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/18"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/focus/radius/max",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/512"
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/active/scale-2",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "value": 0.949999988079071
+            }
+          }
+        },
+        {
+          "name": "keel-interactive/active/scale-3",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "value": 0.9700000286102295
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Motion",
+      "modes": [
+        "Mode 1"
+      ],
+      "variables": [
+        {
+          "name": "keel-motion/duration-1",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "value": 100
+            }
+          }
+        },
+        {
+          "name": "keel-motion/duration-2",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "value": 200
+            }
+          }
+        },
+        {
+          "name": "keel-motion/duration-3",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "value": 300
             }
           }
         }

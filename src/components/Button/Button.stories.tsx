@@ -16,7 +16,8 @@ const meta = {
           'Use **Primary** for the main action in a page or dialog, and **Secondary** for supporting actions next to it. ' +
           'Use **Ghost** for low-emphasis actions, and **Danger** for destructive actions like deleting. ' +
           'To take people to another page, use a link instead.\n\n' +
-          'Hover and keyboard focus are real browser states: hover the button, or press Tab to see the focus ring.',
+          'Hover, press and keyboard focus are real browser states: hover the button, press and hold it to see it scale down, or press Tab to see the focus ring. ' +
+          'Figma’s disabled state is the `disabled` prop.',
       },
     },
   },
@@ -24,12 +25,14 @@ const meta = {
     children: 'Label',
     variant: 'primary',
     size: 'small',
+    disabled: false,
     onClick: fn(),
   },
   argTypes: {
     variant: { control: 'select', options: ['primary', 'secondary', 'ghost', 'danger'] },
     size: { control: 'select', options: ['small', 'medium', 'large'] },
     children: { control: 'text', name: 'label' },
+    disabled: { control: 'boolean' },
     iconLeft: { control: 'select', options: [undefined, ...iconNames], labels: { undefined: '(none)' } },
     iconRight: { control: 'select', options: [undefined, ...iconNames], labels: { undefined: '(none)' } },
   },
@@ -55,4 +58,17 @@ export const Danger: Story = {
 /** Figma iconLeft and iconRight, with Figma's default icons. Pick other icons in the controls. */
 export const WithIcons: Story = {
   args: { iconLeft: 'search', iconRight: 'chevron-down' },
+}
+
+/** Figma State = disabled: every variant at the interactive/disabled opacity, with no hover or press. */
+export const Disabled: Story = {
+  args: { disabled: true },
+  render: (args) => (
+    <div style={{ display: 'flex', gap: 'var(--keel-spacing-4x)' }}>
+      <Button {...args} variant="primary" />
+      <Button {...args} variant="secondary" />
+      <Button {...args} variant="ghost" />
+      <Button {...args} variant="danger" />
+    </div>
+  ),
 }

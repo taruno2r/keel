@@ -27,8 +27,8 @@ const meta = {
     onClick: fn(),
   },
   argTypes: {
-    variant: { control: 'inline-radio', options: ['primary', 'secondary', 'ghost', 'danger'] },
-    size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },
+    variant: { control: 'select', options: ['primary', 'secondary', 'ghost', 'danger'] },
+    size: { control: 'select', options: ['small', 'medium', 'large'] },
     children: { control: 'text', name: 'label' },
     iconLeft: { control: 'select', options: [undefined, ...iconNames], labels: { undefined: '(none)' } },
     iconRight: { control: 'select', options: [undefined, ...iconNames], labels: { undefined: '(none)' } },

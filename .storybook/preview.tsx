@@ -2,6 +2,9 @@ import type { Preview } from '@storybook/react-vite'
 import { withThemeByDataAttribute } from '@storybook/addon-themes'
 import { themes } from '../src/tokens/generated/tokens'
 import '../src/tokens/index.css'
+import { commitNumberControls } from './commitNumberControls'
+
+commitNumberControls()
 
 const preview: Preview = {
   parameters: {

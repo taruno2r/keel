@@ -1,7 +1,7 @@
 {
   "source": {
     "fileKey": "8IEdts3bNiwKEwISZ9Md9D",
-    "exportedAt": "2026-11-27T07:55:02.481Z"
+    "exportedAt": "2026-11-27T10:25:50.394Z"
   },
   "collections": [
     {
@@ -1409,10 +1409,10 @@
           "type": "COLOR",
           "values": {
             "Default": {
-              "alias": "keel-color/slate/950"
+              "alias": "keel-color/slate/800"
             },
             "Indigo": {
-              "alias": "keel-color/slate/950"
+              "alias": "keel-color/slate/800"
             }
           }
         },
@@ -1425,6 +1425,54 @@
             },
             "Indigo": {
               "alias": "keel-color/slate/500"
+            }
+          }
+        },
+        {
+          "name": "keel-color/text/accent",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/slate/800"
+            },
+            "Indigo": {
+              "alias": "keel-color/indigo/800"
+            }
+          }
+        },
+        {
+          "name": "keel-color/text/success",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/phosphor/800"
+            },
+            "Indigo": {
+              "alias": "keel-color/phosphor/700"
+            }
+          }
+        },
+        {
+          "name": "keel-color/text/warning",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/tangerine/700"
+            },
+            "Indigo": {
+              "alias": "keel-color/tangerine/800"
+            }
+          }
+        },
+        {
+          "name": "keel-color/text/danger",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/tomato/800"
+            },
+            "Indigo": {
+              "alias": "keel-color/tomato/800"
             }
           }
         },
@@ -1501,6 +1549,18 @@
           }
         },
         {
+          "name": "keel-color/surface/accent-subtle",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/slate/100"
+            },
+            "Indigo": {
+              "alias": "keel-color/indigo/100"
+            }
+          }
+        },
+        {
           "name": "keel-color/surface/accent-hover",
           "type": "COLOR",
           "values": {
@@ -1513,6 +1573,54 @@
           }
         },
         {
+          "name": "keel-color/surface/success",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/phosphor/600"
+            },
+            "Indigo": {
+              "alias": "keel-color/phosphor/600"
+            }
+          }
+        },
+        {
+          "name": "keel-color/surface/success-subtle",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/phosphor/100"
+            },
+            "Indigo": {
+              "alias": "keel-color/phosphor/100"
+            }
+          }
+        },
+        {
+          "name": "keel-color/surface/warning",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/tangerine/600"
+            },
+            "Indigo": {
+              "alias": "keel-color/tangerine/600"
+            }
+          }
+        },
+        {
+          "name": "keel-color/surface/warning-subtle",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/tangerine/100"
+            },
+            "Indigo": {
+              "alias": "keel-color/tangerine/100"
+            }
+          }
+        },
+        {
           "name": "keel-color/surface/danger",
           "type": "COLOR",
           "values": {
@@ -1521,6 +1629,18 @@
             },
             "Indigo": {
               "alias": "keel-color/tomato/600"
+            }
+          }
+        },
+        {
+          "name": "keel-color/surface/danger-subtle",
+          "type": "COLOR",
+          "values": {
+            "Default": {
+              "alias": "keel-color/tomato/100"
+            },
+            "Indigo": {
+              "alias": "keel-color/tomato/100"
             }
           }
         },

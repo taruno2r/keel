@@ -1852,6 +1852,22 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
+    "figmaName": "keel-color/surface/accent-subtle",
+    "cssVar": "--keel-color-surface-accent-subtle",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-slate-100",
+        "figmaAlias": "keel-color/slate/100"
+      },
+      "indigo": {
+        "alias": "--keel-color-indigo-100",
+        "figmaAlias": "keel-color/indigo/100"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
     "figmaName": "keel-color/surface/card",
     "cssVar": "--keel-color-surface-card",
     "type": "COLOR",
@@ -1900,6 +1916,22 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
+    "figmaName": "keel-color/surface/danger-subtle",
+    "cssVar": "--keel-color-surface-danger-subtle",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-tomato-100",
+        "figmaAlias": "keel-color/tomato/100"
+      },
+      "indigo": {
+        "alias": "--keel-color-tomato-100",
+        "figmaAlias": "keel-color/tomato/100"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
     "figmaName": "keel-color/surface/page",
     "cssVar": "--keel-color-surface-page",
     "type": "COLOR",
@@ -1932,6 +1964,102 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
+    "figmaName": "keel-color/surface/success",
+    "cssVar": "--keel-color-surface-success",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-phosphor-600",
+        "figmaAlias": "keel-color/phosphor/600"
+      },
+      "indigo": {
+        "alias": "--keel-color-phosphor-600",
+        "figmaAlias": "keel-color/phosphor/600"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-color/surface/success-subtle",
+    "cssVar": "--keel-color-surface-success-subtle",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-phosphor-100",
+        "figmaAlias": "keel-color/phosphor/100"
+      },
+      "indigo": {
+        "alias": "--keel-color-phosphor-100",
+        "figmaAlias": "keel-color/phosphor/100"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-color/surface/warning",
+    "cssVar": "--keel-color-surface-warning",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-tangerine-600",
+        "figmaAlias": "keel-color/tangerine/600"
+      },
+      "indigo": {
+        "alias": "--keel-color-tangerine-600",
+        "figmaAlias": "keel-color/tangerine/600"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-color/surface/warning-subtle",
+    "cssVar": "--keel-color-surface-warning-subtle",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-tangerine-100",
+        "figmaAlias": "keel-color/tangerine/100"
+      },
+      "indigo": {
+        "alias": "--keel-color-tangerine-100",
+        "figmaAlias": "keel-color/tangerine/100"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-color/text/accent",
+    "cssVar": "--keel-color-text-accent",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-slate-800",
+        "figmaAlias": "keel-color/slate/800"
+      },
+      "indigo": {
+        "alias": "--keel-color-indigo-800",
+        "figmaAlias": "keel-color/indigo/800"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-color/text/danger",
+    "cssVar": "--keel-color-text-danger",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-tomato-800",
+        "figmaAlias": "keel-color/tomato/800"
+      },
+      "indigo": {
+        "alias": "--keel-color-tomato-800",
+        "figmaAlias": "keel-color/tomato/800"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
     "figmaName": "keel-color/text/on-accent",
     "cssVar": "--keel-color-text-on-accent",
     "type": "COLOR",
@@ -1953,12 +2081,12 @@ export const tokens: Token[] = [
     "type": "COLOR",
     "values": {
       "default": {
-        "alias": "--keel-color-slate-950",
-        "figmaAlias": "keel-color/slate/950"
+        "alias": "--keel-color-slate-800",
+        "figmaAlias": "keel-color/slate/800"
       },
       "indigo": {
-        "alias": "--keel-color-slate-950",
-        "figmaAlias": "keel-color/slate/950"
+        "alias": "--keel-color-slate-800",
+        "figmaAlias": "keel-color/slate/800"
       }
     }
   },
@@ -1975,6 +2103,38 @@ export const tokens: Token[] = [
       "indigo": {
         "alias": "--keel-color-slate-500",
         "figmaAlias": "keel-color/slate/500"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-color/text/success",
+    "cssVar": "--keel-color-text-success",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-phosphor-800",
+        "figmaAlias": "keel-color/phosphor/800"
+      },
+      "indigo": {
+        "alias": "--keel-color-phosphor-700",
+        "figmaAlias": "keel-color/phosphor/700"
+      }
+    }
+  },
+  {
+    "collection": "Accent",
+    "figmaName": "keel-color/text/warning",
+    "cssVar": "--keel-color-text-warning",
+    "type": "COLOR",
+    "values": {
+      "default": {
+        "alias": "--keel-color-tangerine-700",
+        "figmaAlias": "keel-color/tangerine/700"
+      },
+      "indigo": {
+        "alias": "--keel-color-tangerine-800",
+        "figmaAlias": "keel-color/tangerine/800"
       }
     }
   },

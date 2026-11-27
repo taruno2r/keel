@@ -6,6 +6,6 @@ body {
   font-family: var(--keel-font-family-body);
   font-weight: var(--keel-font-weight-inter-regular);
   line-height: 1.5;
-  color: var(--keel-text-primary);
-  background: var(--keel-surface-page);
+  color: var(--keel-color-text-primary);
+  background: var(--keel-color-surface-page);
 }

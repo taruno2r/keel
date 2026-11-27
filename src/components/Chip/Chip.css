@@ -12,10 +12,10 @@
   border: none;
   border-radius: var(--keel-border-radius-md);
   background: transparent;
-  color: var(--keel-text-primary);
+  color: var(--keel-color-text-primary);
   /* Figma stroke is INSIDE (doesn't change the size), so draw it as an inset
      shadow rather than a border: both states stay 36px tall, like Figma. */
-  box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-border-default);
+  box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-color-border-default);
   cursor: pointer;
 
   /* Text style "Typography/Body/Medium". */
@@ -28,28 +28,28 @@
 
 /* selected = true: filled, no stroke. */
 .keel-chip--selected {
-  background: var(--keel-surface-accent);
-  color: var(--keel-text-on-accent);
+  background: var(--keel-color-surface-accent);
+  color: var(--keel-color-text-on-accent);
   box-shadow: none;
 }
 
 /* State = hover. selected = false: page-hover fill, outline unchanged.
    selected = true: accent-hover fill. */
 .keel-chip:hover {
-  background: var(--keel-surface-page-hover);
+  background: var(--keel-color-surface-page-hover);
 }
 .keel-chip--selected:hover {
-  background: var(--keel-surface-accent-hover);
+  background: var(--keel-color-surface-accent-hover);
 }
 
-/* State = focused (both selected values): Figma "Focus Ring" is a rectangle interactive/focus/offset
-   (2px) outside the chip, with an OUTSIDE solid stroke of interactive/focus/width in border/focus,
-   and corners bound to interactive/focus/radius/md (radius/md + offset = 6px). The outline follows
+/* State = focused (both selected values): Figma "Focus Ring" is a rectangle interactive/focus-ring/offset
+   (2px) outside the chip, with an OUTSIDE solid stroke of interactive/focus-ring/width in border/focus,
+   and corners bound to interactive/focus-ring/radius/md (radius/md + offset = 6px). The outline follows
    the chip's own radius plus the offset, so the browser draws those corners itself. Same ring as Button. */
 .keel-chip:focus {
   outline: none;
 }
 .keel-chip:focus-visible {
-  outline: var(--keel-interactive-focus-width) solid var(--keel-border-focus);
-  outline-offset: var(--keel-interactive-focus-offset);
+  outline: var(--keel-interactive-focus-ring-width) solid var(--keel-color-border-focus);
+  outline-offset: var(--keel-interactive-focus-ring-offset);
 }

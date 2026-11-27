@@ -1,7 +1,7 @@
 {
   "source": {
     "fileKey": "8IEdts3bNiwKEwISZ9Md9D",
-    "exportedAt": "2026-11-27T07:42:15.004Z"
+    "exportedAt": "2026-11-27T07:55:02.481Z"
   },
   "collections": [
     {
@@ -1171,7 +1171,7 @@
       ],
       "variables": [
         {
-          "name": "keel-border-radius/none",
+          "name": "keel-border/radius/none",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1180,7 +1180,7 @@
           }
         },
         {
-          "name": "keel-border-radius/sm",
+          "name": "keel-border/radius/sm",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1189,7 +1189,7 @@
           }
         },
         {
-          "name": "keel-border-radius/md",
+          "name": "keel-border/radius/md",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1198,7 +1198,7 @@
           }
         },
         {
-          "name": "keel-border-radius/lg",
+          "name": "keel-border/radius/lg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1207,7 +1207,7 @@
           }
         },
         {
-          "name": "keel-border-radius/xlg",
+          "name": "keel-border/radius/xlg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1216,7 +1216,7 @@
           }
         },
         {
-          "name": "keel-border-radius/max",
+          "name": "keel-border/radius/max",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1225,7 +1225,7 @@
           }
         },
         {
-          "name": "keel-border-width/none",
+          "name": "keel-border/width/none",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1234,7 +1234,7 @@
           }
         },
         {
-          "name": "keel-border-width/sm",
+          "name": "keel-border/width/sm",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1243,7 +1243,7 @@
           }
         },
         {
-          "name": "keel-border-width/md",
+          "name": "keel-border/width/md",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1252,7 +1252,7 @@
           }
         },
         {
-          "name": "keel-border-width/lg",
+          "name": "keel-border/width/lg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1369,7 +1369,7 @@
       ],
       "variables": [
         {
-          "name": "keel-surface/page",
+          "name": "keel-color/surface/page",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1381,7 +1381,7 @@
           }
         },
         {
-          "name": "keel-surface/page-hover",
+          "name": "keel-color/surface/page-hover",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1393,7 +1393,7 @@
           }
         },
         {
-          "name": "keel-surface/card",
+          "name": "keel-color/surface/card",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1405,7 +1405,7 @@
           }
         },
         {
-          "name": "keel-text/primary",
+          "name": "keel-color/text/primary",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1417,7 +1417,7 @@
           }
         },
         {
-          "name": "keel-text/secondary",
+          "name": "keel-color/text/secondary",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1429,7 +1429,7 @@
           }
         },
         {
-          "name": "keel-border/default",
+          "name": "keel-color/border/default",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1441,7 +1441,7 @@
           }
         },
         {
-          "name": "keel-border/focus",
+          "name": "keel-color/border/focus",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1453,7 +1453,7 @@
           }
         },
         {
-          "name": "keel-icon/default",
+          "name": "keel-color/icon/default",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1465,7 +1465,7 @@
           }
         },
         {
-          "name": "keel-icon/on-accent",
+          "name": "keel-color/icon/on-accent",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1477,7 +1477,7 @@
           }
         },
         {
-          "name": "keel-icon/on-danger",
+          "name": "keel-color/icon/on-danger",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1489,7 +1489,7 @@
           }
         },
         {
-          "name": "keel-surface/accent",
+          "name": "keel-color/surface/accent",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1501,7 +1501,7 @@
           }
         },
         {
-          "name": "keel-surface/accent-hover",
+          "name": "keel-color/surface/accent-hover",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1513,7 +1513,7 @@
           }
         },
         {
-          "name": "keel-surface/danger",
+          "name": "keel-color/surface/danger",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1525,7 +1525,7 @@
           }
         },
         {
-          "name": "keel-surface/danger-hover",
+          "name": "keel-color/surface/danger-hover",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1537,7 +1537,7 @@
           }
         },
         {
-          "name": "keel-element/accent",
+          "name": "keel-color/element/accent",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1549,7 +1549,7 @@
           }
         },
         {
-          "name": "keel-text/on-accent",
+          "name": "keel-color/text/on-accent",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1561,7 +1561,7 @@
           }
         },
         {
-          "name": "keel-element/on-accent",
+          "name": "keel-color/element/on-accent",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1573,7 +1573,7 @@
           }
         },
         {
-          "name": "keel-slider/track",
+          "name": "keel-color/slider/track",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1585,7 +1585,7 @@
           }
         },
         {
-          "name": "keel-badge/default",
+          "name": "keel-color/badge/default",
           "type": "COLOR",
           "values": {
             "Default": {
@@ -1802,6 +1802,15 @@
           }
         },
         {
+          "name": "keel-interactive/focus-ring/offset",
+          "type": "FLOAT",
+          "values": {
+            "Mode 1": {
+              "alias": "keel-scale/2"
+            }
+          }
+        },
+        {
           "name": "keel-interactive/active/scale-1",
           "type": "FLOAT",
           "values": {
@@ -1811,16 +1820,7 @@
           }
         },
         {
-          "name": "keel-interactive/focus/offset",
-          "type": "FLOAT",
-          "values": {
-            "Mode 1": {
-              "alias": "keel-scale/2"
-            }
-          }
-        },
-        {
-          "name": "keel-interactive/focus/width",
+          "name": "keel-interactive/focus-ring/width",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1829,7 +1829,7 @@
           }
         },
         {
-          "name": "keel-interactive/focus/radius/none",
+          "name": "keel-interactive/focus-ring/radius/none",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1838,7 +1838,7 @@
           }
         },
         {
-          "name": "keel-interactive/focus/radius/sm",
+          "name": "keel-interactive/focus-ring/radius/sm",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1847,7 +1847,7 @@
           }
         },
         {
-          "name": "keel-interactive/focus/radius/md",
+          "name": "keel-interactive/focus-ring/radius/md",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1856,7 +1856,7 @@
           }
         },
         {
-          "name": "keel-interactive/focus/radius/lg",
+          "name": "keel-interactive/focus-ring/radius/lg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1865,7 +1865,7 @@
           }
         },
         {
-          "name": "keel-interactive/focus/radius/xlg",
+          "name": "keel-interactive/focus-ring/radius/xlg",
           "type": "FLOAT",
           "values": {
             "Mode 1": {
@@ -1874,7 +1874,7 @@
           }
         },
         {
-          "name": "keel-interactive/focus/radius/max",
+          "name": "keel-interactive/focus-ring/radius/max",
           "type": "FLOAT",
           "values": {
             "Mode 1": {

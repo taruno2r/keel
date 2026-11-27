@@ -42,7 +42,7 @@ everything else is generated from it.
    - If a collection was renamed, update its name in `coverage.ts`.
 
 9. **Breakage.** For each removed or renamed variable, `git grep` its old CSS variable
-   (e.g. `--keel-surface-card`) outside `src/tokens/generated/`. Fix the reference if the replacement is
+   (e.g. `--keel-color-surface-card`) outside `src/tokens/generated/`. Fix the reference if the replacement is
    obvious; otherwise list it for the user.
 
 10. **Verify.** `npx tsc -b`, `npm run lint`, `npm run tokens:check`, `npm run test-storybook`. If Storybook

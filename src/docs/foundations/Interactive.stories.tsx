@@ -11,8 +11,8 @@ const sample = {
   width: 96,
   height: 40,
   borderRadius: 'var(--keel-border-radius-lg)',
-  background: 'var(--keel-surface-accent)',
-  color: 'var(--keel-text-on-accent)',
+  background: 'var(--keel-color-surface-accent)',
+  color: 'var(--keel-color-text-on-accent)',
   fontSize: 'var(--keel-typography-font-size-14)',
   userSelect: 'none',
 } as const
@@ -37,15 +37,15 @@ function PressSample({ cssVar }: { cssVar: string }) {
 const ringBox = {
   width: 64,
   height: 32,
-  background: 'var(--keel-surface-card)',
+  background: 'var(--keel-color-surface-card)',
   borderRadius: 'var(--keel-border-radius-lg)',
-  outline: 'var(--keel-interactive-focus-width) solid var(--keel-border-focus)',
-  outlineOffset: 'var(--keel-interactive-focus-offset)',
+  outline: 'var(--keel-interactive-focus-ring-width) solid var(--keel-color-border-focus)',
+  outlineOffset: 'var(--keel-interactive-focus-ring-offset)',
 } as const
 
 /** A box with the matching border-radius step and the focus ring drawn by the browser around it. */
 const RingSample = ({ cssVar }: { cssVar: string }) => {
-  const step = cssVar.replace('--keel-interactive-focus-radius-', '')
+  const step = cssVar.replace('--keel-interactive-focus-ring-radius-', '')
   return <div style={{ ...ringBox, borderRadius: `var(--keel-border-radius-${step})` }} />
 }
 

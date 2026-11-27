@@ -11,7 +11,7 @@ A themeable design system for the web, built from the variables and components i
 
 Every Figma variable is a CSS custom property. Names follow the Figma path, whose top folder
 carries the `keel-` prefix: `keel-color/slate/950` → `--keel-color-slate-950`,
-`keel-surface/accent` → `--keel-surface-accent`.
+`keel-surface/accent` → `--keel-color-surface-accent`.
 
 | Figma collection | Modes | CSS |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ Never edit files in `src/tokens/generated/` by hand.
 Icons come from the **Icons** page in Figma (components named `Icon/<name>`) and are used with
 `<Icon name="check" />`. They are square: `size` is `xsmall` (12px), `small` (16px, the default), `medium` (20px),
 `large` (24px) or `custom` with any `customSize` from 12px up. They use
-`--keel-icon-default` unless you pass a `color`. See **Foundations / Icons** for the full set.
+`--keel-color-icon-default` unless you pass a `color`. See **Foundations / Icons** for the full set.
 
 After adding or changing icons in Figma, run **`/sync-icons`** in Claude Code. `npm run icons:check`
 fails if `src/icons/generated/` is out of date. Never edit it by hand.

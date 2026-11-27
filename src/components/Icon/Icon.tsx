@@ -19,8 +19,8 @@ export interface IconProps extends Omit<SVGAttributes<SVGSVGElement>, 'children'
    */
   customSize?: number
   /**
-   * Any CSS colour, including a token like `var(--keel-text-on-accent)`. Defaults to
-   * `--keel-icon-default`, the colour the Figma icons are bound to.
+   * Any CSS colour, including a token like `var(--keel-color-text-on-accent)`. Defaults to
+   * `--keel-color-icon-default`, the colour the Figma icons are bound to.
    */
   color?: string
   /**

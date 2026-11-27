@@ -72,7 +72,7 @@ export const Icons: Story = {
                 alignItems: 'center',
                 gap: 'var(--keel-spacing-2x)',
                 padding: 'var(--keel-spacing-4x) var(--keel-spacing-2x)',
-                border: 'var(--keel-border-width-sm) solid var(--keel-surface-card)',
+                border: 'var(--keel-border-width-sm) solid var(--keel-color-surface-card)',
                 borderRadius: 'var(--keel-border-radius-md)',
               }}
             >
@@ -80,7 +80,7 @@ export const Icons: Story = {
               <Code>{n}</Code>
             </div>
           ))}
-          {!shown.length && <p style={{ color: 'var(--keel-text-secondary)' }}>No icon matches “{query}”.</p>}
+          {!shown.length && <p style={{ color: 'var(--keel-color-text-secondary)' }}>No icon matches “{query}”.</p>}
         </div>
       </Section>
     )

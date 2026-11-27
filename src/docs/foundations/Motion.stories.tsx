@@ -19,7 +19,7 @@ function DurationSample({ cssVar }: { cssVar: string }) {
         padding: 0,
         border: 'none',
         borderRadius: 'var(--keel-border-radius-max)',
-        background: 'var(--keel-surface-card)',
+        background: 'var(--keel-color-surface-card)',
         cursor: 'pointer',
       }}
     >
@@ -31,7 +31,7 @@ function DurationSample({ cssVar }: { cssVar: string }) {
           width: 16,
           height: 16,
           borderRadius: 'var(--keel-border-radius-max)',
-          background: 'var(--keel-surface-accent)',
+          background: 'var(--keel-color-surface-accent)',
           transform: end ? 'translateX(136px)' : 'none',
           transition: `transform var(${cssVar})`,
         }}

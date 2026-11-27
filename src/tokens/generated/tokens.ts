@@ -1424,7 +1424,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-radius/lg",
+    "figmaName": "keel-border/radius/lg",
     "cssVar": "--keel-border-radius-lg",
     "type": "FLOAT",
     "values": {
@@ -1436,7 +1436,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-radius/max",
+    "figmaName": "keel-border/radius/max",
     "cssVar": "--keel-border-radius-max",
     "type": "FLOAT",
     "values": {
@@ -1448,7 +1448,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-radius/md",
+    "figmaName": "keel-border/radius/md",
     "cssVar": "--keel-border-radius-md",
     "type": "FLOAT",
     "values": {
@@ -1460,7 +1460,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-radius/none",
+    "figmaName": "keel-border/radius/none",
     "cssVar": "--keel-border-radius-none",
     "type": "FLOAT",
     "values": {
@@ -1472,7 +1472,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-radius/sm",
+    "figmaName": "keel-border/radius/sm",
     "cssVar": "--keel-border-radius-sm",
     "type": "FLOAT",
     "values": {
@@ -1484,7 +1484,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-radius/xlg",
+    "figmaName": "keel-border/radius/xlg",
     "cssVar": "--keel-border-radius-xlg",
     "type": "FLOAT",
     "values": {
@@ -1496,7 +1496,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-width/lg",
+    "figmaName": "keel-border/width/lg",
     "cssVar": "--keel-border-width-lg",
     "type": "FLOAT",
     "values": {
@@ -1508,7 +1508,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-width/md",
+    "figmaName": "keel-border/width/md",
     "cssVar": "--keel-border-width-md",
     "type": "FLOAT",
     "values": {
@@ -1520,7 +1520,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-width/none",
+    "figmaName": "keel-border/width/none",
     "cssVar": "--keel-border-width-none",
     "type": "FLOAT",
     "values": {
@@ -1532,7 +1532,7 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Spacing and Radius",
-    "figmaName": "keel-border-width/sm",
+    "figmaName": "keel-border/width/sm",
     "cssVar": "--keel-border-width-sm",
     "type": "FLOAT",
     "values": {
@@ -1676,8 +1676,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-badge/default",
-    "cssVar": "--keel-badge-default",
+    "figmaName": "keel-color/badge/default",
+    "cssVar": "--keel-color-badge-default",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1692,8 +1692,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-border/default",
-    "cssVar": "--keel-border-default",
+    "figmaName": "keel-color/border/default",
+    "cssVar": "--keel-color-border-default",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1708,8 +1708,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-border/focus",
-    "cssVar": "--keel-border-focus",
+    "figmaName": "keel-color/border/focus",
+    "cssVar": "--keel-color-border-focus",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1724,8 +1724,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-element/accent",
-    "cssVar": "--keel-element-accent",
+    "figmaName": "keel-color/element/accent",
+    "cssVar": "--keel-color-element-accent",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1740,8 +1740,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-element/on-accent",
-    "cssVar": "--keel-element-on-accent",
+    "figmaName": "keel-color/element/on-accent",
+    "cssVar": "--keel-color-element-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1756,8 +1756,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-icon/default",
-    "cssVar": "--keel-icon-default",
+    "figmaName": "keel-color/icon/default",
+    "cssVar": "--keel-color-icon-default",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1772,8 +1772,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-icon/on-accent",
-    "cssVar": "--keel-icon-on-accent",
+    "figmaName": "keel-color/icon/on-accent",
+    "cssVar": "--keel-color-icon-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1788,8 +1788,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-icon/on-danger",
-    "cssVar": "--keel-icon-on-danger",
+    "figmaName": "keel-color/icon/on-danger",
+    "cssVar": "--keel-color-icon-on-danger",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1804,8 +1804,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-slider/track",
-    "cssVar": "--keel-slider-track",
+    "figmaName": "keel-color/slider/track",
+    "cssVar": "--keel-color-slider-track",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1820,8 +1820,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-surface/accent",
-    "cssVar": "--keel-surface-accent",
+    "figmaName": "keel-color/surface/accent",
+    "cssVar": "--keel-color-surface-accent",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1836,8 +1836,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-surface/accent-hover",
-    "cssVar": "--keel-surface-accent-hover",
+    "figmaName": "keel-color/surface/accent-hover",
+    "cssVar": "--keel-color-surface-accent-hover",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1852,8 +1852,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-surface/card",
-    "cssVar": "--keel-surface-card",
+    "figmaName": "keel-color/surface/card",
+    "cssVar": "--keel-color-surface-card",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1868,8 +1868,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-surface/danger",
-    "cssVar": "--keel-surface-danger",
+    "figmaName": "keel-color/surface/danger",
+    "cssVar": "--keel-color-surface-danger",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1884,8 +1884,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-surface/danger-hover",
-    "cssVar": "--keel-surface-danger-hover",
+    "figmaName": "keel-color/surface/danger-hover",
+    "cssVar": "--keel-color-surface-danger-hover",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1900,8 +1900,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-surface/page",
-    "cssVar": "--keel-surface-page",
+    "figmaName": "keel-color/surface/page",
+    "cssVar": "--keel-color-surface-page",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1916,8 +1916,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-surface/page-hover",
-    "cssVar": "--keel-surface-page-hover",
+    "figmaName": "keel-color/surface/page-hover",
+    "cssVar": "--keel-color-surface-page-hover",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1932,8 +1932,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-text/on-accent",
-    "cssVar": "--keel-text-on-accent",
+    "figmaName": "keel-color/text/on-accent",
+    "cssVar": "--keel-color-text-on-accent",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1948,8 +1948,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-text/primary",
-    "cssVar": "--keel-text-primary",
+    "figmaName": "keel-color/text/primary",
+    "cssVar": "--keel-color-text-primary",
     "type": "COLOR",
     "values": {
       "default": {
@@ -1964,8 +1964,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Accent",
-    "figmaName": "keel-text/secondary",
-    "cssVar": "--keel-text-secondary",
+    "figmaName": "keel-color/text/secondary",
+    "cssVar": "--keel-color-text-secondary",
     "type": "COLOR",
     "values": {
       "default": {
@@ -2264,8 +2264,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/offset",
-    "cssVar": "--keel-interactive-focus-offset",
+    "figmaName": "keel-interactive/focus-ring/offset",
+    "cssVar": "--keel-interactive-focus-ring-offset",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -2276,8 +2276,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/radius/lg",
-    "cssVar": "--keel-interactive-focus-radius-lg",
+    "figmaName": "keel-interactive/focus-ring/radius/lg",
+    "cssVar": "--keel-interactive-focus-ring-radius-lg",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -2288,8 +2288,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/radius/max",
-    "cssVar": "--keel-interactive-focus-radius-max",
+    "figmaName": "keel-interactive/focus-ring/radius/max",
+    "cssVar": "--keel-interactive-focus-ring-radius-max",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -2300,8 +2300,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/radius/md",
-    "cssVar": "--keel-interactive-focus-radius-md",
+    "figmaName": "keel-interactive/focus-ring/radius/md",
+    "cssVar": "--keel-interactive-focus-ring-radius-md",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -2312,8 +2312,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/radius/none",
-    "cssVar": "--keel-interactive-focus-radius-none",
+    "figmaName": "keel-interactive/focus-ring/radius/none",
+    "cssVar": "--keel-interactive-focus-ring-radius-none",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -2324,8 +2324,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/radius/sm",
-    "cssVar": "--keel-interactive-focus-radius-sm",
+    "figmaName": "keel-interactive/focus-ring/radius/sm",
+    "cssVar": "--keel-interactive-focus-ring-radius-sm",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -2336,8 +2336,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/radius/xlg",
-    "cssVar": "--keel-interactive-focus-radius-xlg",
+    "figmaName": "keel-interactive/focus-ring/radius/xlg",
+    "cssVar": "--keel-interactive-focus-ring-radius-xlg",
     "type": "FLOAT",
     "values": {
       "value": {
@@ -2348,8 +2348,8 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Interactive",
-    "figmaName": "keel-interactive/focus/width",
-    "cssVar": "--keel-interactive-focus-width",
+    "figmaName": "keel-interactive/focus-ring/width",
+    "cssVar": "--keel-interactive-focus-ring-width",
     "type": "FLOAT",
     "values": {
       "value": {

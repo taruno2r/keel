@@ -28,7 +28,7 @@ const meta = {
   },
   argTypes: {
     name: { control: 'select', options: iconNames },
-    size: { control: 'inline-radio', options: ['xsmall', 'small', 'medium', 'large', 'custom'] },
+    size: { control: 'select', options: ['xsmall', 'small', 'medium', 'large', 'custom'] },
     // Only shown when size is custom. Pixels, 12 or more.
     customSize: { control: { type: 'number', min: ICON_MIN_SIZE, step: 1 }, if: { arg: 'size', eq: 'custom' } },
     color: { control: 'text' },

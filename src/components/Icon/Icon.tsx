@@ -14,7 +14,7 @@ export interface IconProps extends Omit<SVGAttributes<SVGSVGElement>, 'children'
   size?: IconSize
   /**
    * Code only (Figma's `custom` variant is resized on the instance). Width and height in
-   * pixels when `size` is `custom`; anything below 12 is drawn at 12. Defaults to 24, the
+   * pixels when `size` is `custom`; anything below 12 is drawn at 12. Defaults to 32, the
    * custom variant's size in Figma. Ignored for the other sizes.
    */
   customSize?: number
@@ -37,7 +37,7 @@ export interface IconProps extends Omit<SVGAttributes<SVGSVGElement>, 'children'
  * (24px), or custom for any size from 12px up. When an icon is the only content of a control,
  * give the control an accessible name.
  */
-export function Icon({ name, size = 'small', customSize = 24, color, label, className, style, ...rest }: IconProps) {
+export function Icon({ name, size = 'small', customSize = 32, color, label, className, style, ...rest }: IconProps) {
   const { viewBox, paths } = icons[name]
   const px = size === 'custom' ? Math.max(ICON_MIN_SIZE, customSize) : ICON_SIZES[size]
   const a11y = label ? { role: 'img', 'aria-label': label } : { 'aria-hidden': true as const }

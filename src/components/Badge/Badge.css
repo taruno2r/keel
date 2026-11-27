@@ -1,5 +1,5 @@
 /*
- * Badge: Figma Keel, component "Badge" (node 10228:129).
+ * Badge: Figma Keel, component set "Badge" (node 10370:2850).
  * Uses accent / spacing / radius / typography tokens only, so it follows data-theme.
  */
 .keel-badge {
@@ -9,8 +9,6 @@
   justify-content: center;
   padding: var(--keel-spacing-1x) var(--keel-spacing-2x);
   border-radius: var(--keel-border-radius-md);
-  background: var(--keel-color-badge-default);
-  color: var(--keel-color-text-primary);
 
   /* Text style "Typography/Body/XSmall". */
   font-family: var(--keel-font-family-body);
@@ -18,4 +16,30 @@
   font-size: var(--keel-typography-font-size-12);
   line-height: var(--keel-typography-line-height-16);
   white-space: nowrap;
+}
+
+/* variant */
+.keel-badge--default {
+  background: var(--keel-color-surface-card);
+  color: var(--keel-color-text-primary);
+}
+
+.keel-badge--accent {
+  background: var(--keel-color-surface-accent-subtle);
+  color: var(--keel-color-text-accent);
+}
+
+.keel-badge--success {
+  background: var(--keel-color-surface-success-subtle);
+  color: var(--keel-color-text-success);
+}
+
+.keel-badge--warning {
+  background: var(--keel-color-surface-warning-subtle);
+  color: var(--keel-color-text-warning);
+}
+
+.keel-badge--danger {
+  background: var(--keel-color-surface-danger-subtle);
+  color: var(--keel-color-text-danger);
 }

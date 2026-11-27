@@ -17,9 +17,11 @@ const meta = {
   },
   args: {
     label: 'Badge',
+    variant: 'default',
   },
   argTypes: {
     label: { control: 'text' },
+    variant: { control: 'select', options: ['default', 'accent', 'success', 'warning', 'danger'] },
   },
 } satisfies Meta<typeof Badge>
 
@@ -27,3 +29,32 @@ export default meta
 type Story = StoryObj<typeof meta>
 
 export const Default: Story = {}
+
+export const Accent: Story = {
+  args: { variant: 'accent', label: 'New' },
+}
+
+export const Success: Story = {
+  args: { variant: 'success', label: 'Active' },
+}
+
+export const Warning: Story = {
+  args: { variant: 'warning', label: 'Pending' },
+}
+
+export const Danger: Story = {
+  args: { variant: 'danger', label: 'Failed' },
+}
+
+/** Every Figma variant side by side. */
+export const AllVariants: Story = {
+  render: (args) => (
+    <div style={{ display: 'flex', gap: 'var(--keel-spacing-2x)' }}>
+      <Badge {...args} variant="default" />
+      <Badge {...args} variant="accent" />
+      <Badge {...args} variant="success" />
+      <Badge {...args} variant="warning" />
+      <Badge {...args} variant="danger" />
+    </div>
+  ),
+}

@@ -1,7 +1,7 @@
 {
   "source": {
     "fileKey": "8IEdts3bNiwKEwISZ9Md9D",
-    "exportedAt": "2026-11-27T10:25:50.394Z"
+    "exportedAt": "2026-11-27T10:31:32.111Z"
   },
   "collections": [
     {
@@ -1701,18 +1701,6 @@
             },
             "Indigo": {
               "alias": "keel-color/slate/500"
-            }
-          }
-        },
-        {
-          "name": "keel-color/badge/default",
-          "type": "COLOR",
-          "values": {
-            "Default": {
-              "alias": "keel-color/slate/50"
-            },
-            "Indigo": {
-              "alias": "keel-color/indigo/50"
             }
           }
         }

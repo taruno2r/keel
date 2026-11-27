@@ -43,12 +43,13 @@
 }
 
 /* State = focused (both selected values): Figma "Focus Ring" is a rectangle interactive/focus/offset
-   (2px) outside the chip, with a 1px OUTSIDE dashed stroke (Figma: border-width/sm) in border/focus
-   and 6px corners (radius/md + offset). The outline follows the chip's radius plus the offset. */
+   (2px) outside the chip, with an OUTSIDE solid stroke of interactive/focus/width in border/focus,
+   and corners bound to interactive/focus/radius/md (radius/md + offset = 6px). The outline follows
+   the chip's own radius plus the offset, so the browser draws those corners itself. Same ring as Button. */
 .keel-chip:focus {
   outline: none;
 }
 .keel-chip:focus-visible {
-  outline: var(--keel-border-width-sm) dashed var(--keel-border-focus);
+  outline: var(--keel-interactive-focus-width) solid var(--keel-border-focus);
   outline-offset: var(--keel-interactive-focus-offset);
 }

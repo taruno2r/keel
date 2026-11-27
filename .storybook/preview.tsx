@@ -20,7 +20,7 @@ const preview: Preview = {
       // Introduction and Foundations keep this order; anything not listed (e.g. each component) is alphabetical.
       storySort: {
         method: 'alphabetical',
-        order: ['Introduction', 'Foundations', ['Primitives', 'Accent', 'Typography', 'Spacing', 'Border', 'Icons'], 'Components'],
+        order: ['Introduction', 'Foundations', ['Primitives', 'Accent', 'Typography', 'Spacing', 'Border', 'Interactive', 'Motion', 'Icons'], 'Components'],
       },
     },
     a11y: {

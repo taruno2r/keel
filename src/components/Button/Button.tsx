@@ -24,6 +24,11 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
    * `chevron-down`); leave it out for no icon.
    */
   iconRight?: IconName
+  /**
+   * Figma `State` = `disabled`: shown at `--keel-interactive-disabled` opacity, with no hover or
+   * press. A disabled button can't be focused or clicked, so say nearby why the action is unavailable.
+   */
+  disabled?: boolean
   /** Figma `label`. A concise, action-oriented label. */
   children: ReactNode
 }
@@ -35,8 +40,10 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
  * actions, and Danger for destructive actions like deleting. To take people to
  * another page, use a link instead.
  *
- * Hover and focus are real browser states (`:hover`, `:focus-visible`),
- * matching Figma's `State` = `hover` / `focused` variants.
+ * Hover, active and focus are real browser states (`:hover`, `:active`, `:focus-visible`),
+ * matching Figma's `State` = `hover` / `active` / `focused` variants. Active uses the hover
+ * colours and scales the button to `--keel-interactive-active-scale-3` (not with reduced motion).
+ * Hover and press animate over `--keel-motion-duration-1`. `State` = `disabled` is the `disabled` prop.
  */
 export function Button({
   variant = 'primary',

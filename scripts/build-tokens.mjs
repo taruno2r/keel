@@ -10,7 +10,7 @@
 // - Any OTHER multi-mode collection is an error: its modes need a deliberate
 //   mapping (e.g. Desktop/Mobile -> media queries), so add one here first.
 // - Aliases become var(--keel-...) references, so the primitive -> semantic chain is kept.
-// - FLOATs are px. Font weight names become numeric CSS weights.
+// - FLOATs are px, except those matched by NON_PX below (unitless numbers, durations). Font weight names become numeric CSS weights.
 
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -72,10 +72,33 @@ const fontWeight = (s) => FONT_WEIGHTS[s.replace(/\s+/g, '').toLowerCase()];
 const isFontFamily = (name) => /^font\/font[ -]family\//i.test(unprefixed(name));
 const isFontWeight = (name) => /^font\/font[ -]weight\//i.test(unprefixed(name));
 
+// FLOATs that aren't lengths. Figma stores numbers as 32-bit floats (0.93 -> 0.9300000071525574),
+// so values are rounded to 6 significant digits.
+// - interactive/disabled is a Figma layer opacity in percent (25 = 25%) -> CSS opacity 0..1.
+// - interactive/active/scale-* are transform scale factors.
+// - motion/duration-* are milliseconds.
+// - interactive/focus/* are lengths (px). They're aliases today, which skip this table, but a raw
+//   value still needs a rule because of the group guard.
+// Any other token in a NON_PX_GROUPS folder is an error, so a new one gets a deliberate unit here.
+const tidy = (n) => Number(n.toPrecision(6));
+const NON_PX = [
+  [/^interactive\/disabled$/, (v) => String(tidy(v / 100))],
+  [/^interactive\/active\/scale-/, (v) => String(tidy(v))],
+  [/^motion\/duration-/, (v) => `${tidy(v)}ms`],
+  [/^interactive\/focus\//, (v) => (v === 0 ? '0' : `${tidy(v)}px`)],
+];
+const NON_PX_GROUPS = /^(interactive|motion)\//;
+
 function cssValue(variable, entry) {
   if (entry.alias) return `var(${cssVarName(entry.alias)})`;
   const v = entry.value;
-  if (variable.type === 'FLOAT') return v === 0 ? '0' : `${v}px`;
+  if (variable.type === 'FLOAT') {
+    const rule = NON_PX.find(([re]) => re.test(unprefixed(variable.name)));
+    if (rule) return rule[1](v);
+    if (NON_PX_GROUPS.test(unprefixed(variable.name)))
+      throw new Error(`No unit rule for ${variable.name}: add one to NON_PX in scripts/build-tokens.mjs`);
+    return v === 0 ? '0' : `${v}px`;
+  }
   if (variable.type === 'COLOR') return v;
   if (isFontFamily(variable.name)) return `'${v}', system-ui, sans-serif`;
   if (isFontWeight(variable.name)) {

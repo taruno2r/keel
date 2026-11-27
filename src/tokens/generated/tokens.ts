@@ -1171,12 +1171,34 @@ export const tokens: Token[] = [
   },
   {
     "collection": "Primitives",
+    "figmaName": "keel-scale/6",
+    "cssVar": "--keel-scale-6",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "6px"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
     "figmaName": "keel-scale/8",
     "cssVar": "--keel-scale-8",
     "type": "FLOAT",
     "values": {
       "value": {
         "value": "8px"
+      }
+    }
+  },
+  {
+    "collection": "Primitives",
+    "figmaName": "keel-scale/10",
+    "cssVar": "--keel-scale-10",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "10px"
       }
     }
   },
@@ -2193,6 +2215,179 @@ export const tokens: Token[] = [
       "value": {
         "alias": "--keel-scale-72",
         "figmaAlias": "keel-scale/72"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/active/scale-1",
+    "cssVar": "--keel-interactive-active-scale-1",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "0.93"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/active/scale-2",
+    "cssVar": "--keel-interactive-active-scale-2",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "0.95"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/active/scale-3",
+    "cssVar": "--keel-interactive-active-scale-3",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "0.97"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/disabled",
+    "cssVar": "--keel-interactive-disabled",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "0.25"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/offset",
+    "cssVar": "--keel-interactive-focus-offset",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-2",
+        "figmaAlias": "keel-scale/2"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/radius/lg",
+    "cssVar": "--keel-interactive-focus-radius-lg",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-10",
+        "figmaAlias": "keel-scale/10"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/radius/max",
+    "cssVar": "--keel-interactive-focus-radius-max",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-512",
+        "figmaAlias": "keel-scale/512"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/radius/md",
+    "cssVar": "--keel-interactive-focus-radius-md",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-6",
+        "figmaAlias": "keel-scale/6"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/radius/none",
+    "cssVar": "--keel-interactive-focus-radius-none",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-0",
+        "figmaAlias": "keel-scale/0"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/radius/sm",
+    "cssVar": "--keel-interactive-focus-radius-sm",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-4",
+        "figmaAlias": "keel-scale/4"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/radius/xlg",
+    "cssVar": "--keel-interactive-focus-radius-xlg",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-18",
+        "figmaAlias": "keel-scale/18"
+      }
+    }
+  },
+  {
+    "collection": "Interactive",
+    "figmaName": "keel-interactive/focus/width",
+    "cssVar": "--keel-interactive-focus-width",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "alias": "--keel-scale-1",
+        "figmaAlias": "keel-scale/1"
+      }
+    }
+  },
+  {
+    "collection": "Motion",
+    "figmaName": "keel-motion/duration-1",
+    "cssVar": "--keel-motion-duration-1",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "100ms"
+      }
+    }
+  },
+  {
+    "collection": "Motion",
+    "figmaName": "keel-motion/duration-2",
+    "cssVar": "--keel-motion-duration-2",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "200ms"
+      }
+    }
+  },
+  {
+    "collection": "Motion",
+    "figmaName": "keel-motion/duration-3",
+    "cssVar": "--keel-motion-duration-3",
+    "type": "FLOAT",
+    "values": {
+      "value": {
+        "value": "300ms"
       }
     }
   }

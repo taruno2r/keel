@@ -42,13 +42,13 @@
   background: var(--keel-surface-accent-hover);
 }
 
-/* State = focused (both selected values): Figma "Focus Ring" is a rectangle 2px outside the chip
-   (radius 4 + 2 = 6px) with a 1px OUTSIDE dashed stroke in border/focus. The
-   outline follows the chip's radius, so it gets the same 6px corners. */
+/* State = focused (both selected values): Figma "Focus Ring" is a rectangle interactive/focus/offset
+   (2px) outside the chip, with a 1px OUTSIDE dashed stroke (Figma: border-width/sm) in border/focus
+   and 6px corners (radius/md + offset). The outline follows the chip's radius plus the offset. */
 .keel-chip:focus {
   outline: none;
 }
 .keel-chip:focus-visible {
   outline: var(--keel-border-width-sm) dashed var(--keel-border-focus);
-  outline-offset: 2px;
+  outline-offset: var(--keel-interactive-focus-offset);
 }

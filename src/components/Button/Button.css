@@ -19,6 +19,10 @@
   font-family: var(--keel-font-family-body);
   font-weight: var(--keel-font-weight-inter-regular);
   white-space: nowrap;
+  /* Hover and press animate over motion/duration-1. No easing token yet, so the CSS default (ease). */
+  transition:
+    background-color var(--keel-motion-duration-1),
+    transform var(--keel-motion-duration-1);
 }
 
 .keel-button__label {
@@ -50,12 +54,13 @@
   line-height: var(--keel-typography-line-height-24);
 }
 
-/* variant (State = default, then State = hover) */
+/* variant (State = default, then State = hover / active: Figma's active variants use the hover colours) */
 .keel-button--primary {
   background: var(--keel-surface-accent);
   color: var(--keel-text-on-accent);
 }
-.keel-button--primary:hover {
+.keel-button--primary:hover:not(:disabled),
+.keel-button--primary:active:not(:disabled) {
   background: var(--keel-surface-accent-hover);
 }
 
@@ -64,11 +69,13 @@
      shadow rather than a border: every variant stays the same size. */
   box-shadow: inset 0 0 0 var(--keel-border-width-sm) var(--keel-border-default);
 }
-.keel-button--secondary:hover {
+.keel-button--secondary:hover:not(:disabled),
+.keel-button--secondary:active:not(:disabled) {
   background: var(--keel-surface-page-hover);
 }
 
-.keel-button--ghost:hover {
+.keel-button--ghost:hover:not(:disabled),
+.keel-button--ghost:active:not(:disabled) {
   background: var(--keel-surface-page-hover);
 }
 
@@ -76,7 +83,8 @@
   background: var(--keel-surface-danger);
   color: var(--keel-text-on-accent);
 }
-.keel-button--danger:hover {
+.keel-button--danger:hover:not(:disabled),
+.keel-button--danger:active:not(:disabled) {
   background: var(--keel-surface-danger-hover);
 }
 
@@ -91,13 +99,33 @@
   color: var(--keel-icon-on-danger);
 }
 
-/* State = focused: Figma "Focus Ring" is a rectangle 2px outside the button
-   (radius 8 + 2 = 10px) with a 1px OUTSIDE solid stroke in border/focus. The
-   outline follows the button's radius, so it gets the same 10px corners. */
+/* State = active: pressing also scales the button down to interactive/active/scale-3 (every size).
+   The scale is code-only (Figma can't bind a variable to scale), and is turned off for reduced motion. */
+.keel-button:active:not(:disabled) {
+  transform: scale(var(--keel-interactive-active-scale-3));
+}
+@media (prefers-reduced-motion: reduce) {
+  /* Only the scale goes: the colour fade doesn't move anything, so its transition stays. */
+  .keel-button:active:not(:disabled) {
+    transform: none;
+  }
+}
+
+/* State = disabled: the default look at layer opacity interactive/disabled (Figma binds the
+   variant's opacity to it). Hover and press don't apply (the :not(:disabled) selectors above). */
+.keel-button:disabled {
+  opacity: var(--keel-interactive-disabled);
+  cursor: not-allowed;
+}
+
+/* State = focused: Figma "Focus Ring" is a rectangle interactive/focus/offset (2px) outside the button
+   with an OUTSIDE solid stroke of interactive/focus/width in border/focus, and corners bound to
+   interactive/focus/radius/lg (radius/lg + offset = 10px). The outline follows the button's own
+   radius plus the offset, so the browser draws those corners itself; no radius token needed. */
 .keel-button:focus {
   outline: none;
 }
 .keel-button:focus-visible {
-  outline: var(--keel-border-width-sm) solid var(--keel-border-focus);
-  outline-offset: 2px;
+  outline: var(--keel-interactive-focus-width) solid var(--keel-border-focus);
+  outline-offset: var(--keel-interactive-focus-offset);
 }

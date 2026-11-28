@@ -4,60 +4,117 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 # Keel
 
-A themeable design system for the web, built from the variables and components in the
-[Keel Figma file](https://www.figma.com/design/8IEdts3bNiwKEwISZ9Md9D/Keel).
+## What is Keel?
 
-## Tokens
+Keel is a themeable design system for the web, made of React components and design tokens and documented here in
+Storybook. It is designed in Figma, and
+Figma is the source of truth for every visual decision. The code copies Figma exactly and never invents values.
 
-Every Figma variable is a CSS custom property. Names follow the Figma path, whose top folder
-carries the `keel-` prefix: `keel-color/slate/950` → `--keel-color-slate-950`,
-`keel-surface/accent` → `--keel-color-surface-accent`.
+Like a ship's keel, it is the part you don't see that keeps everything built on it steady and pointing the same way.
 
-| Figma collection | Modes | CSS |
-| --- | --- | --- |
-| Primitives | Value | `:root` in `generated/primitives.css` |
-| Spacing and Radius | Mode 1 | `:root` in `generated/spacing-and-radius.css` |
-| Accent | Default, Indigo | one file per mode in `generated/themes/` |
-| Typography | Mode 1 | `:root` in `generated/typography.css` |
-| Interactive | Mode 1 | `:root` in `generated/interactive.css` (unitless: opacity 0–1, scale factors) |
-| Motion | Mode 1 | `:root` in `generated/motion.css` (durations in ms) |
+## How Keel is built
 
-Aliases are kept as `var()` references, so a theme token points at a primitive just like in Figma.
-**Components use accent, spacing, radius, typography, interactive and motion tokens. Of the primitives, only font
-family and font weight, which have no semantic tokens yet.**
+### One naming rule
 
-## Themes
+A token has one name, everywhere. Every Figma variable becomes a CSS custom property named after its Figma path,
+and the top folder carries the `keel-` prefix:
 
-Each mode of the Accent collection is a theme. A theme applies to everything under an element
-with `data-theme="<mode>"` (usually `<html>`). Default is also applied to `:root`.
-Use the paintbrush in the toolbar to switch themes in any story.
+| Figma | CSS |
+| --- | --- |
+| `keel-color/slate/950` | `--keel-color-slate-950` |
+| `keel-color/surface/accent` | `--keel-color-surface-accent` |
+| `keel-border/radius/md` | `--keel-border-radius-md` |
 
-## Updating tokens from Figma
+Components follow the same idea: their props and variants use Figma's names and values, so a designer and a
+developer can talk about the same thing in the same words.
 
-After changing variables in Figma, run **`/sync-tokens`** in Claude Code. It pulls every variable,
-verifies the copy is exact, regenerates `src/tokens/generated/`, makes sure every token appears here
-in Storybook, and lists what changed.
+### Layered tokens
 
-Two commands keep code and Storybook honest (`/sync-tokens` runs both):
+Tokens come in layers, and each layer points at the one below it:
 
-- `npm run tokens:check` fails if the generated CSS is out of date, or if any token isn't shown on a
-  Foundations page (see `src/docs/foundations/coverage.ts`).
-- `npm run tokens:diff` lists variables added, removed or changed since the last commit.
+1. **Primitives** are the raw palette and scale: colours like `slate/950`, sizes, font families and weights.
+   They describe what a value *is*, not where it is used.
+2. **Semantic tokens** describe a job: `surface/accent`, `text/primary`, `border/focus`, `border/radius/md`,
+   `interactive/disabled`. They alias primitives, and in CSS they stay `var()` references, just like in Figma.
+3. **Components** use semantic tokens only. They never reach for a raw colour, so changing what "accent" means
+   changes every component at once.
 
-A new mode in the Accent collection becomes a new theme automatically, including in the toolbar.
-Never edit files in `src/tokens/generated/` by hand.
+The one exception today is font family and font weight, which components take from primitives because there are
+no semantic tokens for them yet.
 
-## Icons
+### Themes are Figma modes
 
-Icons come from the **Icons** page in Figma (components named `Icon/<name>`) and are used with
+Each mode of the **Accent** collection is a theme. A theme applies to everything under an element with
+`data-theme="<mode>"` (usually `<html>`), and Default is also applied to `:root`. Adding a mode in Figma adds a
+theme in code and in the toolbar, with no code changes. Use the paintbrush in the toolbar to switch themes in any
+story.
+
+### Icons are Figma components
+
+Icons come from the **Icons** page in Figma (components named `Icon/<name>`) and are used as
 `<Icon name="check" />`. They are square: `size` is `xsmall` (12px), `small` (16px, the default), `medium` (20px),
-`large` (24px) or `custom` with any `customSize` from 12px up. They use
-`--keel-color-icon-default` unless you pass a `color`. See **Foundations / Icons** for the full set.
+`large` (24px) or `custom` with any `customSize` from 12px up. They use `--keel-color-icon-default` unless you
+pass a `color`. See **Foundations / Icons** for the full set.
 
-After adding or changing icons in Figma, run **`/sync-icons`** in Claude Code. `npm run icons:check`
-fails if `src/icons/generated/` is out of date. Never edit it by hand.
+### Generated, never hand-edited
 
-## Adding a component
+The repo keeps an exact snapshot of the Figma variables and icons. Everything in `src/tokens/generated/` and
+`src/icons/generated/` is built from those snapshots by scripts, and is never edited by hand. If something looks
+wrong, it is fixed in Figma and synced again.
 
-Create `src/components/<Name>/` with `<Name>.tsx`, `<Name>.css` and `<Name>.stories.tsx`,
-then export it from `src/index.ts`.
+## Built with Claude Code, under written rules
+
+Keel is built with [Claude Code](https://claude.com/claude-code). The AI does the work, but it works to rules that
+are written down, so the results are repeatable rather than improvised.
+
+- **Repeatable jobs are skills.** `/sync-tokens` and `/sync-icons` are step-by-step instructions kept in the repo
+  (`.claude/skills/`). They say exactly which script to run in Figma, how to check the copy, what to regenerate
+  and what to report.
+- **Figma is the source of truth.** Values are never invented or patched in code. If Figma looks wrong, the
+  problem is reported, not worked around.
+- **Figma is read-only.** Every Figma call in the sync flows only reads. Claude never writes to the design file.
+- **A component's states come from its own Figma variants.** Hover, focus, selected and the rest are styled only
+  from what Figma draws for that component, never borrowed from another one. A missing state is flagged for a
+  design decision.
+- **Consistent controls.** In Storybook, any prop with more than two options is a dropdown.
+- **Every change is a branch and a pull request.** Nothing is committed or merged without review.
+
+## How output is checked
+
+Nothing is accepted on trust. Every change has to pass checks that a script runs, not a judgement call:
+
+- **Exact copy from Figma.** A sync fingerprints the Figma variables and icons (count and hash) and the repo's
+  snapshot must match it exactly. If it doesn't, the copy is redone, never edited until it matches.
+- **Generated files are current.** `npm run tokens:check` and `npm run icons:check` fail if the generated CSS or
+  icon set is out of date with its snapshot.
+- **Every token is documented.** `npm run tokens:check` also fails if any token isn't shown on a Foundations page
+  (see `src/docs/foundations/coverage.ts`), so a new Figma variable can't silently miss Storybook.
+- **What changed is listed.** `npm run tokens:diff` reports variables added, removed or changed since the last
+  commit, and removed names are searched for so nothing is left pointing at a deleted token.
+- **Code checks.** TypeScript (`npx tsc -b`) and the linter (`npm run lint`) must pass.
+- **Every story is a test.** `npm run test-storybook` renders every story in headless Chromium. Accessibility
+  checks run on every story too; violations are reported in the test UI but don't fail the run yet.
+- **Looked at, not just tested.** Affected pages are screenshotted and reviewed, and every pull request is
+  reviewed before it merges.
+- **Published on merge.** Every push to `master` builds this Storybook and publishes it to
+  [GitHub Pages](https://taruno2r.github.io/keel/).
+
+## Where Keel is now, and what's next
+
+**Now.** The foundations are in place: colour, spacing, radius, border, typography, interactive and motion tokens,
+two themes and a full icon set, all synced from Figma. The first components are built: **Badge**, **Button**,
+**Chip** and **Icon**.
+
+**Next.**
+
+1. **Complete the components.** Build out the rest of the library from Figma, under the same rules and checks.
+2. **Power my renewed portfolio.** My redesigned portfolio site will be built on Keel, the first real product to
+   use it, and a test of whether the system holds up in practice.
+3. **Make it public.** Open up Keel so others can see how it is built, use it, and learn from the approach.
+
+## Working on Keel
+
+- **Tokens changed in Figma:** run `/sync-tokens` in Claude Code.
+- **Icons changed in Figma:** run `/sync-icons` in Claude Code.
+- **Adding a component:** create `src/components/<Name>/` with `<Name>.tsx`, `<Name>.css` and
+  `<Name>.stories.tsx`, then export it from `src/index.ts`.
